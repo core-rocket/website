@@ -121,7 +121,7 @@ pagenate = 10
 	search = true
 
 [params.carousel]
-    enable = false
+    enable = true
 
 [params.features]
     enable = false
