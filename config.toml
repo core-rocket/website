@@ -59,8 +59,8 @@ pagenate = 10
 
 [[menu.main]]
 	weight = 7
-	identifier = "help"
-	url = "/help"
+	identifier = "contact"
+	url = "/contact"
 	name = "お問い合わせ"
 
 [[menu.topbar]]
@@ -74,6 +74,12 @@ pagenate = 10
 	name = "GitHub"
 	url = "https://github.com/core-rocket"
 	pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+	weight = 3
+	name = "Email"
+	url = "core.rockets@gmail.com"
+	pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 # main menu
 
@@ -90,7 +96,8 @@ pagenate = 10
 	# style
 	style = "red"
 
-	email = "core.rockets@gmail.com"
+	# contact form
+	email = "sksat@sksat.net"
 	contact_form_ajax = false
 
 	about_us = "Challengers Of Rocket Engineering"
