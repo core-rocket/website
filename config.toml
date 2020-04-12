@@ -21,6 +21,18 @@ pagenate = 10
 	url = "/"
 	weight = 1
 
+[[menu.topbar]]
+	weight = 1
+	name = "Twitter"
+	url = "https://twitter.com/CORE_Rocket"
+	pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+	weight =  2
+	name = "GitHub"
+	url = "https://github.com/core-rocket"
+	pre = "<i class='fab fa-2x fa-github'></i>"
+
 # main menu
 
 [sitemap]
@@ -51,7 +63,8 @@ pagenate = 10
 	blog = "/blog/:year/:month/:day/:filename/"
 
 [params.topbar]
-	enable = false
+	enable = true
+	text = ""
 
 [params.widgets]
 	categories = true
