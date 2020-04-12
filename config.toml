@@ -138,4 +138,4 @@ pagenate = 10
 [params.recent_posts]
     enable = true
     title = "最近の投稿"
-    subtitle = "test subtitle"
+    subtitle = ""
