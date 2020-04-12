@@ -100,8 +100,8 @@ pagenate = 10
 	email = "sksat@sksat.net"
 	contact_form_ajax = false
 
-	about_us = "Challengers Of Rocket Engineering"
-	copyright= "Copyright (c) 2020, Challengers Of Rocket Engineering; all rights reserved."
+	about_us = "Challengers of Rocket Engineering"
+	copyright= "Copyright (c) 2020, Challengers of Rocket Engineering; all rights reserved."
 
 	date_format = "2006/1/2 15:04:05"
 
@@ -113,7 +113,7 @@ pagenate = 10
 
 [params.topbar]
 	enable = true
-	text = ""
+	text = "CORE: Challengers of Rocket Engineering"
 
 [params.widgets]
 	categories = true
