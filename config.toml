@@ -35,6 +35,15 @@ pagenate = 10
   filename = "sitemap.xml"
 
 [params]
+	email = "core.rockets@gmail.com"
+	contact_form_ajax = false
+
+	about_us = "Challengers Of Rocket Engineering"
+	copyright= "Copyright (c) 2020, Challengers Of Rocket Engineering; all rights reserved."
+
+	date_format = "2006/1/2 15:04:05"
+
+
   favicon = ""
   description = ""
   facebook = ""
@@ -52,4 +61,33 @@ pagenate = 10
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
 
-  date_format = "2006/1/2 15:04:05"
+[Permalinks]
+	blog = "/blog/:year/:month/:day/:filename/"
+
+[params.topbar]
+	enable = false
+
+[params.widgets]
+	categories = true
+	tags = true
+	search = true
+
+[params.carousel]
+    enable = false
+
+[params.features]
+    enable = false
+
+[params.testimonials]
+    enable = false
+
+[params.see_more]
+    enable = false
+
+[params.clients]
+    enable = false
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "test subtitle"
