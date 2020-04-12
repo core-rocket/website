@@ -16,10 +16,52 @@ pagenate = 10
 
 [menu]
 [[menu.main]]
-	identifier = "home"
-	name = "Home"
-	url = "/"
 	weight = 1
+	identifier = "home"
+	url = "/"
+	name = "ホーム"
+
+[[menu.main]]
+	weight = 2
+	identifier = "about"
+	url = "/about"
+	name = "団体について"
+
+[[menu.main]]
+	weight = 3
+	identifier = "acitivity"
+	url = "/acitivity"
+	name = "活動情報"
+
+[[menu.main]]
+	weight = 4
+	identifier = "rockets"
+	url = "/rocket"
+	name = "COREのロケット"
+
+[[menu.main]]
+	weight = 4
+	identifier = "posts"
+	url = "/posts"
+	name = "ブログ"
+
+[[menu.main]]
+	weight = 5
+	identifier = "recruit"
+	url = "/recruit"
+	name = "募集情報"
+
+[[menu.main]]
+	weight = 6
+	identifier = "sponsor"
+	url = "/sponsor"
+	name = "協賛・協力"
+
+[[menu.main]]
+	weight = 7
+	identifier = "help"
+	url = "/help"
+	name = "お問い合わせ"
 
 [[menu.topbar]]
 	weight = 1
