@@ -43,7 +43,7 @@ paginatePath = "blog"
 
 [[menu.main]]
 	weight = 4
-	identifier = "posts"
+	identifier = "blog"
 	url = "/blog"
 	name = "ブログ"
 
@@ -97,6 +97,7 @@ paginatePath = "blog"
   filename = "sitemap.xml"
 
 [params]
+	mainSections = ["blog"]
 	viewMorePostLink = "/blog/"
 
 	# social media
