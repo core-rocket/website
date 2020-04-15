@@ -1,6 +1,7 @@
 title = "CORE"
 baseURL = "https://core-rocket.github.io/website"
 languageCode = "ja-jp"
+hasCJKLanguage = true
 theme = "universal"
 publishDir = "docs"
 
@@ -12,7 +13,8 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 # define the number of posts per page
-pagenate = 10
+paginate = 10
+paginatePath = "blog"
 
 [menu]
 [[menu.main]]
@@ -42,7 +44,7 @@ pagenate = 10
 [[menu.main]]
 	weight = 4
 	identifier = "posts"
-	url = "/posts"
+	url = "/blog"
 	name = "ブログ"
 
 [[menu.main]]
@@ -89,6 +91,8 @@ pagenate = 10
   filename = "sitemap.xml"
 
 [params]
+	viewMorePostLink = "/blog/"
+
 	# social media
 	twitter_site = "CORE_Rocket"
 	default_sharing_image = "img/logo-white.png"
@@ -108,8 +112,8 @@ pagenate = 10
 	logo = "img/logo-white-50x50.png"
 	logo_small = "img/logo-white-50x50.png"
 
-[Permalinks]
-	blog = "/blog/:year/:month/:day/:filename/"
+[permalinks]
+	posts = "/blog/:year/:month/:slug/"
 
 [params.topbar]
 	enable = true
