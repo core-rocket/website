@@ -1,7 +1,8 @@
 title = "CORE"
 baseURL = "https://core-rocket.github.io/website"
 languageCode = "ja-jp"
-theme = "ananke"
+hasCJKLanguage = true
+theme = "universal"
 publishDir = "docs"
 
 MetaDataFormat = "yaml"
@@ -11,25 +12,141 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
+# define the number of posts per page
+paginate = 10
+paginatePath = "blog"
+
+[menu]
+[[menu.main]]
+	weight = 1
+	identifier = "home"
+	url = "/"
+	name = "ホーム"
+
+[[menu.main]]
+	weight = 2
+	identifier = "about"
+	url = "/about"
+	name = "団体について"
+
+[[menu.main]]
+	weight = 3
+	identifier = "activity"
+	url = "/activity"
+	name = "活動情報"
+
+[[menu.main]]
+	weight = 4
+	identifier = "rockets"
+	url = "/rocket"
+	name = "COREのロケット"
+
+[[menu.main]]
+	weight = 4
+	identifier = "blog"
+	url = "/blog"
+	name = "ブログ"
+
+[[menu.main]]
+	weight = 5
+	identifier = "recruit"
+	url = "/recruit"
+	name = "募集情報"
+
+[[menu.main]]
+	weight = 6
+	identifier = "sponsor"
+	url = "/sponsor"
+	name = "協賛・協力"
+
+[[menu.main]]
+	weight = 7
+	identifier = "contact"
+	url = "/contact"
+	name = "お問い合わせ"
+
+[[menu.topbar]]
+	weight = 1
+	name = "Twitter"
+	url = "https://twitter.com/CORE_Rocket"
+	pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+	weight = 2
+	name = "YouTube"
+	url = "https://www.youtube.com/user/corerockets"
+	pre = "<i class='fab fa-2x fa-youtube'></i>"
+
+[[menu.topbar]]
+	weight =  3
+	name = "GitHub"
+	url = "https://github.com/core-rocket"
+	pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+	weight = 4
+	name = "Email"
+	url = "core.rockets@gmail.com"
+	pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+# main menu
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
-  description = ""
-  facebook = ""
-  twitter = "https://twitter.com/CORE_Rocket"
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/core-rocket"
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  slack = ""
-  stackoverflow = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+	mainSections = ["blog"]
+	viewMorePostLink = "/blog/"
+
+	# social media
+	twitter_site = "CORE_Rocket"
+	default_sharing_image = "img/logo-white.png"
+
+	# style
+	style = "red"
+
+	# contact form
+	email = "sksat@sksat.net"
+	contact_form_ajax = false
+
+	about_us = "Challengers of Rocket Engineering"
+	copyright= "Copyright (c) 2020, Challengers of Rocket Engineering; all rights reserved."
+
+	date_format = "2006/1/2 15:04:05"
+
+	logo = "img/logo-white-50x50.png"
+	logo_small = "img/logo-white-50x50.png"
+
+[permalinks]
+	posts = "/blog/:year/:month/:slug/"
+
+[params.topbar]
+	enable = true
+	text = "CORE: Challengers of Rocket Engineering"
+
+[params.widgets]
+	categories = true
+	tags = true
+	search = true
+
+[params.carousel]
+    enable = true
+
+[params.features]
+    enable = false
+
+[params.testimonials]
+    enable = false
+
+[params.see_more]
+    enable = false
+
+[params.clients]
+    enable = false
+
+[params.recent_posts]
+    enable = true
+    title = "最近の投稿"
+    subtitle = ""
