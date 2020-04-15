@@ -1,5 +1,5 @@
 title = "CORE"
-baseURL = "https://core-rocket.github.io/website"
+baseURL = "https://core-rocket.netlify.com"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "universal"
