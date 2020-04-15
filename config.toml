@@ -72,13 +72,19 @@ paginatePath = "blog"
 	pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-	weight =  2
+	weight = 2
+	name = "YouTube"
+	url = "https://www.youtube.com/user/corerockets"
+	pre = "<i class='fab fa-2x fa-youtube'></i>"
+
+[[menu.topbar]]
+	weight =  3
 	name = "GitHub"
 	url = "https://github.com/core-rocket"
 	pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-	weight = 3
+	weight = 4
 	name = "Email"
 	url = "core.rockets@gmail.com"
 	pre = "<i class='fas fa-2x fa-envelope'></i>"
