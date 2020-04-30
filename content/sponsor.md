@@ -19,17 +19,27 @@ COREはSOLIDWORKS Japan K.K.様より，
 
 株式会社リクルートキャリア様より，新歓用チラシ及びポスターの印刷を代行して頂いております．
 
+<img style="float: right;" src="/img/logo-yabusoba.png" width="3%">
+
 ### [四谷大木戸藪蕎麦様](http://okidoyabusoba.web.fc2.com/index.html)
 
 四谷大木戸藪蕎麦様からは，ロケットのノーズ製作に利用する3Dプリンタを提供して頂いております．
+<br/>
+<br/>
+
+<img style="float: right;" src="/img/logo-hokuyoh.jpg" width="20%">
 
 ### [株式会社ホクヨー様](http://hokuyoh.co.jp/)
 
 株式会社ホクヨー様からは，推力，圧力，熱電対のレコーディングシステム(ロガー)に関する物品支援をして頂いております．
 
+
 ### [株式会社フジキン様](https://www.fujikin.co.jp/)
+<img style="float: right;" src="/img/logo-fujikin.png" width="20%">
 
 株式会社フジキン様からは，高圧ガス，配管・バルブ類に関する安全教育及び技術教育を行って頂いております．
+
+<br/>
 
 ### [Quadcept株式会社様](https://www.quadcept.com/ja/)
 
