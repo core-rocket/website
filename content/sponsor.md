@@ -41,6 +41,8 @@ COREはSOLIDWORKS Japan K.K.様より，
 
 <br/>
 
+<img style="float: right;" src="/img/logo-quadcept.jpg" width="20%">
+
 ### [Quadcept株式会社様](https://www.quadcept.com/ja/)
 
 Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB Designer Professional」を無償提供して頂いております．
@@ -49,18 +51,33 @@ Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB De
 
 COREに対して協力を頂いている企業様についての情報です．
 
+<img style="float: right;" src="/img/logo-hopec.png" width="20%">
+
 ### [株式会社ホーペック様](http://www.hopec.jp/)
 
 株式会社ホーペック様からは，ロケットのボディチューブに使用するFRPパイプを購入しています．
 
+<br/>
+
+
 ### [株式会社ミスミ様](http://www.misumi.co.jp/)
+<img style="float: right;" src="/img/logo-misumi.jpg" width="20%">
 
 株式会社ミスミ様からは，2019年度学生ものづくり支援により部品提供を受けています．
 これらの部品は3月に控えた伊豆大島共同打ち上げ実験と自作エンジンプロジェクトに使わせていただきます．
 
+<br/>
+
+<img style="float: right;" src="/img/logo-nmp.png" width="20%">
+
 ### [Nitrous Max Power様](https://www.nos-nmp.com/)
 
 NMP様からは，配管や電磁バルブ等，GSEの部品を購入しています
+
+<br/>
+<br/>
+
+<img style="float: right;" src="/img/logo-circlezukan.png" width="20%">
 
 ### [株式会社 シンライン様](http://www.circlezukan.jp/)
 
