@@ -13,6 +13,8 @@ COREはSOLIDWORKS Japan K.K.様より，
 部品の設計やその強度のシミュレーション，部品加工用データや図面の作成など，
 ハイブリッド・ロケットの製作工程の様々な部分で役立てています．
 
+<img style="float: right;" src="/img/logo-recruit.jpg" width="20%">
+
 ### [株式会社リクルートキャリア様](https://www.recruitcareer.co.jp/)
 
 株式会社リクルートキャリア様より，新歓用チラシ及びポスターの印刷を代行して頂いております．
