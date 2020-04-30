@@ -12,6 +12,11 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # define the number of posts per page
 paginate = 10
 paginatePath = "blog"

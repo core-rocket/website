@@ -4,6 +4,8 @@ COREに対して協賛を頂いている企業様についての情報です．
 
 ## 協賛企業
 
+<img style="float: right;" src="/img/logo-solidworks.png" width="20%">
+
 ### [SOLIDWORKS Japan K.K.様](http://www.solidworks.co.jp/)
 
 COREはSOLIDWORKS Japan K.K.様より，
