@@ -1,5 +1,5 @@
 title = "CORE"
-baseURL = "https://core-rocket.netlify.com"
+baseURL = "https://core-rocket.netlify.app"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "universal"
@@ -119,7 +119,7 @@ paginatePath = "blog"
 	contact_form_ajax = false
 
 	about_us = "Challengers of Rocket Engineering"
-	copyright= "Copyright (c) 2020, Challengers of Rocket Engineering; all rights reserved."
+	copyright= "© 2020 Challengers of Rocket Engineering"
 
 	date_format = "2006/1/2 15:04:05"
 
