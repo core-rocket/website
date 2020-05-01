@@ -90,4 +90,4 @@ COREの主な活動はハイブリッドロケットの製作・打上実験と�
 
 ## スケジュール
 
-TODO
+<iframe src="https://calendar.google.com/calendar/b/0/embed?height=600&amp;wkst=1&amp;bgcolor=%23EF6C00&amp;ctz=Asia%2FTokyo&amp;src=dW5sZWdrZ3UwMnZ1dTFuM2tkaDloN20ya3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;showTitle=1&amp;title=CORE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTz=1&amp;showCalendars=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
