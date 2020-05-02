@@ -11,9 +11,13 @@ COREでは実践的なプロジェクトを通して，ロケットの設計・�
 
 # 団体概要
 
+<div class="simple-table">
+
 |団体名|Chellengers of Rocket Engineering (略称 CORE) |
 |:---|----:|
 |代表者|杉本圭吾|
 |所属|UNISEC(宇宙団体コンソーシアム) |
 |発足|2007年3月|
 |現役メンバー人数|50人(2019年4月現在) |
+
+</div>
