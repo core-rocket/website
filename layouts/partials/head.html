@@ -78,16 +78,16 @@
     <meta property="og:image:height" content="{{ .Height }}">
   {{ end }}
   {{ end }}
-  {{ with .Lastmod }}<meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
+  {{ with .Lastmod }}<meta property="og:updated_time" content="{{ .Local.Format "2006-01-02T15:04:05+09:00" }}">{{ end }}
   {{ if $is_blog }}
     {{ with .Param "facebook_site" }}<meta property="article:publisher" content="https://www.facebook.com/{{ . }}/">{{ end }}
     {{ with .Param "facebook_author" }}<meta property="article:author" content="https://www.facebook.com/{{ . }}/">{{ end }}
     {{ with .Params.categories }}<meta property="article:section" content="{{ index . 0 }}">{{ end }}
     {{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
     {{ end }}
-    {{ if gt .ExpiryDate .PublishDate }}<meta property="article:expiration_time" content="{{ .ExpiryDate.Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
-    {{ with .PublishDate }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
-    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
+    {{ if gt .ExpiryDate .PublishDate }}<meta property="article:expiration_time" content="{{ .ExpiryDate.Local.Format "2006-01-02T15:04:05+09:00" }}">{{ end }}
+    {{ with .PublishDate }}<meta property="article:published_time" content="{{ .Local.Format "2006-01-02T15:04:05+09:00" }}">{{ end }}
+    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05+09:00" }}">{{ end }}
   {{ end }}
 
   <!-- Twitter Card meta tags -->
