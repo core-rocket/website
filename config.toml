@@ -107,6 +107,8 @@ paginatePath = "blog"
 	mainSections = ["blog"]
 	viewMorePostLink = "/blog/"
 
+	defaultDescription = "CORE: Challengers of Rocket Engineeringは，関東圏の大学生が集まり，ハイブリッドロケットやCanSatの製作・打上げを行っているサークルです．"
+
 	# social media
 	twitter_site = "CORE_Rocket"
 	default_sharing_image = "img/logo-white.png"
