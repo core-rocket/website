@@ -10,10 +10,10 @@
 
 ## <div class="heading text-center"><h2>お知らせ</h2></div>
 
-<div class="simple-table" style="height: 500px; overflow-y:scroll;">
+<div class="simple-table" style="height: 150px; overflow-y:scroll;">
 
 | 更新情報 | |
 |----------|----------|
-| 2020/05/?<br><更新情報> | サイトをリニューアルしました |
+| 2020/05/19<br><更新情報> | サイトをリニューアルしました |
 
 </div>
