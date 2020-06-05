@@ -60,9 +60,17 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 ## 全国のロケット開発サークル
 
+秋田大学の宇宙開発サークル，**ASSP**さんのホームペ＝ジです！
+
+https://asspkoho.wixsite.com/asspofficial
+
 東北大学の宇宙開発サークル、**F.T.E.**（FROM THE EARTH）さんのホームページです！
 
 www.fte-tohoku.org
+
+東京工業大学の宇宙開発サークル，**CREATE**さんのホームページです！
+
+https://createrocket.wixsite.com/create-tokyotech
 
 九州大学の宇宙開発サークル、**PLANET-Q**さんのホームページです！
 
