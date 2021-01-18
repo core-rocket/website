@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+
 locale: 'ja'
 
 publish_mode: editorial_workflow
@@ -9,6 +10,47 @@ media_folder: "static/img"
 public_folder : "/img"
 
 collections:
+  - name: "notice"
+    label: "Notice"
+    files:
+      - file: "content/notice.md"
+        label: "お知らせ"
+        name: "notice"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/about.md"
+        label: "団体について"
+        name: "about"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/activity.md"
+        label: "活動情報"
+        name: "activity"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/rocket.md"
+        label: "COREのロケット"
+        name: "rocket"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/recruit.md"
+        label: "募集情報"
+        name: "recruit"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/sponsor.md"
+        label: "協賛・協力"
+        name: "sponsor"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/contact.md"
+        label: "お問い合わせ"
+        name: "contact"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "post"
     label: "Post"
     folder: "content/blog"
