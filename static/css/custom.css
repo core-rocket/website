@@ -25,3 +25,6 @@ div.simple-table table td {
 div.simple-table table th {
 	background-color: #f3f0f0;
 }
+summary {
+	display: list-item;
+}
