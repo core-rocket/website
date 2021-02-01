@@ -15,9 +15,13 @@ enableRobotsTXT = true
 pluralizeListTitles = false
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+	[markup.tableOfContents]
+		endLevel = 2
+		ordered = true
+		startLevel = 2
 
 # define the number of posts per page
 paginate = 10
