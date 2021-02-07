@@ -1,9 +1,9 @@
 ---
 toc: true
 ---
-
 # ロケット
----
+
+- - -
 
 ## ロケットエンジン
 
@@ -56,7 +56,17 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 ロケットの頭頂部であるノーズコーンは3Dプリンターで製作した物を使用しています．
 
 ## 過去のロケット
+
 {{< load-photoswipe >}}
+
+<details>
+
+<summary><font size="5">2014年 8月 能代宇宙イベント</font></summary>
+{{< gallery >}}
+{{<figure link="/img/freshg.png" thumb="-thumb" caption="機体画像 FreshG">}}
+{{< /gallery >}}
+
+</details>
 
 <details>
 
@@ -118,11 +128,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2018年 3月 伊豆大島共同打上実験</font></summary>
 
 #### FamilyChicken
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-03-oshima-familychicken.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
 
 #### VASE
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-03-oshima-vase.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
@@ -143,11 +155,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2018年 8月 能代宇宙イベント</font></summary>
 
 #### CORE'S KITCHEN
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-08-noshiro-cores-kitchen.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
 
 #### Explore SEA しらさぎ
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-08-noshiro-exploresea.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
@@ -159,11 +173,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2019年 3月 伊豆大島共同打上実験</font></summary>
 
 #### PATHFINDER
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-03-oshima-pathfinder.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
 
 #### 技術部誘導飛翔体開発課
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-03-tech.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
@@ -184,11 +200,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2019年 8月 能代宇宙イベント</font></summary>
 
 #### ASAHI
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-08-noshiro-asahi.jpg" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
 
 #### Gemini QUEST
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-08-noshiro-gemini.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
@@ -200,11 +218,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2020年 3月 伊豆大島共同打上実験</font></summary>
 
 #### どんぶらこ
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-03-donburako.png" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
 
 #### CRYSTAL PALACE
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-03-oshima-crystal.jpg" thumb="-thumb" caption="ミッションロゴ">}}
 {{< /gallery >}}
@@ -216,6 +236,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2020年 11月 能代宇宙イベント</font></summary>
 
 #### ミソラ工房
+
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-08-noshiro-misora.jpg" thumb="-thumb" caption="ミッションロゴ">}}
 {{<figure link="/img/gallery/poster-2020-11-noshiro.png" thumb="-thumb" caption="ポスター">}}
