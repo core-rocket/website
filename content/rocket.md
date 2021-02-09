@@ -135,7 +135,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2014年 8月 能代宇宙イベント</font></summary>
 
-#### FleshG
+#### FreshG
 {{< gallery >}}
 {{<figure link="/img/gallery/body-flashg.png" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
@@ -166,7 +166,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 #### CYCLOPS
 {{< gallery >}}
 {{<figure link="/img/gallery/body-cyclops.png" thumb="-thumb" caption="機体">}}
-{{<figure link="/img/gallery/poster-2015-08-noshiro.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/poster-2015-08-noshiro.jpg" thumb="-thumb" caption="ポスター">}}
 {{< /gallery >}}
 
 </details>
@@ -175,7 +175,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2015年 11月 伊豆大島共同打上実験</font></summary>
 
-#### swift
+#### Swift
 {{< gallery >}}
 {{<figure link="/img/gallery/body-swift.png" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
@@ -186,7 +186,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2016年 3月 伊豆大島共同打上実験</font></summary>
 
-#### swift-X
+#### SwiftX
 {{< gallery >}}
 {{<figure link="/img/gallery/body-swiftχ.png" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
@@ -225,7 +225,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2016年 11月 伊豆大島共同打上実験</font></summary>
 
-#### ンポロンポロ
+#### 古代飛翔体ンポロンポロ
 {{< gallery >}}
 {{<figure link="/img/gallery/poster-2016-11-oshima.jpg" thumb="-thumb" caption="ポスター">}}
 {{<figure link="/img/gallery/body-nporo.jpg" thumb="-thumb" caption="機体">}}
@@ -417,9 +417,10 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 {{< /gallery >}}
 
 #### CRYSTAL PALACE
-- 機体名：ピグレット
+- 機体名：Piglet
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-03-oshima-crystal.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-Piglet.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
