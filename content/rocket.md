@@ -60,6 +60,50 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <details>
 
+<summary><font size="5">2007年 8月 能代宇宙イベント</font></summary>
+
+#### さざんか
+{{< gallery >}}
+{{<figure link="/img/gallery/body-sazanka.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2008年 8月 能代宇宙イベント</font></summary>
+
+#### [名称不明]
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2008-08.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2009年 8月 能代宇宙イベント</font></summary>
+
+#### ウルトラマン
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2009-09-noshiro-ult.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2010年 8月 能代宇宙イベント</font></summary>
+
+#### [名称不明]
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2010-noshiro-unnamed.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
 <summary><font size="5">2011年 8月 能代宇宙イベント</font></summary>
 
 #### Red Bull
@@ -92,6 +136,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 #### キョロ(kyolo)
 {{< gallery >}}
+{{<figure link="/img/gallery/body-2013-noshiro-kyolo.jpg" thumb="-thumb" caption="機体">}}
 {{<figure link="/img/gallery/body-kyolo.jpg" thumb="-thumb" caption="フェアリング">}}
 {{< /gallery >}}
 
@@ -133,11 +178,38 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <details>
 
+<summary><font size="5">2014年 3月 伊豆大島共同打上実験</font></summary>
+
+#### ジョルジョナポリターノ
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2014-oshima-jo.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
 <summary><font size="5">2014年 8月 能代宇宙イベント</font></summary>
 
 #### FreshG
 {{< gallery >}}
 {{<figure link="/img/gallery/body-flashg.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### VOLVOX
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2014-noshiro-volvox.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2014年 11月 伊豆大島共同打上実験</font></summary>
+
+#### VALTURE
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2014-11-oshima-valture.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -155,6 +227,11 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 #### Vertex
 {{< gallery >}}
 {{<figure link="/img/gallery/body-vertex.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### Crazy thunder road
+{{< gallery >}}
+{{<figure link="/img/gallery/body-2015-03-oshima-crazy.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
