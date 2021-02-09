@@ -60,9 +60,140 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <details>
 
-<summary><font size="5">2015年 8月 能代宇宙イベント</font></summary>
+<summary><font size="5">2011年 8月 能代宇宙イベント</font></summary>
+
+#### Red Bull
 {{< gallery >}}
-{{<figure link="/img/gallery/poster-2015-08-noshiro.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-redbull-01.jpg" thumb="-thumb" caption="機体①">}}
+{{<figure link="/img/gallery/body-redbull-02.jpg" thumb="-thumb" caption="機体②">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2012年 3月 伊豆大島共同打上実験</font></summary>
+
+#### トマトーク
+{{< gallery >}}
+{{<figure link="/img/gallery/people-toma.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### T-ロケット
+{{< gallery >}}
+{{<figure link="/img/gallery/body-T-rocket.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2012年 8月 能代宇宙イベント</font></summary>
+
+#### キョロ(kyolo)
+{{< gallery >}}
+{{<figure link="/img/gallery/body-kyolo.jpg" thumb="-thumb" caption="フェアリング">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2012年 11月 伊豆大島共同打上実験</font></summary>
+
+#### GXP(Gold Experience)
+{{< gallery >}}
+{{<figure link="/img/gallery/body-GXP-01.jpg" thumb="-thumb" caption="機体①">}}
+{{<figure link="/img/gallery/body-GXP-02.jpg" thumb="-thumb" caption="機体②">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2013年 3月 伊豆大島共同打上実験</font></summary>
+
+#### SSP(スケスケパラダイス)
+{{< gallery >}}
+{{<figure link="/img/gallery/body-SSP.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2013年 8月 能代宇宙イベント</font></summary>
+
+#### ミランダ
+{{< gallery >}}
+{{<figure link="/img/gallery/body-miranda.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2014年 8月 能代宇宙イベント</font></summary>
+
+#### FreshG
+{{< gallery >}}
+{{<figure link="/img/gallery/body-flashg.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2015年 3月 伊豆大島共同打上実験</font></summary>
+
+
+#### Helix翼
+{{< gallery >}}
+{{<figure link="/img/gallery/body-helix_tsubasa.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### Vertex
+{{< gallery >}}
+{{<figure link="/img/gallery/body-vertex.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2015年 8月 能代宇宙イベント</font></summary>
+
+#### CYCLOPS
+{{< gallery >}}
+{{<figure link="/img/gallery/body-cyclops.png" thumb="-thumb" caption="機体">}}
+{{<figure link="/img/gallery/poster-2015-08-noshiro.jpg" thumb="-thumb" caption="ポスター">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2015年 11月 伊豆大島共同打上実験</font></summary>
+
+#### Swift
+{{< gallery >}}
+{{<figure link="/img/gallery/body-swift.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2016年 3月 伊豆大島共同打上実験</font></summary>
+
+#### SwiftX
+{{< gallery >}}
+{{<figure link="/img/gallery/body-swiftχ.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### すずしろ
+{{< gallery >}}
+{{<figure link="/img/gallery/body-suzushiro.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -70,9 +201,22 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <details>
 
 <summary><font size="5">2016年 8月 能代宇宙イベント</font></summary>
+
+{{< gallery >}}
+{{<figure link="/img/gallery/poster-2016-08-noshiro.jpg" thumb="-thumb" caption="ポスター">}}
+{{< /gallery >}}
+
+#### 電信柱
+- 機体名：幸区小倉1丁目7
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2016-08-noshiro-denshin.png" thumb="-thumb" caption="ミッションロゴ">}}
-{{<figure link="/img/gallery/poster-2016-08-noshiro.jpg" thumb="-thumb" caption="ポスター">}}
+{{<figure link="/img/gallery/body-denshinbashira.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### Eyens
+- 機体名：Eyens
+{{< gallery >}}
+{{<figure link="/img/gallery/body-eyens.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -80,8 +224,11 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <details>
 
 <summary><font size="5">2016年 11月 伊豆大島共同打上実験</font></summary>
+
+#### 古代飛翔体ンポロンポロ
 {{< gallery >}}
 {{<figure link="/img/gallery/poster-2016-11-oshima.jpg" thumb="-thumb" caption="ポスター">}}
+{{<figure link="/img/gallery/body-nporo.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -89,8 +236,16 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <details>
 
 <summary><font size="5">2017年 3月 伊豆大島共同打上実験</font></summary>
+
+#### ムササビ
+{{< gallery >}}
+{{<figure link="/img/gallery/body-musasabi.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### Phase-IV
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2017-03-oshima.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-phase-iv.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -98,8 +253,27 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <details>
 
 <summary><font size="5">2017年 8月 能代宇宙イベント</font></summary>
+
+#### 空飛ぶカメレオン
+{{< gallery >}}
+{{<figure link="/img/gallery/body-flykamereon.png" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+#### SEACHICKEN
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2017-08-noshiro-sea-chicken.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-seachicken.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2017年 11月 伊豆大島共同打上実験</font></summary>
+
+#### 17式陸上高高度実証機(Lチキ)
+{{< gallery >}}
+{{<figure link="/img/gallery/body-Lchiki.png" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -120,11 +294,13 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 #### FamilyChicken
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-03-oshima-familychicken.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-familychicken.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 #### VASE
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-03-oshima-vase.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-vase.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -143,13 +319,26 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2018年 8月 能代宇宙イベント</font></summary>
 
 #### CORE'S KITCHEN
+- 機体名：きりたんぽ
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-08-noshiro-cores-kitchen.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-kiritanpo.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
-#### Explore SEA しらさぎ
+#### Explore SEA
+- 機体名：しらさぎ
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2018-08-noshiro-exploresea.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-shirasagi.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2018年 UNISECワークショップ</font></summary>
+{{< gallery >}}
+{{<figure link="/img/gallery/poster-unisec18.png" thumb="-thumb" caption="ポスター">}}
 {{< /gallery >}}
 
 </details>
@@ -159,13 +348,17 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2019年 3月 伊豆大島共同打上実験</font></summary>
 
 #### PATHFINDER
+- 機体名：PF
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-03-oshima-pathfinder.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-pathfinder.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 #### 技術部誘導飛翔体開発課
+- 機体名：⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾（ぐんぐにぃる）
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-03-tech.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-tech.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -184,13 +377,30 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2019年 8月 能代宇宙イベント</font></summary>
 
 #### ASAHI
+- 機体名：citrus
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-08-noshiro-asahi.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-asahi.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 #### Gemini QUEST
+- 機体名：Ptarmigan
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2019-08-noshiro-gemini.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-geminiquest.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2019年 11月 伊豆大島共同打上実験</font></summary>
+
+#### StreamConductor
+- 機体名：あまつかぜ
+{{< gallery >}}
+{{<figure link="/img/gallery/logo-streamconductor.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-amatsukaze.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 </details>
@@ -200,13 +410,26 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2020年 3月 伊豆大島共同打上実験</font></summary>
 
 #### どんぶらこ
+- 機体名：ももたろう
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-03-donburako.png" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-donburako.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
 #### CRYSTAL PALACE
+- 機体名：Piglet
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-03-oshima-crystal.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-Piglet.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2020年 4月 新入生歓迎会</font></summary>
+{{< gallery >}}
+{{<figure link="/img/gallery/poster-2020new.png" thumb="-thumb" caption="ポスター">}}
 {{< /gallery >}}
 
 </details>
@@ -216,8 +439,10 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 <summary><font size="5">2020年 11月 能代宇宙イベント</font></summary>
 
 #### ミソラ工房
+- 機体名：ひばり
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2020-08-noshiro-misora.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+{{<figure link="/img/gallery/body-hibari.jpg" thumb="-thumb" caption="機体">}}
 {{<figure link="/img/gallery/poster-2020-11-noshiro.png" thumb="-thumb" caption="ポスター">}}
 {{< /gallery >}}
 
