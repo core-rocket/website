@@ -448,6 +448,14 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 </details>
 
+
+<a href="https://core-rocketchan.jimdofree.com/" target="_blank">
+
+![](/img/coreロケちゃんボタン.png)
+
+</a>
+
+
 ## 全国のロケット開発サークル
 
 秋田大学の宇宙開発サークル，**ASSP**さんのホームペ＝ジです！
