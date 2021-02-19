@@ -95,7 +95,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2010年 8月 能代宇宙イベント</font></summary>
 
-#### [名称不明]
 {{< gallery >}}
 {{<figure link="/img/gallery/body-2010-noshiro-unnamed.jpg" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
@@ -106,7 +105,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2011年 8月 能代宇宙イベント</font></summary>
 
-#### Red Bull
 {{< gallery >}}
 {{<figure link="/img/gallery/body-redbull-01.jpg" thumb="-thumb" caption="機体①">}}
 {{<figure link="/img/gallery/body-redbull-02.jpg" thumb="-thumb" caption="機体②">}}
@@ -350,6 +348,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 #### 17式陸上高高度実証機(Lチキ)
 {{< gallery >}}
+{{<figure link="/img/gallery/logo-Lchicken.jpg" thumb="-thumb" caption="ロゴ">}}
 {{<figure link="/img/gallery/body-Lchiki.png" thumb="-thumb" caption="機体">}}
 {{< /gallery >}}
 
