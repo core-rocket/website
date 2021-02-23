@@ -1,8 +1,9 @@
 # 協賛・協力
 
-COREに対して協賛を頂いている企業様についての情報です．
 
 ## 協賛企業
+
+COREに対して協賛を頂いている企業様についての情報です．
 
 <img style="float: right;" src="/img/logo-solidworks.png" width="20%">
 
