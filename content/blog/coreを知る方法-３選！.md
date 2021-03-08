@@ -10,19 +10,19 @@ COREの2020年度広報担当の伊澤です。
 
 気づけば3月になってしまいました。そろそろ引退の時期が近づいてきて、ブログに記事を書くのはこれが最初で最後となってしまうかもしれませんが、がんばって書きたいと思います。
 
-今回は、**COREを知る方法　３選！**と題しまして、COREの歴史や現在の活動内容を、簡単に知ることが出来る方法をご紹介します！
+今回は、** COREを知る方法　３選！ **と題しまして、COREの歴史や現在の活動内容を、簡単に知ることが出来る方法をご紹介します！
 
 ## ①過去のロケット
 
-まず1つ目は、[過去のロケット](https://www.corerocket.net/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88)**を見る！**です。
+まず1つ目は、** <a href="https://www.corerocket.net/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>を見る！ **です。
 
 ![](/img/03031.png "過去のロケット")
 
-こちらはHPの「[COREのロケット](https://www.corerocket.net/rocket/)」内にあります。
+こちらはHPの「<a href="https://www.corerocket.net/rocket/" target="_blank" rel="noopener noreferrer">COREのロケット</a>」内にあります。
 
-[団体概要](https://www.corerocket.net/about/)にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
+<a href="https://www.corerocket.net/about/" target="_blank" rel="noopener noreferrer">団体概要</a>にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
 
-「[過去のロケット](https://www.corerocket.net/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88)」では、発足当初から現在までの**約14年間（！）**で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
+「<a href="https://www.corerocket.net/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>」では、発足当初から現在までの** 約14年間（！） **で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
 
 まずはこちらのページを見て、COREの歴史を辿っていただければと思います。
 
@@ -34,19 +34,19 @@ COREの2020年度広報担当の伊澤です。
 
 ## ②YouTubeチャンネル
 
-２つ目は、**[CORE公式YouTubeチャンネル](https://www.youtube.com/user/corerockets/videos)の動画を観る！**です。
+２つ目は、** <a href="https://www.youtube.com/user/corerockets/videos" target="_blank" rel="noopener noreferrer">CORE公式YouTubeチャンネル</a>の動画を観る！ **です。
 
 ![](/img/03032.png "YouTubeChannel")
 
-こちらの[YouTubeチャンネル](https://www.youtube.com/user/corerockets/videos)ではロケットが打上がる様子や、燃焼試験の動画、ロケット内部に搭載したカメラの動画などを観ることが出来ます。
+こちらの<a href="https://www.youtube.com/user/corerockets/videos" target="_blank" rel="noopener noreferrer">YouTubeチャンネル</a>ではロケットが打上がる様子や、燃焼試験の動画、ロケット内部に搭載したカメラの動画などを観ることが出来ます。
 
-先程の①で紹介した過去のロケットが「COREの歴史年表」だとしたら、②のYouTubeチャンネルは「**動く**COREの歴史年表」みたいなかんじですかね………..（？？）
+先程の①で紹介した過去のロケットが「COREの歴史年表」だとしたら、②のYouTubeチャンネルは「** 動く **COREの歴史年表」みたいなかんじですかね………..（？？）
 
 エンジンの燃焼試験の様子や、ロケットが打上がる様子は、臨場感があって最高です！
 
-個人的におすすめの動画は、[2019_12_1 あまつかぜ 機体搭載カメラ](https://youtu.be/HAhzt85uSPc)です。空高く飛んでいる気分になれます。[](https://youtu.be/aitae08dCR0)
+個人的におすすめの動画は、<a href="https://youtu.be/HAhzt85uSPc" target="_blank" rel="noopener noreferrer">2019_12_1 あまつかぜ 機体搭載カメラ</a>です。空高く飛んでいる気分になれます。
 
-また、昨年の4月に実施した[CORE新歓YouTubeLIVE](https://youtu.be/aitae08dCR0)もアーカイブとして動画が残っています。
+また、昨年の4月に実施した<a href="https://youtu.be/aitae08dCR0" target="_blank" rel="noopener noreferrer">CORE新歓YouTubeLIVE</a>もアーカイブとして動画が残っています。
 
 もしCOREに入ってみたいな～～～と思っている学生の皆様がこのブログを読んでくださっているのならば、ぜひこちらの動画も観ていただければと思います！
 
@@ -54,31 +54,31 @@ COREの2020年度広報担当の伊澤です。
 
 ## ③Twitter
 
-３つ目は**[CORE公式Twitter](https://twitter.com/core_rocket)を見る！（フォローする）**です。
+３つ目は** <a href="https://twitter.com/core_rocket" target="_blank" rel="noopener noreferrer">CORE公式Twitter</a>を見る！（フォローする） **です。
 
 ![](/img/03033.png "Twitter")
 
-[Twitter](https://twitter.com/core_rocket)では、ほぼリアルタイムでCOREの現在の活動状況を見ることが出来ます。
+<a href="https://twitter.com/core_rocket" target="_blank" rel="noopener noreferrer">Twitter</a>では、ほぼリアルタイムでCOREの現在の活動状況を見ることが出来ます。
 
 燃焼試験当日の状況や、加工室の様子、打上げ試験当日の状況など…
 
 さまざまなツイートをしています。
 
-Twitterで**＠CORE_Rocket**と検索してみてください！内容が面白いな、今後もツイート見てみたいな、と思ったら是非フォローお願いします。
+Twitterで** ＠CORE_Rocket **と検索してみてください！内容が面白いな、今後もツイート見てみたいな、と思ったら是非フォローお願いします。
 
 2月から急に更新頻度が上がったのは、現役メンバーで今最もツイート頻度が多い子（多分）に引継ぎをしたからです。案の定、ツイートが多くてとても助かっています！来年度も、たくさんのツイートがされると思います。こうご期待！
 
-また、[新歓アカウント](https://twitter.com/CORE_rocketPR)（**＠CORE_rocketPR**）もありますので、CORE入りたいよ～～～～～という皆様はぜひこちらもフォローお願いします！
+また、<a href="https://twitter.com/CORE_rocketPR" target="_blank" rel="noopener noreferrer">新歓アカウント</a>（** ＠CORE_rocketPR **）もありますので、CORE入りたいよ～～～～～という皆様はぜひこちらもフォローお願いします！
 
-「TwitterやってないけどFacebookならやってるんだよな～・・・」という方がいらっしゃいましたら、[Facebook](https://www.facebook.com/CoreChallengersOfRocketsEngineering)のアカウントもありますので、こちらもぜひ！
-
-<br/>
+「TwitterやってないけどFacebookならやってるんだよな～・・・」という方がいらっしゃいましたら、<a href="https://www.facebook.com/CoreChallengersOfRocketsEngineering" target="_blank" rel="noopener noreferrer">Facebook</a>のアカウントもありますので、こちらもぜひ！
 
 <br/>
 
 <br/>
 
-以上、**COREを知る方法 ３選！**でした。
+<br/>
+
+以上、** COREを知る方法 ３選！ **でした。
 
 なぜこの記事を書いたかというと、せっかくいい動画や過去ロケット集があるのに、なんとなく周知されずに埋もれている気がしたからです。
 
