@@ -524,6 +524,25 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 </details>
 
+<details>
+
+<summary><font size="5">2021年 3月 御宿共同打上実験</font></summary>
+
+#### Duo
+{{<figure link="/img/gallery/logo-duo.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+
+- 機体名：ひばり1
+{{< gallery >}}
+{{<figure link="/img/gallery/body_hibari1.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+- 機体名：ひばり2
+{{< gallery >}}
+{{<figure link="/img/gallery/body-hibari2.jpg" thumb="-thumb" caption="機体">}}
+{{< /gallery >}}
+
+</details>
+
 ## COREロケットちゃん
 [<img src="/img/core-rocket-chan.png">](https://core-rocketchan.jimdofree.com/)
 
