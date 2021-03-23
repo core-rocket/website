@@ -121,7 +121,7 @@ paginatePath = "blog"
 	style = "red"
 
 	# contact form
-	email = "sksat@sksat.net"
+	email = "core.rockets@gmail.com"
 	contact_form_ajax = false
 
 	about_us = "Challengers of Rocket Engineering"
