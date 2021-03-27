@@ -290,6 +290,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 * 機体名：すずしろ
 
   {{< gallery >}}
+  {{<figure link="/img/gallery/logo-suzunasuzushiro.png" thumb="-thumb" caption="ミッションロゴ">}}
   {{<figure link="/img/gallery/body-suzushiro.jpg" thumb="-thumb" caption="機体">}}
   {{< /gallery >}}
 
@@ -344,12 +345,10 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 {{< /gallery >}}
 
 #### チーム・ヌペリオル
-
-{{<figure link="/img/gallery/logo-2017-03-oshima.jpg" thumb="-thumb" caption="機体ロゴ">}}
-
-* 機体名：Phase-IV
+- 機体名：Phase-IV
 
   {{< gallery >}}
+  {{<figure link="/img/gallery/logo-2017-03-oshima.jpg" thumb="-thumb" caption="機体ロゴ">}}
   {{<figure link="/img/gallery/body-phase-iv.jpg" thumb="-thumb" caption="機体">}}
   {{< /gallery >}}
 
