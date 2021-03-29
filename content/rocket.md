@@ -345,7 +345,8 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 {{< /gallery >}}
 
 #### チーム・ヌペリオル
-- 機体名：Phase-IV
+
+* 機体名：Phase-IV
 
   {{< gallery >}}
   {{<figure link="/img/gallery/logo-2017-03-oshima.jpg" thumb="-thumb" caption="機体ロゴ">}}
@@ -358,13 +359,15 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2017年 8月 能代宇宙イベント</font></summary>
 
-#### 空飛ぶカメレオン
+#### ウラノメトリア
 
-{{< gallery >}}
-{{<figure link="/img/gallery/body-flykamereon.png" thumb="-thumb" caption="機体">}}
-{{< /gallery >}}
+* 機体名：空飛ぶカメレオン
 
-#### SEACHICKEN
+  {{< gallery >}}
+  {{<figure link="/img/gallery/body-flykamereon.png" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+#### SEA CHICKEN
 
 {{< gallery >}}
 {{<figure link="/img/gallery/logo-2017-08-noshiro-sea-chicken.png" thumb="-thumb" caption="ミッションロゴ">}}
@@ -399,19 +402,24 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2018年 3月 伊豆大島共同打上実験</font></summary>
 
-#### FamilyChicken
+#### Team F.C.
 
-{{< gallery >}}
-{{<figure link="/img/gallery/logo-2018-03-oshima-familychicken.png" thumb="-thumb" caption="ミッションロゴ">}}
-{{<figure link="/img/gallery/body-familychicken.jpg" thumb="-thumb" caption="機体">}}
-{{< /gallery >}}
+* 機体名：FamilyChicken
 
-#### VASE
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-2018-03-oshima-familychicken.png" thumb="-thumb" caption="機体ロゴ">}}
+  {{<figure link="/img/gallery/body-familychicken.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
 
-{{< gallery >}}
+#### Team SkyLARK
+
 {{<figure link="/img/gallery/logo-2018-03-oshima-vase.png" thumb="-thumb" caption="ミッションロゴ">}}
-{{<figure link="/img/gallery/body-vase.jpg" thumb="-thumb" caption="機体">}}
-{{< /gallery >}}
+
+* 機体名：VASE
+
+  {{< gallery >}}
+  {{<figure link="/img/gallery/body-vase.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
 
 </details>
 
@@ -428,11 +436,11 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2018年 8月 能代宇宙イベント</font></summary>
 
-#### CORE'S KITCHEN
+#### CORE'S キッチン
 
 * 機体名：きりたんぽ
   {{< gallery >}}
-  {{<figure link="/img/gallery/logo-2018-08-noshiro-cores-kitchen.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/logo-2018-08-noshiro-cores-kitchen.png" thumb="-thumb" caption="機体ロゴ">}}
   {{<figure link="/img/gallery/body-kiritanpo.jpg" thumb="-thumb" caption="機体">}}
   {{< /gallery >}}
 
@@ -461,7 +469,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 #### PATHFINDER
 
-* 機体名：PF
+* 機体名：pf
   {{< gallery >}}
   {{<figure link="/img/gallery/logo-2019-03-oshima-pathfinder.png" thumb="-thumb" caption="ミッションロゴ">}}
   {{<figure link="/img/gallery/body-pathfinder.jpg" thumb="-thumb" caption="機体">}}
