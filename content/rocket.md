@@ -500,7 +500,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 #### ASAHI
 
-* 機体名：Citrus
+* 機体名：citrus
   {{< gallery >}}
   {{<figure link="/img/gallery/logo-2019-08-noshiro-asahi.jpg" thumb="-thumb" caption="ミッションロゴ">}}
   {{<figure link="/img/gallery/body-asahi.jpg" thumb="-thumb" caption="機体">}}
@@ -520,7 +520,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2019年 11月 伊豆大島共同打上実験</font></summary>
 
-#### Stream Conductor
+#### StreamConductor
 
 * 機体名：あまつかぜ
   {{< gallery >}}
@@ -536,7 +536,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 #### どんぶらこ
 
-* 機体名：桃太郎
+* 機体名：ももたろう
   {{< gallery >}}
   {{<figure link="/img/gallery/logo-2020-03-donburako.png" thumb="-thumb" caption="ミッションロゴ">}}
   {{<figure link="/img/gallery/body-donburako.jpg" thumb="-thumb" caption="機体">}}
