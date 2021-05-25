@@ -1,5 +1,5 @@
 ---
-title: 実際COREってどうなの？
+title: COREってどんなところ？
 date: 2021-05-24T15:37:20.915Z
 slug: core.interview
 draft: false
@@ -52,6 +52,7 @@ CORE代表　吉田健人さん(以後，けんT)
 
 <br>
 
-「ロケットを作るサークル」と一口に言ってもCOREでしかできないことがあります．
+「ロケットを作るサークル」と一口に言ってもCOREでしかできないことがあります．\
+「COREに興味がある」，「COREのことをもっと知りたい！」という方は[お問い合わせフォーム](https://corerocket.net/contact/)からどうぞ．
 
 <!--EndFragment-->
