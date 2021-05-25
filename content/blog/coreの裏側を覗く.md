@@ -54,6 +54,6 @@ CORE代表　吉田健人さん(以後，けんT)
 <br>
 
 「ロケットを作るサークル」と一口に言ってもCOREでしかできないことがあります．\
-「COREに興味がある」，「COREのことをもっと知りたい！」という方は[お問い合わせフォーム](https://corerocket.net/contact/)からどうぞ．
+COREではを受け付けているので，「COREに興味がある」「COREのことをもっと知りたい！」という方は[お問い合わせフォーム](https://corerocket.net/contact/)からどうぞ．
 
 <!--EndFragment-->
