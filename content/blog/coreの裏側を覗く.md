@@ -1,7 +1,7 @@
 ---
 title: COREってどんなところ？代表に聞いてみた
 date: 2021-05-24T15:37:20.915Z
-image: /img/けんtさん.jpg
+image: ""
 slug: core.interview
 draft: false
 ---
