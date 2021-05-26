@@ -1,6 +1,6 @@
 ---
 title: COREってどんなところ？代表に聞いてみた
-date: 2021-05-26 01:40:00 UTC
+date: 2021-05-26
 image: /img/けんtさん.jpg
 slug: core.interview
 draft: false
@@ -14,7 +14,7 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
 航空宇宙システム工学科 3年\
 CORE代表　吉田健人さん(以後，けんT)
 
-![]()
+<img src = "/img/けんtさん.jpg" width = "150">
 
 <br>
 
