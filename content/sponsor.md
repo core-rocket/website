@@ -54,7 +54,7 @@ Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB De
 <img style="float: right;" src="/img/logo-mst.jpg" width="20%">
 
 ### [株式会社MSTコーポレーション](http://www.mst-corp.co.jp/)
-株式会社MSTコーポレーション様は，部品の材料の一つであるグラファイト製のノズルの加工を行って頂いております．
+株式会社MSTコーポレーション様は，独自開発エンジンの部品の一つであるグラファイト製のノズルの加工を行って頂いております．
 <br/>
 <br/>
 ## 協力企業
