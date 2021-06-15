@@ -42,6 +42,7 @@ Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB De
 ### [株式会社ミスミ様](http://www.misumi.co.jp/)
 
 <img style="float: right;" src="/img/logo-misumi.jpg" width="20%">
+<br/>
 
 株式会社ミスミ様からは，2020年度学生ものづくり支援により部品提供を受けています．
 これらの部品は3月に控えた伊豆大島共同打上実験と独自開発エンジンプロジェクトに使わせていただきます．
