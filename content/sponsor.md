@@ -39,20 +39,21 @@ Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB De
 
 <br/>
 
-<img style="float: right;" src="/img/logo-misumi.jpg" width="20%">
-
 ### [株式会社ミスミ様](http://www.misumi.co.jp/)
+
+<img style="float: right;" src="/img/logo-misumi.jpg" width="20%">
 
 株式会社ミスミ様からは，2020年度学生ものづくり支援により部品提供を受けています．
 これらの部品は3月に控えた伊豆大島共同打上実験と独自開発エンジンプロジェクトに使わせていただきます．
 
 <br/>
 
-<img style="float right;" src="/img/logo-mst_companyname.jpg" width="20%">
+### [株式会社MSTコーポレーション](http://www.mst-corp.co.jp/)
 
+<img style="float right;" src="/img/logo-mst_companyname.jpg" width="20%">
+<br/>
 <img style="float right;" src="/img/logo-mst.jpg" width="20%">
 
-### [株式会社MSTコーポレーション](http://www.mst-corp.co.jp/)
 
 株式会社MSTコーポレーション様は，独自開発エンジンの部品の材料の一つであるグラファイト製のノズルの加工を行って頂いております．
 <br/>
