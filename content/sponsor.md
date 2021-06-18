@@ -48,15 +48,13 @@ Quadcept株式会社様からは，PCB設計ツールである「Quadcept PCB De
 これらの部品は3月に控えた伊豆大島共同打上実験と独自開発エンジンプロジェクトに使わせていただきます．
 
 <br/>
-<img style="float: right;" src="/img/logo-mst_companyname.jpg" width="20%">
-<br/>
-<br/>
 <img style="float: right;" src="/img/logo-mst.jpg" width="20%">
 
 ### [株式会社MSTコーポレーション](http://www.mst-corp.co.jp/)
 株式会社MSTコーポレーション様は，独自開発エンジンの部品の一つであるグラファイト製のノズルの加工を行って頂いております．
 <br/>
 <br/>
+
 ## 協力企業
 
 COREに対して協力を頂いている企業様についての情報です．
