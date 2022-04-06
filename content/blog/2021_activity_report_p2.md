@@ -9,7 +9,7 @@ toc: false
 
 こんにちは！
 
-CORE15th代表の吉田です．
+CORE15th代表のけんTです．
 
 前回に引き続き、2021年度の活動を振り返ります。
 
@@ -23,7 +23,7 @@ CORE15th代表の吉田です．
 
 <!-- CANVAS -->
 
-<div style = "text-align: center"><img src = "/img/CANVAS.jpg" width = "600"></div>
+<div style = "text-align: center"><img src = "/img/CANVAS.png" width = "600"></div>
 
 　さて、実際の打上げですが今回もハプニングから始まりました。
 
