@@ -23,7 +23,7 @@ CORE15th代表のけんTです。
 
 <!-- 開放機構の簡単な図 -->
 
-<div style="text-align: center"><img src="/img/kaiho.png" alt="kaiho" width ="600">
+<div style="text-align: center"><img src="/img/kaiho.png" alt="kaiho" width ="600"></div>
 
 　では実際のイベントはどうだったのか。そう、苦難の連続でした。
 
@@ -33,6 +33,6 @@ CORE15th代表のけんTです。
 
 <!--ひばり２-->
 
-<div style="text-align: center"><img src = "/img/hibari2.jpg" alt ="hibari2" width = "200">
+<div style="text-align: center"><img src = "/img/hibari2.jpg" alt ="hibari2" width = "200"></div>
 
 さて次の回で第20回伊豆大島共同打上実験について書きますよ～
