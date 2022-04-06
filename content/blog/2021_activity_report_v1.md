@@ -33,6 +33,6 @@ CORE15th代表のけんTです。
 
 <!--ひばり２-->
 
-<img src = "/img/hibari2.jpg" alt ="hibari2" width = "200">
+<div style="text-align: center"><img src = "/img/hibari2.jpg" alt ="hibari2" width = "200">
 
 さて次の回で第20回伊豆大島共同打上実験について書きますよ～
