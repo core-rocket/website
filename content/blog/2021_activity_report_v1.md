@@ -23,7 +23,7 @@ CORE15th代表のけんTです。
 
 <!-- 開放機構の簡単な図 -->
 
-<img src="/img/kaiho.png" alt="kaiho" width ="600">
+<div style="text-align: center"><img src="/img/kaiho.png" alt="kaiho" width ="600">
 
 　では実際のイベントはどうだったのか。そう、苦難の連続でした。
 
