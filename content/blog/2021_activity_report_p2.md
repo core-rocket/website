@@ -1,6 +1,6 @@
 ---
 title: 2021年度の活動報告part2
-date: 2022-04-08
+date: 2022-04-07
 image: /img/urasabaku.jpg
 slug: 2021_activity_report_p2
 draft: false
@@ -9,7 +9,7 @@ toc: false
 
 こんにちは！
 
-CORE15th代表のけんTです．
+CORE15th代表のけんTです。
 
 前回に引き続き、2021年度の活動を振り返ります。
 
