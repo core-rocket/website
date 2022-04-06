@@ -1,7 +1,7 @@
 ---
 title: 2021年度の活動報告Ver.1
 date: 2022-04-07
-image: static/img/noshiro2021.jpg
+image: /img/noshiro2021.jpg
 slug: 2021_activity_report_v1
 draft: false
 toc: true
@@ -23,7 +23,7 @@ CORE15th代表のけんTです。
 
 <!-- 開放機構の簡単な図 -->
 
-<img src="static/img/kaiho.png" alt="kaiho" width ="600">
+<img src="/img/kaiho.png" alt="kaiho" width ="600">
 
 　では実際のイベントはどうだったのか。そう、苦難の連続でした。
 
