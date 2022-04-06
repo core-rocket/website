@@ -1,8 +1,8 @@
 ---
-title: 2021年度の活動報告Ver.1
+title: 2021年度の活動報告part1
 date: 2022-04-07
 image: /img/noshiro2021.jpg
-slug: 2021_activity_report_v1
+slug: 2021_activity_report_p1
 draft: false
 toc: false
 ---
