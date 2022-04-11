@@ -1,6 +1,6 @@
 ---
 title: 2021年度の活動報告part2
-date: 2022-04-11T17:25
+date: 2022-04-11 17:35:00
 image: /img/urasabaku.jpg
 slug: 2021_activity_report_p2
 draft: false
