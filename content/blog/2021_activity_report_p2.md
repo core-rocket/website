@@ -11,7 +11,7 @@ toc: false
 
 CORE15th代表のけんTです。
 
-前回に引き続き、2021年度の活動を振り返ります。
+[前回](https://www.corerocket.net/blog/2021_activity_report_p1/)に引き続き、2021年度の活動を振り返ります。
 
 # 第20回伊豆大島共同打上実験
 

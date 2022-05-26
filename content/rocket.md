@@ -595,13 +595,42 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 </details>
 
+<details>
+
+<summary><font size="5">2021年 11月 能代宇宙イベント</font></summary>
+
+#### Duo
+
+{{<figure link="/img/gallery/logo-duo.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+
+* 機体名：ひばり2
+  {{< gallery >}}
+  {{<figure link="/img/gallery/body-hibari2-noshiro.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2022年 3月 伊豆大島共同打上実験</font></summary>
+
+#### 新入生プロジェクト
+
+* 機体名：CANVAS
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-CANVAS.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-CANVAS.png" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
 ## COREロケットちゃん
 
 [<img src="/img/core-rocket-chan.png">](https://core-rocketchan.jimdofree.com/)
 
 ## 全国のロケット開発サークル
 
-秋田大学の宇宙開発サークル，**ASSP**さんのホームペ＝ジです！
+秋田大学の宇宙開発サークル，**ASSP**さんのホームページです！
 
 https://asspkoho.wixsite.com/asspofficial
 

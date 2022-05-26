@@ -5,17 +5,6 @@
 
 COREに対して協賛を頂いている企業様についての情報です．
 
-<img style="float: right;" src="/img/logo-solidworks.png" width="20%">
-
-### [SOLIDWORKS Japan K.K.様](http://www.solidworks.co.jp/)
-
-COREはSOLIDWORKS Japan K.K.様より，
-3D CADソフトウェア「**SolidWorks Student Editon Academic Year 2020-2021**」を無償提供して頂いております．
-部品の設計やその強度のシミュレーション，部品加工用データや図面の作成など，
-ハイブリッド・ロケットの製作工程の様々な部分で役立てています．
-
-<br/>
-
 <img style="float: right;" src="/img/logo-hokuyoh.jpg" width="20%">
 
 ### [株式会社ホクヨー様](http://hokuyoh.co.jp/)
