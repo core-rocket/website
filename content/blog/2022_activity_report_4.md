@@ -1,7 +1,7 @@
 ---
 title: 2022年度の活動報告part4
 date: 2022-10-06 00:00:00
-image: /img/2022_activity_report_4/cocktail.jpeg
+image: /img/2022_activity_report_4/NSE.png
 slug: 2022_activity_report_4
 draft: false
 toc: false
