@@ -7,11 +7,11 @@ draft: false
 toc: false
 ---
 
-こんにちは。CORE代表の神田です。ブログの更新が途絶え申し訳ありません。約3ヶ月ぶりのブログ投稿となります。
+　こんにちは。CORE代表の神田です。ブログの更新が途絶え申し訳ありません。約3ヶ月ぶりのブログ投稿となります。
 
-今回は8/11~8/19で開催された能代宇宙イベントの結果報告です。
+　今回は8/11~8/19で開催された能代宇宙イベントの結果報告です。
 
-COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://www.corerocket.net/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://www.corerocket.net/blog/2022_activity_report_3/))の打ち上げを行いました。
+　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://www.corerocket.net/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://www.corerocket.net/blog/2022_activity_report_3/))の打ち上げを行いました。
 結果としては
 
 <h1 style = "text-align: center"><font color="#c8574f">2機体とも「打ち上げ成功」</font></h1>
@@ -36,5 +36,5 @@ COREではハッシュタグロケット(参考: [2022年度の活動報告PART2
 
 <br>
 <br>
-次回は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
+　次回は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
 お楽しみに！
