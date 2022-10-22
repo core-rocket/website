@@ -1,9 +1,6 @@
 ---
 toc: true
 ---
-# ロケット
-
-- - -
 
 ## ロケットエンジン
 
@@ -13,13 +10,13 @@ COREではロケットエンジンとしてハイブリッドエンジンを使�
 
 また，酸化剤として液体酸素や気体酸素，亜酸化窒素(N2O)などがあります．これらは，単体では比較的安全なため管理がしやすいことから学生団体に多く使用されています．
 
-多くの学生団体はカナダのチェザローニ・テクノロジー社が販売するHyperTEKを使用しています．HyperTEKはそのエンジン性能によってI型～M型に種類分けされているため用途に応じた使い分けが容易です．
+多くの学生団体はカナダのCesaroni Technology社が販売するHyperTEKを使用しています．HyperTEKはそのエンジン性能によってI型～M型に種類分けされているため用途に応じた使い分けが容易です．
 
 近年では独自開発エンジンプロジェクトが進行中です．本プロジェクトは，2015年の初代K型エンジン"CAMELLIA"から始まり，2020年の酸化剤旋回流方式を採用したL型エンジン"LIATRIS"まで，トライアンドエラーを重ねながら，多くの種類のエンジン開発に成功してきました．2020年10月には弊団体初となるL型相当のエンジン"LIATRIS.musica"の燃焼試験に成功しました．新たなエンジン開発にも取り組んでいるなど，独自開発エンジンプロジェクトはさらなる発展を続けています．
 
 ## バルブシステム
 
-近年，バルブシステムの開発も同時並行で開発しています．2020年から開発を始め，2022年，FMモデルのバルブシステムを用いた，燃焼試験に成功しました。2022年の能代宇宙イベントにて打ち上げられるロケットはバルブシステムを搭載します。
+近年，バルブシステムの開発も同時並行で開発しています．2020年から開発を始め，2022年，FMモデルのバルブシステムを用いた，燃焼試験に成功しました。
 
 ## 電装・計器
 
@@ -395,15 +392,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <details>
 
-<summary><font size="5">2017年 UNISECワークショップ</font></summary>
-{{< gallery >}}
-{{<figure link="/img/gallery/poster-2017-unisecws.jpg" thumb="-thumb" caption="ポスター">}}
-{{< /gallery >}}
-
-</details>
-
-<details>
-
 <summary><font size="5">2018年 3月 伊豆大島共同打上実験</font></summary>
 
 #### Team F.C.
@@ -424,15 +412,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
   {{< gallery >}}
   {{<figure link="/img/gallery/body-vase.jpg" thumb="-thumb" caption="機体">}}
   {{< /gallery >}}
-
-</details>
-
-<details>
-
-<summary><font size="5">2018年 4月 新入生歓迎会</font></summary>
-{{< gallery >}}
-{{<figure link="/img/gallery/poster-2018-welcome.png" thumb="-thumb" caption="ポスター">}}
-{{< /gallery >}}
 
 </details>
 
@@ -460,15 +439,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <details>
 
-<summary><font size="5">2018年 UNISECワークショップ</font></summary>
-{{< gallery >}}
-{{<figure link="/img/gallery/poster-unisec18.png" thumb="-thumb" caption="ポスター">}}
-{{< /gallery >}}
-
-</details>
-
-<details>
-
 <summary><font size="5">2019年 3月 伊豆大島共同打上実験</font></summary>
 
 #### PATHFINDER
@@ -489,14 +459,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 </details>
 
-<details>
-
-<summary><font size="5">2019年 4月 新入生歓迎会</font></summary>
-{{< gallery >}}
-{{<figure link="/img/gallery/poster-2019-welcome.jpg" thumb="-thumb" caption="ポスター">}}
-{{< /gallery >}}
-
-</details>
 
 <details>
 
@@ -556,14 +518,6 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 </details>
 
-<details>
-
-<summary><font size="5">2020年 4月 新入生歓迎会</font></summary>
-{{< gallery >}}
-{{<figure link="/img/gallery/poster-2020new.png" thumb="-thumb" caption="ポスター">}}
-{{< /gallery >}}
-
-</details>
 
 <details>
 
@@ -632,28 +586,12 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 <summary><font size="5">2022年 8月 能代宇宙イベント</font></summary>
 
-#### Coming soon…
+#### Project-e
+
+* 機体名：CORE #バルブ #ロケット #能代 #海打ち #高高度 #ロケッティア #点火点越しの私の世界 #ロケット好きと繋がりたい #CAN #リーフィング #rocket_hunter_jp #ババヘラ #自作エンジン #縦開放 #ロケットら部 #大学生 #きりたんぽ #fusion360 #OpenRocket #CFD #若気の至り #インカレ #3Dプリンタ
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-pro-e.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-pro-e.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
 
 </details>
-
-## COREロケットちゃん
-
-[<img src="/img/core-rocket-chan.png">](https://core-rocketchan.jimdofree.com/)
-
-## 全国のロケット開発サークル
-
-秋田大学の宇宙開発サークル，**ASSP**さんのホームページです！
-
-https://asspkoho.wixsite.com/asspofficial
-
-東北大学の宇宙開発サークル、**F.T.E.**（FROM THE EARTH）さんのホームページです！
-
-www.fte-tohoku.org
-
-東京工業大学の宇宙開発サークル，**CREATE**さんのホームページです！
-
-https://createrocket.wixsite.com/create-tokyotech
-
-九州大学の宇宙開発サークル、**PLANET-Q**さんのホームページです！
-
-https://planet-q.jimdo.com/
