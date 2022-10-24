@@ -590,7 +590,7 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
 
 * 機体名：CORE #バルブ #ロケット #能代 #海打ち #高高度 #ロケッティア #点火点越しの私の世界 #ロケット好きと繋がりたい #CAN #リーフィング #rocket_hunter_jp #ババヘラ #自作エンジン #縦開放 #ロケットら部 #大学生 #きりたんぽ #fusion360 #OpenRocket #CFD #若気の至り #インカレ #3Dプリンタ
   {{< gallery >}}
-  {{<figure link="/img/gallery/logo-pro-e.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/logo-pro-e.png" thumb="-thumb" caption="ミッションロゴ">}}
   {{<figure link="/img/gallery/body-pro-e.jpg" thumb="-thumb" caption="機体">}}
   {{< /gallery >}}
 
