@@ -42,4 +42,3 @@ toc: false
 <br>
 <div style = "text-align: center"><img src = "/img/2022_activity_report_6/COREロケットちゃん.png" width = "600"></div>
 <br>
-
