@@ -22,7 +22,6 @@ toc: false
 
 　また，もっと詳しく知りたい方は，いずれ[伊豆大島共同打上実験のホームページ](https://izuoshimarocket.wixsite.com/izuoshimarocket/2022年度11月)で公開される実験報告書をご覧ください．
 
-
 <br>
 　モザイクで隠れてますがみんな笑顔です．この直後に強めの雨に降られました．
 <br>
