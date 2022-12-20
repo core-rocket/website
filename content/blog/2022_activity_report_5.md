@@ -34,6 +34,6 @@ toc: false
 <div style = "text-align: center"><img src = "/img/2022_activity_report_5/rocket.jpg" width = "600"></div>
 <br>
 
-　次回は，このロケットの打上げの結果報告になります。
+　[次回](https://www.corerocket.net/blog/2022_activity_report_5/)は，このロケットの打上げの結果報告になります。
 
 　お楽しみに！
