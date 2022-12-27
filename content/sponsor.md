@@ -50,3 +50,14 @@ COREに対して協賛・協力を頂いている企業様についての情報�
 ### [Nitrous Max Power様](https://www.nos-nmp.com/)
 
 NMP様からは，配管や電磁バルブ等，GSEの部品を購入しています. 
+
+<br/>
+<br/>
+
+<img style="float: right;" src="/img/logo-hikoki.jpg" width="20%">
+
+### [工機ホールディングス株式会社様](https://www.koki-holdings.co.jp/)
+工機ホールディングス株式会社様からは，工作機械の物品支援，就活支援をして頂いております．
+
+<br/>
+
