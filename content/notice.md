@@ -1,9 +1,12 @@
+[<img src="/img/202304calendar.jpg" class="center" width="100%">]()
+
 ## <div class="heading text-center"><h2>お知らせ</h2></div>
 
 <div class="simple-table" style="height: 150px; overflow-y:scroll;">
 
 | 更新情報                 |                |
 | -------------------- | -------------- |
+| 2023/04/04<br><更新情報> | 新歓日程の更新をしました|
 | 2023/01/04<br><更新情報> | 協賛・協力の更新をしました|
 | 2022/12/20<br><更新情報> | ブログを更新しました「2022年度の活動報告PART6」|
 | 2022/10/27<br><更新情報> | ブログを更新しました「2022年度の活動報告PART5」|
