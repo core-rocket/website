@@ -1,4 +1,6 @@
+<!--
 [<img src="/img/202304calendar.jpg" class="center" width="100%">]()
+-->
 
 ## <div class="heading text-center"><h2>お知らせ</h2></div>
 
