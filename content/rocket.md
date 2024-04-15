@@ -595,3 +595,79 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
   {{< /gallery >}}
 
 </details>
+
+<details>
+
+<summary><font size="5">2022年 11月 伊豆大島共同打上実験</font></summary>
+
+#### Violet
+
+* 機体名：Violet
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-violet.jpg" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-violet.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2023年 3月 伊豆大島共同打上実験</font></summary>
+
+#### はっぱ
+
+* 機体名：れたす
+  {{< gallery >}}
+  {{<figure link="/img/gallery/body-lettuce.png" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+
+* 機体名：きゃべつ
+  {{< gallery >}}
+  {{<figure link="/img/gallery/body-cabbage.png" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+
+<details>
+
+<summary><font size="5">2023年 8月 能代宇宙イベント</font></summary>
+
+#### 萵苣
+
+* 機体名：萵苣
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-chisha.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-chisha.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2023年 11月 伊豆大島共同打上実験</font></summary>
+
+#### ダヴィンチ
+
+* 機体名：Artist
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-artist.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-artist.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2024年 3月 伊豆大島共同打上実験</font></summary>
+
+#### クロッフル
+
+* 機体名：クロワッサン
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-croffle.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/body-croissant.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
