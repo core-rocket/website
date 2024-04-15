@@ -1,6 +1,6 @@
 ---
 title: 2023年度の活動報告
-date: 2024-03-31
+date: 2024-04-15
 image: /img/2023_activity_report/19thNSE_chisha.jpg
 slug: 2023_activity_report
 draft: false
@@ -30,7 +30,7 @@ toc: false
 　お絵描き機構は以下のようになっています。ペンを傾けるものと紙を回すものとサーボモータを2つ使っています。当日はトラブルを乗り越えなんとかランチャまで機体を持ってこれましたが、最後は濃霧に阻まれ打ち上げることができませんでした。
 
 <div style="text-align: center">
-<img src = "/img/2023_activity_report/23rdISE_drawing_mechanism.jpg" alt ="23rdISE_drawing_mechanism" width = "280"> <img src = "/img/2023_activity_report/23thISE_artist_rocket.JPG" alt ="23thISE_artist_rocket" width = "280">
+<img src = "/img/2023_activity_report/23thISE_artist_draw.png" alt ="23thISE_artist_draw" width = "280"> <img src = "/img/2023_activity_report/23thISE_artist_rocket.JPG" alt ="23thISE_artist_rocket" width = "280">
 </div>
 
 
@@ -41,5 +41,7 @@ toc: false
 　現地で打上げ前日に少し機体の調整を行いましたが、当日はトラブルなく打上げに成功しました。
 
 <div style="text-align: center"><img src = "/img/2023_activity_report/24thISE_croissant_launch.jpg" alt ="24thISE_croissant_launch" width = "560"></div>
+
+<br>
 
 　COREに興味を持たれた方はぜひ[core.rockets@gmail.com](<mailto:core.rockets@gmail.com>)へのメール、または[Twitter(id:CORE_Rocket)](https://twitter.com/CORE_Rocket)からお気軽にお問い合わせください。
