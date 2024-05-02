@@ -11,7 +11,7 @@ COREでは実践的なプロジェクトを通して，ロケットの設計・�
 
 <div class="simple-table">
 
-| 団体名      | Chellengers of Rocket Engineering (略称 CORE) |
+| 団体名      | Challengers of Rocket Engineering (略称 CORE) |
 | -------- | ------------------------------------------- |
 | 代表者      | 児玉 優                                        |
 | 所属       | UNISEC(宇宙団体コンソーシアム)                         |

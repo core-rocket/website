@@ -1,5 +1,7 @@
-<!--↓ホームページトップに表示する画像-->
-<!--[<img src="\img\2024\Shinkan_schedule_2024.jpg" class="center" width="100%">]()-->
+<!--
+↓ホームページトップに表示する画像
+[<img src="\img\2024\Shinkan_schedule_2024.jpg" class="center" width="100%">]()
+-->
 
 ## <div class="heading text-center"><h2>お知らせ</h2></div>
 
