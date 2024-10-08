@@ -68,7 +68,7 @@ NMP様からは，配管や電磁バルブ等，GSEの部品を購入してい�
 <br/>
 <br/>
 
-<img style="float: right;" src="/img/logo-unipla.jpg" width="20%">
+<img style="float: right;" src="/img/logo-unipla.png" width="20%">
 
 ### [株式会社ユニプラ様](https://www.unipla.co.jp/)
 株式会社ユニプラ様からは，独自開発エンジンの部品の一つであるフェノール樹脂パイプを購入しています．
@@ -76,7 +76,7 @@ NMP様からは，配管や電磁バルブ等，GSEの部品を購入してい�
 <br/>
 <br/>
 
-<img style="float: right;" src="/img/logo-NOMURA.jpg" width="20%">
+<img style="float: right;" src="/img/logo-NOMURA.png" width="20%">
 
 ### [株式会社ノムラ様](http://www.nomura-industory.co.jp/)
 株式会社ノムラ様からは，金属部品の加工及び技術教育を行っていただいております．
