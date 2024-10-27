@@ -45,7 +45,7 @@ COREに対して協賛・協力を頂いている企業様についての情報�
 <br/>
 <br/>
 
-<img style="float: right;" src="/img/logo-nmp.png" width="20%">
+<img style="float: right;" src="/img/logo-nmp_2.jpg" width="20%">
 
 ### [Nitrous Max Power様](https://www.nos-nmp.com/)
 
