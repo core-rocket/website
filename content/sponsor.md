@@ -45,7 +45,7 @@ COREに対して協賛・協力を頂いている企業様についての情報�
 <br/>
 <br/>
 
-<img style="float: right;" src="/img/logo-nmp.png" width="20%">
+<img style="float: right;" src="/img/logo-nmp_2.jpg" width="20%">
 
 ### [Nitrous Max Power様](https://www.nos-nmp.com/)
 
@@ -70,8 +70,8 @@ NMP様からは，配管や電磁バルブ等，GSEの部品を購入してい�
 
 <img style="float: right;" src="/img/logo-unipla.png" width="20%">
 
-### [株式会社ユニプラ様](https://www.unipla.co.jp/)
-株式会社ユニプラ様からは，独自開発エンジンの部品の一つであるフェノール樹脂パイプを購入しています．
+### [ユニプラ株式会社様](https://www.unipla.co.jp/)
+ユニプラ株式会社様からは独自開発エンジンの部品の一つであるフェノール樹脂パイプ(アブレータ材)を購入しています．
 
 <br/>
 <br/>
