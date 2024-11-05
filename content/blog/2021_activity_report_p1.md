@@ -35,4 +35,4 @@ CORE15th代表のけんTです。
 
 <div style="text-align: center"><img src = "/img/hibari2.jpg" alt ="hibari2" width = "200"></div>
 
-さて[次の回](https://www.corerocket.net/blog/2021_activity_report_p2/)で第20回伊豆大島共同打上実験について書きますよ～
+さて[次の回](https://core-rocket-official.netlify.app/blog/2021_activity_report_p2/)で第20回伊豆大島共同打上実験について書きますよ～
