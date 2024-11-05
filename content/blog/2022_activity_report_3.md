@@ -8,7 +8,7 @@ toc: false
 ---
 
 こんにちは！CORE’s BarのPM、石﨑です。現在COREでは2つのプロジェクトが同時進行しています。
-1. 「ハッシュタグロケット」を制作している「Project-e」（参考：[2022年度の活動報告PART2](https://corerocket.net/blog/2022_activity_report_2/)）
+1. 「ハッシュタグロケット」を制作している「Project-e」（参考：[2022年度の活動報告PART2](https://core-rocket-official.netlify.app/blog/2022_activity_report_2/)）
 2. 「Master」を制作している「CORE’s Bar」
 
 どちらのプロジェクトも第18回能代宇宙イベント（NSE）での打上げを目指していますが、多くの違いもあります。ここでその違いを整理してみます。

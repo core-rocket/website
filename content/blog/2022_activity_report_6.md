@@ -7,7 +7,7 @@ draft: false
 toc: false
 ---
 
-　はじめまして，2022年度新入生プロジェクトで構造班長を務めていた須藤です．今回は[Part 5](https://www.corerocket.net/blog/2022_activity_report_5/)でお話した第21回伊豆大島共同打上実験の報告になります．
+　はじめまして，2022年度新入生プロジェクトで構造班長を務めていた須藤です．今回は[Part 5](https://www.core-rocket-official.netlify.app/blog/2022_activity_report_5/)でお話した第21回伊豆大島共同打上実験の報告になります．
 
 　結果からいえば，打ち上げは成功となりました．やったぁ～
 

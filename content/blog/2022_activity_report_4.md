@@ -11,7 +11,7 @@ toc: false
 
 　今回は8/11~8/19で開催された能代宇宙イベントの結果報告です。
 
-　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://www.corerocket.net/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://www.corerocket.net/blog/2022_activity_report_3/))の打ち上げを行いました。
+　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://www.core-rocket-official.netlify.app/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://www.core-rocket-official.netlify.app/blog/2022_activity_report_3/))の打ち上げを行いました。
 結果としては
 
 <h1 style = "text-align: center"><font color="#c8574f">2機体とも「打ち上げ成功」</font></h1>
@@ -37,5 +37,5 @@ toc: false
 <br>
 <br>
 
-　[次回](https://www.corerocket.net/blog/2022_activity_report_5/)は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
+　[次回](https://www.core-rocket-official.netlify.app/blog/2022_activity_report_5/)は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
 お楽しみに！
