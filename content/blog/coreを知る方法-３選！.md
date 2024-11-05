@@ -16,15 +16,15 @@ COREの2020年度広報担当の伊澤です。
 
 ## ①過去のロケット
 
-まず1つ目は、『 <a href="https://www.core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>を見る！』です。
+まず1つ目は、『 <a href="https://core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>を見る！』です。
 
 ![](/img/03031.png "過去のロケット")
 
-こちらはHPの<a href="https://www.core-rocket-official.netlify.app/rocket/" target="_blank" rel="noopener noreferrer">COREのロケット</a>内にあります。
+こちらはHPの<a href="https://core-rocket-official.netlify.app/rocket/" target="_blank" rel="noopener noreferrer">COREのロケット</a>内にあります。
 
-<a href="https://www.core-rocket-official.netlify.app/about/" target="_blank" rel="noopener noreferrer">団体概要</a>にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
+<a href="https://core-rocket-official.netlify.app/about/" target="_blank" rel="noopener noreferrer">団体概要</a>にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
 
-<a href="https://www.core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>では、発足当初から現在までの **約14年間（！）** で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
+<a href="https://core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>では、発足当初から現在までの **約14年間（！）** で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
 
 まずはこちらのページを見て、COREの歴史を辿っていただければと思います。
 
