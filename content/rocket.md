@@ -671,3 +671,45 @@ COREではパラシュート開傘のためにロケットを開く方法とし�
   {{< /gallery >}}
 
 </details>
+
+<details>
+
+<summary><font size="5">2024年 8月 能代宇宙イベント</font></summary>
+
+#### 山岳
+
+* 機体名：剣岳
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-turugidake.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/rocket-turugidake.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2024年 12月 伊豆大島共同打上実験</font></summary>
+
+#### Citrus-ORangE
+
+* 機体名：Orange Range
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-orange.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/rocket-orange.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
+
+<details>
+
+<summary><font size="5">2025年 3月 伊豆大島共同打上実験</font></summary>
+
+#### ゆき巳だいふく
+
+* 機体名：だいふく
+  {{< gallery >}}
+  {{<figure link="/img/gallery/logo-yukimi.png" thumb="-thumb" caption="ミッションロゴ">}}
+  {{<figure link="/img/gallery/rocket-yukimi.jpg" thumb="-thumb" caption="機体">}}
+  {{< /gallery >}}
+
+</details>
