@@ -6,7 +6,8 @@
 ## <div class="heading text-center"><h2>ご入学おめでとうございます！</h2></div>
 ## <div class="heading text-center"><h3>今年の春からロケット作りませんか？</h3></div>
 ## <div class="heading text-center"><h3>-新歓の日程-</h3></div>
-<img src="\img\2025\schedule.png" class="center" width="100%"> -->
+<img src="\img\2025\schedule.png" class="center" width="100%">
+-->
 
 ## <div class="heading text-center"><h2>現在プロジェクト進行中！</h2></div>
 
