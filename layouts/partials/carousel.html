@@ -1,0 +1,38 @@
+{{ if default true .Site.Params.CarouselHomepage.enable }}
+{{ if isset .Site.Data "carousel" }}
+{{ if gt (len .Site.Data.carousel) 0 }}
+<section id="intro">
+    <div class="home-carousel no-mb no-padding" style="background: none !important;">
+        <div class="homepage owl-carousel"
+             data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
+             data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
+             data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
+            
+            {{ range sort .Site.Data.carousel "weight" }}
+            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover; height: 100vh; min-height: 500px;">
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<style>
+
+.home-carousel .dark-mask {
+    display: none !important;
+}
+#intro {
+    padding: 0 !important;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #fff !important;
+}
+#intro {
+    position: relative;
+    top: -130px !important;
+}
+</style>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -11,6 +11,8 @@ toc: false
 
 　今回は8/11~8/19で開催された能代宇宙イベントの結果報告です。
 
+<!--more-->
+
 　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://core-rocket-official.netlify.app/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://core-rocket-official.netlify.app/blog/2022_activity_report_3/))の打ち上げを行いました。
 結果としては
 

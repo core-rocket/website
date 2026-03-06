@@ -1,0 +1,14 @@
+#main-slider .item img,
+.home-carousel .item img,
+.owl-carousel .owl-item img {
+    height: 800px !important; 
+    min-height: 800px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+}
+#main-slider, 
+#main-slider .item,
+.home-carousel {
+    height: 800px !important;
+    overflow: hidden !important;
+}

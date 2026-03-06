@@ -1,0 +1,169 @@
+<section class="bar no-mb no-padding struct js-fadein">
+  <div class="container">
+    <div class="row">
+        <q style="color: #da4d4d; font-size: 10pt;">Rocket</q>
+        <h2 style="font-size: 25pt;">ロケット</h2><br>
+      <div class="col-md-3 struct-item">
+        <div class="struct-photo">
+          <img src="/img/ab_r_struct.jpg" alt="">
+          <div class="struct-overlay">
+            <p>Structure</p>
+            <h3>構造班</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 struct-item">
+        <div class="struct-photo">
+          <img src="/img/avio.jpg" alt="">
+          <div class="struct-overlay">
+            <p>Avionics</p>
+            <h3>電装班</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 struct-item">
+        <div class="struct-photo">
+          <img src="/img/burn.jpg" alt="">
+          <div class="struct-overlay">
+            <p>Suishinkei</p>
+            <h3>推進系</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 struct-item">
+        <div class="struct-photo">
+          <img src="/img/sim.png" alt="">
+          <div class="struct-overlay">
+            <p>Simulation</p>
+            <h3>Sim班</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<style>
+    .struct {
+  background-color: #ffffff;
+  color: #303030;
+}
+.struct-item {
+  padding-left: -20px;
+  padding-right: -20px;
+  margin-bottom: 20px;
+}
+
+.struct-overlay h3 {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.struct-photo {
+  position: relative;
+  max-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.struct-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.struct-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.4)
+  );
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.struct-photo:hover .struct-overlay {
+  background: rgba(0,0,0,0.65);
+}
+
+.struct-overlay q {
+  color: #da4d4d;
+  font-size: 10pt;
+}
+
+.struct-overlay h2 {
+  font-size: 24pt;
+  margin-top: 10px;
+}
+
+.struct-overlay h2 span {
+  font-size: 14pt;
+}
+.struct-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition-delay: 0.3s;
+}
+.struct.is-show .struct-photo img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.struct.is-show .struct-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.struct.is-show .struct-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .struct {
+    padding: 40px 0;
+  }
+
+  .struct-photo {
+    max-width: 100%;
+    height: 240px;   /* SPでは低め */
+    margin-bottom: 20px;
+  }
+}
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const targets = document.querySelectorAll(".js-fadein");
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-show");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: "0px 0px -150px 0px"
+  });
+
+  targets.forEach(el => observer.observe(el));
+});
+</script>

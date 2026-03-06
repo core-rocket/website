@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rocket-Tabs on CORE</title>
+    <link>http://localhost:1313/rocket-tabs/</link>
+    <description>Recent content in Rocket-Tabs on CORE</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <atom:link href="http://localhost:1313/rocket-tabs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/flight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/flight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/structure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>overview</title>
+      <link>http://localhost:1313/rocket-tabs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/overview/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .overview {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;    .slideshow{&#xD;&#xA;    max-width:1100px;&#xD;&#xA;    width:100%;&#xD;&#xA;    margin:80px auto;&#xD;&#xA;    font-family:sans-serif;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slides{&#xD;&#xA;    position:relative;&#xD;&#xA;    aspect-ratio:16/9;&#xD;&#xA;    overflow:hidden;&#xD;&#xA;    border-radius:6px;&#xD;&#xA;    box-shadow:0 6px 20px rgba(0,0,0,0.15);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide{&#xD;&#xA;    position:absolute;&#xD;&#xA;    top:0;&#xD;&#xA;    left:0;&#xD;&#xA;    width:100%;&#xD;&#xA;    height:100%;&#xD;&#xA;    opacity:0;&#xD;&#xA;    transition:opacity 0.9s ease;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide.active{&#xD;&#xA;    opacity:1;&#xD;&#xA;    z-index:1;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide img{&#xD;&#xA;    width:100%;&#xD;&#xA;    height:100%;&#xD;&#xA;    object-fit:cover;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .caption{&#xD;&#xA;    text-align:center;&#xD;&#xA;    margin-top:14px;&#xD;&#xA;    font-size:18px;&#xD;&#xA;    color:#444;&#xD;&#xA;    letter-spacing:0.03em;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dots{&#xD;&#xA;    text-align:center;&#xD;&#xA;    margin-top:14px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dot{&#xD;&#xA;    height:8px;&#xD;&#xA;    width:8px;&#xD;&#xA;    margin:5px;&#xD;&#xA;    display:inline-block;&#xD;&#xA;    border-radius:6px;&#xD;&#xA;    background:#cfcfcf;&#xD;&#xA;    transition:all .25s ease;&#xD;&#xA;    cursor:pointer;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dot.active{&#xD;&#xA;    background:#222;&#xD;&#xA;    width:24px;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding overview&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;h2&gt;プロジェクト発足&lt;/h2&gt; &#xD;&#xA;            &lt;b&gt;&lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;データに基づいて方向性を決める&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/2.jpg&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;解析作業&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/15.jpg&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;レビュー&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/4.jpg&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;データに基づいて方向性を決める&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/2.jpg&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

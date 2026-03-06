@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+{{ partial "headers.html" . }}
+{{ partial "custom_headers.html" . }}
+
+<style>
+
+.rocket-tabs{
+margin-top:60px;
+}
+
+.rocket-tab-buttons{
+display:flex;
+gap:42px;
+border-bottom:1px solid #e8e8e8;
+position:relative;
+padding-bottom:12px;
+}
+
+.tab-line{
+position:absolute;
+bottom:-1px;
+left:0;
+height:3px;
+width:0;
+background:#da4d4d;
+transition:all .35s cubic-bezier(.4,0,.2,1);
+border-radius:2px;
+}
+
+.tab-btn{
+background:none;
+border:none;
+font-size:15px;
+font-weight:600;
+letter-spacing:0.05em;
+color:#8a8a8a;
+cursor:pointer;
+padding:8px 0;
+position:relative;
+transition:0.25s;
+}
+
+.tab-btn:hover{
+color:#da4d4d;
+}
+
+.tab-btn::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-12px;
+height:2px;
+width:0%;
+background:#da4d4d;
+transition:.3s;
+opacity:.4;
+}
+
+.tab-btn:hover::after{
+width:100%;
+}
+
+.tab-btn.active{
+color:#da4d4d;
+}
+
+.rocket-tab-content{
+margin-top:45px;
+}
+
+.tab-panel{
+display:none;
+opacity:0;
+transform:translateY(10px);
+transition:.35s;
+}
+
+.tab-panel.active{
+display:block;
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="all">
+
+{{ partial "top.html" . }}
+{{ partial "nav.html" . }}
+
+<div id="content">
+<div class="container">
+
+<div style="margin-top:70px;"></div>
+
+<q style="color:#da4d4d;font-size:10pt;">Rocket</q>
+<h2>ロケット</h2>
+
+<div class="rocket-tabs">
+
+<div class="rocket-tab-buttons">
+<div class="tab-line"></div>
+
+<button class="tab-btn active" data-tab="overview">Overview</button>
+<button class="tab-btn" data-tab="engine">Engine</button>
+<button class="tab-btn" data-tab="structure">Structure</button>
+<button class="tab-btn" data-tab="flight">Flight</button>
+
+</div>
+
+<div class="rocket-tab-content">
+
+<div class="tab-panel active" id="overview">
+{{ with site.GetPage "/rocket-tabs/overview" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+<div class="tab-panel" id="engine">
+{{ with site.GetPage "/rocket-tabs/engine" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+<div class="tab-panel" id="structure">
+{{ with site.GetPage "/rocket-tabs/structure" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+<div class="tab-panel" id="flight">
+{{ with site.GetPage "/rocket-tabs/flight" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+<script>
+
+const buttons=document.querySelectorAll(".tab-btn")
+const panels=document.querySelectorAll(".tab-panel")
+const line=document.querySelector(".tab-line")
+
+function moveLine(btn){
+line.style.width=btn.offsetWidth+"px"
+line.style.left=btn.offsetLeft+"px"
+}
+
+buttons.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+buttons.forEach(b=>b.classList.remove("active"))
+panels.forEach(p=>p.classList.remove("active"))
+
+btn.classList.add("active")
+
+const id=btn.dataset.tab
+document.getElementById(id).classList.add("active")
+
+moveLine(btn)
+
+})
+
+})
+
+moveLine(document.querySelector(".tab-btn.active"))
+
+</script>
+
+</body>
+</html>

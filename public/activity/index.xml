@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Activities on CORE</title>
+    <link>http://localhost:1313/activity/</link>
+    <description>Recent content in Activities on CORE</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <atom:link href="http://localhost:1313/activity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/activity/2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/activity/2025/</guid>
+      <description>&lt;br&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h1 id=&#34;2025年度活動&#34;&gt;&lt;div class=&#34;heading text-left&#34;&gt;&lt;h2&gt;2025年度活動&lt;/h2&gt;&lt;/div&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;スケジュール&#34;&gt;スケジュール&lt;/h2&gt;&#xA;&lt;div style=&#34;margin-left: 50px; margin-bottom: 50px;&#34;&gt;&#xD;&#xA;&lt;img src=&#34;\img\2025\active_sh.jpg&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;section class=&#34;bar no-mb no-padding ac_2025&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-8&#34;&gt;&#xD;&#xA;        &lt;h2&gt;21thNSE&lt;/h2&gt;&#xD;&#xA;        &lt;b&gt;&#xD;&#xA;        COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．&#xD;&#xA;        航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．&#xD;&#xA;        COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，&#xD;&#xA;        プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．&#xD;&#xA;        &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-4&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;\img\4.jpg&#34; width=&#34;70%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-4&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;\img\4.jpg&#34; width=&#34;70%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-8&#34;&gt;&#xD;&#xA;        &lt;h2&gt;27thISE&lt;/h2&gt;&#xD;&#xA;        &lt;b&gt;&#xD;&#xA;        COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．&#xD;&#xA;        航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．&#xD;&#xA;        COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，&#xD;&#xA;        プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．&#xD;&#xA;        &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;    .ac_2025 {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,9 +1,49 @@
-<section class="bar background-white no-mb">
-	<div class="container">
-		<div class="col-md-12">
-			<div class="row">
-				{{ readFile "notice.md" | markdownify }}
-			</div>
-		</div>
-	</div>
+<style>
+    .custom-section {
+        background-color: #ffffff !important;
+        color: #303030 !important;
+		margin-top: 0px !important; 
+    }
+    .custom-section h2, 
+    .custom-section h3 {
+        color: #303030 !important;
+    }
+	.simple-table {
+		border: 1px solid #969696;
+		margin-top: 20px;
+	}
+
+	.simple-table table {
+		width: 100% !important;
+		border-collapse: collapse;
+		display: table; 
+	}
+
+	.simple-table th {
+		background-color: #969696 !important;
+		color: #333;
+		padding: 10px;
+		border: 1px solid #969696;
+		text-align: center;
+	}
+
+	.simple-table td {
+		padding: 12px;
+		border: 1px solid #969696;
+		background-color: #ffffff;
+		color: #303030;
+		vertical-align: middle;
+	}
+</style>
+
+<section class="bar no-mb no-padding custom-section">
+    <div class="container">
+        <div class="col-md-12">
+			<q style="color: #da4d4d; font-size: 10pt;">News</q>
+			<h2>お知らせ</h2>
+            {{ with .Site.GetPage "notice.md" }}
+                {{ .Content }}
+            {{ end }}
+        </div>
+    </div>
 </section>

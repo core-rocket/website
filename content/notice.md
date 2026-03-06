@@ -9,10 +9,6 @@
 <img src="\img\2025\schedule.png" class="center" width="100%">
 -->
 
-## <div class="heading text-center"><h2>現在プロジェクト進行中！</h2></div>
-
-## <div class="heading text-center"><h2>お知らせ</h2></div>
-
 <div class="simple-table" style="height: 250px; overflow-y:scroll;">
 
 | 更新情報                 |                                                                 |
