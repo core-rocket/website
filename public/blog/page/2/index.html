@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1772779878" rel="stylesheet">
+<link href="/css/custom.css?1772970083" rel="stylesheet">
 
 
 
@@ -76,6 +76,107 @@
   </head>
 
   <body>
+
+    <style>
+        .post{
+            background:#fff;
+            border-radius:4px;
+            padding:18px;
+            margin-bottom:30px;
+            box-shadow:0 6px 20px rgba(0,0,0,0.06);
+            transition:.25s;
+        }
+
+        .post:hover{
+            transform:translateY(-4px);
+            box-shadow:0 12px 30px rgba(0,0,0,0.08);
+        }
+
+        .col-md-8{
+            display:flex;
+            flex-direction:column;
+        }
+
+        #blog-listing-medium .image{
+            width:100%;
+            height:220px;
+            max-height:220px;
+            overflow:hidden;
+            border-radius:4px;
+        }
+
+        #blog-listing-medium .image img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:center;
+        }
+
+        .post:hover img{
+            transform:scale(1.05);
+        }
+
+        .post h2{
+            font-size:20px;
+            margin-top:5px;
+            margin-bottom:8px;
+        }
+
+        .post h2 a{
+            color:#222;
+            text-decoration:none;
+        }
+
+        .post h2 a:hover{
+            color:#da4d4d;
+        }
+
+        .author-category{
+            font-size:13px;
+            color:#777;
+            margin-bottom:6px;
+        }
+
+        .date-comments{
+            font-size:13px;
+            color:#777;
+        }
+
+        .intro{
+            font-size:14px;
+            color:#555;
+            margin-top:8px;
+            flex-grow:1;
+        }
+
+        .read-more{
+            margin-top:auto;
+        }
+
+        .read-more a{
+            display:inline-block;
+            border:1px solid #da4d4d;
+            color:#da4d4d;
+            padding:8px 18px;
+            font-size:13px;
+            letter-spacing:.05em;
+            text-decoration:none;
+            transition:.2s;
+        }
+
+        .read-more a:hover{
+            background:#da4d4d;
+            color:#fff;
+        }
+
+        .pager{
+            margin-top:40px;
+        }
+
+        .pager a{
+            border-radius:2px !important;
+        }
+</style>
 
     <div id="all">
 
@@ -252,10 +353,11 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/2021_activity_report_p1/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        
+                                        <img src="/img/kaiho.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -306,7 +408,9 @@
 <p>CORE15th代表のけんTです。</p>
 <p>約1年ぶりのブログ更新です。本当にすみません…</p>
 <p>1年ぶりの更新ということで、今回はCOREの2021年度の活動を振り返ってみます。</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/2021_activity_report_p1/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/2021_activity_report_p1/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -317,10 +421,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/core.interview/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/%e3%81%91%e3%82%93t%e3%81%95%e3%82%93.jpg" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -370,7 +474,9 @@
                                     <p class="intro"><!--StartFragment-->
 <p>みなさんこんにちは．<br>
 COREに入ってみないとわからない，COREの裏側を紹介するために，COREの代表である吉田健人さんにインタビューを行いました．</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/core.interview/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/core.interview/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -381,10 +487,10 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/recruite2-2021/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/CORE_RocketPR.jpg" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -433,7 +539,9 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                                     
                                     <p class="intro"><p>こんにちは！COREの15th代表でHP更新担当のけんTです．5月に入りましたね(早いですね～)．ということで5月の新歓情報を更新したので是非チェックしてください．
 また現在緊急事態宣言中(2021/5/3現在)ですので，対面での新歓は未定とさせてください．申し訳ございません！</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/recruite2-2021/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/recruite2-2021/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -444,10 +552,10 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/recruite-2021/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/CORE_RocketPR.jpg" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -495,7 +603,9 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                                     </div>
                                     
                                     <p class="intro"><p>こんにちは新B2の正木です．今回は，2021年春のCOREの新歓情報を載せたいと思います！新入生の方も，B2以上の方も是非いらしてみてください！！他にもYoutube新歓などを画策しているので，お見逃しなく！！</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/recruite-2021/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/recruite-2021/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -506,10 +616,11 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/core%E3%82%92%E7%9F%A5%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%93%E9%81%B8/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        
+                                        <img src="/img/03031.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -559,7 +670,9 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                                     <p class="intro"><p>みなさんこんにちは。</p>
 <p>COREの2020年度広報担当の伊澤です。</p>
 <p>気づけば3月になってしまいました。そろそろ引退の時期が近づいてきて、ブログに記事を書くのはこれが最初で最後となってしまうかもしれませんが、がんばって書きたいと思います。</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/core%E3%82%92%E7%9F%A5%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%93%E9%81%B8/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/core%E3%82%92%E7%9F%A5%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%93%E9%81%B8/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -570,10 +683,11 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/core-telstar/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        
+                                        <img src="/img/CORE-TELSTAR.PNG" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -623,7 +737,9 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                                     <p class="intro"><p>こんにちは。このHPのブログの更新も随分ご無沙汰でしたが、これから徐々に更新頻度を上げられたらと思っているところです。
 あっ申し遅れました。私COREで燃焼副班長やってるけんTです。COREのHP更新の担当(？)することになりましたので今後度々登場する予定です。よろしくお願いします。
 ブログ更新再開一発目の話題は宇宙広報団体TELSTARとのコラボ企画についてです。</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/core-telstar/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/core-telstar/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -634,10 +750,11 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/blog/renewal-2020/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        
+                                        <img src="https://raw.githubusercontent.com/devcows/hugo-universal-theme/master/images/screenshot.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -686,7 +803,9 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
                                     
                                     <p class="intro"><p>こんにちは．今年度からホームページ担当になったsksatです．</p>
 <p>タイトルの通り，リニューアルのお知らせです．</p></p>
-                                    <p class="read-more"><a href="http://localhost:1313/blog/renewal-2020/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/blog/renewal-2020/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>

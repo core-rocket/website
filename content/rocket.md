@@ -1,4 +1,4 @@
 ---
-title: "ロケット"
+title: "Rocket"
 layout: rocket
 ---

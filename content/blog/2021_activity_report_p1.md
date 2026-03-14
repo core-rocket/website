@@ -5,6 +5,7 @@ image: /img/noshiro2021.jpg
 slug: 2021_activity_report_p1
 draft: false
 toc: false
+type: blog
 ---
 
 こんにちは！

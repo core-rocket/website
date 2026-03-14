@@ -1,4 +1,4 @@
 ---
-title: "ロケット"
+title: "History"
 layout: history
 ---

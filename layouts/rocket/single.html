@@ -109,9 +109,10 @@ transform:translateY(0);
 <div class="tab-line"></div>
 
 <button class="tab-btn active" data-tab="overview">Overview</button>
-<button class="tab-btn" data-tab="engine">Engine</button>
 <button class="tab-btn" data-tab="structure">Structure</button>
-<button class="tab-btn" data-tab="flight">Flight</button>
+<button class="tab-btn" data-tab="avionics">Avionics</button>
+<button class="tab-btn" data-tab="engine">Engine</button>
+<button class="tab-btn" data-tab="fire">Fire</button>
 
 </div>
 
@@ -123,8 +124,8 @@ transform:translateY(0);
 {{ end }}
 </div>
 
-<div class="tab-panel" id="engine">
-{{ with site.GetPage "/rocket-tabs/engine" }}
+<div class="tab-panel" id="avionics">
+{{ with site.GetPage "/rocket-tabs/avionics" }}
 {{ .Content }}
 {{ end }}
 </div>
@@ -135,8 +136,14 @@ transform:translateY(0);
 {{ end }}
 </div>
 
-<div class="tab-panel" id="flight">
-{{ with site.GetPage "/rocket-tabs/flight" }}
+<div class="tab-panel" id="engine">
+{{ with site.GetPage "/rocket-tabs/engine" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+<div class="tab-panel" id="fire">
+{{ with site.GetPage "/rocket-tabs/fire" }}
 {{ .Content }}
 {{ end }}
 </div>

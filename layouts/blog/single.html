@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+{{ partial "headers.html" . }}
+{{ partial "custom_headers.html" . }}
+</head>
+
+<style>
+  .blog-header{
+  margin-top: 100px;
+  margin-bottom:35px;
+  padding-bottom:15px;
+  border-bottom:1px solid #eee;
+  }
+
+  .blog-title{
+  font-size:36px;
+  font-weight:700;
+  margin-bottom:10px;
+  }
+
+  .blog-meta{
+  color:#888;
+  font-size:14px;
+  }
+  .post-navigation{
+  display:flex;
+  gap:16px;
+  margin-top:60px;
+  margin-bottom:80px; /* ← 下余白 */
+  }
+
+  .post-nav-card{
+  flex:1;
+  padding:16px 18px;
+  border:1px solid #e6e6e6;
+  border-radius:6px;
+  text-decoration:none;
+  color:#222;
+  background:#fafafa;
+  transition:all .15s ease;
+  }
+
+  .post-nav-card:hover{
+  background:#fff;
+  border-color:#ccc;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  }
+
+  .nav-label{
+  font-size:11px;
+  color:#888;
+  margin-bottom:4px;
+  letter-spacing:0.04em;
+  }
+
+  .nav-title{
+  font-size:15px;
+  font-weight:600;
+  line-height:1.35;
+  }
+
+  .post-nav-card.next{
+  text-align:right;
+  }
+</style>
+
+<body>
+
+<div id="all">
+
+{{ partial "top.html" . }}
+{{ partial "nav.html" . }}
+
+<div id="content">
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-9" id="blog-post">
+
+<header class="blog-header">
+
+<h1 class="blog-title">{{ .Title }}</h1>
+
+<p class="blog-meta">
+
+{{ if .Params.date }}
+<i class="far fa-calendar"></i>
+{{ .Date.Format "2006.01.02" }}
+{{ end }}
+
+{{ if isset .Params "authors" }}
+ | {{ range $index, $author := .Params.authors }}
+{{ if $index }}, {{ end }}
+{{ $author }}
+{{ end }}
+{{ end }}
+
+</p>
+
+</header>
+
+<div id="post-content">
+{{ .Content }}
+</div>
+
+<div class="post-navigation">
+
+{{ with .PrevInSection }}
+<a class="post-nav-card prev" href="{{ .Permalink }}">
+<div class="nav-label">← 前の記事</div>
+<div class="nav-title">{{ .Title }}</div>
+</a>
+{{ end }}
+
+{{ with .NextInSection }}
+<a class="post-nav-card next" href="{{ .Permalink }}">
+<div class="nav-label">次の記事 →</div>
+<div class="nav-title">{{ .Title }}</div>
+</a>
+{{ end }}
+
+</div>
+
+{{ if .Site.Config.Services.Disqus.Shortname }}
+<div id="comments">
+{{ template "_internal/disqus.html" . }}
+</div>
+{{ end }}
+
+</div>
+
+<div class="col-md-3">
+{{ partial "sidebar.html" . }}
+</div>
+
+</div>
+
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

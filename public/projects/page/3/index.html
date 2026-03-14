@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1772859998" rel="stylesheet">
+<link href="/css/custom.css?1772970083" rel="stylesheet">
 
 
 
@@ -76,6 +76,107 @@
   </head>
 
   <body>
+
+    <style>
+        .post{
+            background:#fff;
+            border-radius:4px;
+            padding:18px;
+            margin-bottom:30px;
+            box-shadow:0 6px 20px rgba(0,0,0,0.06);
+            transition:.25s;
+        }
+
+        .post:hover{
+            transform:translateY(-4px);
+            box-shadow:0 12px 30px rgba(0,0,0,0.08);
+        }
+
+        .col-md-8{
+            display:flex;
+            flex-direction:column;
+        }
+
+        #blog-listing-medium .image{
+            width:100%;
+            height:220px;
+            max-height:220px;
+            overflow:hidden;
+            border-radius:4px;
+        }
+
+        #blog-listing-medium .image img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:center;
+        }
+
+        .post:hover img{
+            transform:scale(1.05);
+        }
+
+        .post h2{
+            font-size:20px;
+            margin-top:5px;
+            margin-bottom:8px;
+        }
+
+        .post h2 a{
+            color:#222;
+            text-decoration:none;
+        }
+
+        .post h2 a:hover{
+            color:#da4d4d;
+        }
+
+        .author-category{
+            font-size:13px;
+            color:#777;
+            margin-bottom:6px;
+        }
+
+        .date-comments{
+            font-size:13px;
+            color:#777;
+        }
+
+        .intro{
+            font-size:14px;
+            color:#555;
+            margin-top:8px;
+            flex-grow:1;
+        }
+
+        .read-more{
+            margin-top:auto;
+        }
+
+        .read-more a{
+            display:inline-block;
+            border:1px solid #da4d4d;
+            color:#da4d4d;
+            padding:8px 18px;
+            font-size:13px;
+            letter-spacing:.05em;
+            text-decoration:none;
+            transition:.2s;
+        }
+
+        .read-more a:hover{
+            background:#da4d4d;
+            color:#fff;
+        }
+
+        .pager{
+            margin-top:40px;
+        }
+
+        .pager a{
+            border-radius:2px !important;
+        }
+</style>
 
     <div id="all">
 
@@ -250,10 +351,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/nse15th-asahi/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -301,7 +402,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/nse15th-asahi/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/nse15th-asahi/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -312,10 +415,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/nse15th-gemini/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -363,7 +466,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/nse15th-gemini/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/nse15th-gemini/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -374,10 +479,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/ise16th-gunguniru/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -425,7 +530,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/ise16th-gunguniru/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/ise16th-gunguniru/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -436,10 +543,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/ise16th-pf/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -487,7 +594,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/ise16th-pf/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/ise16th-pf/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -498,10 +607,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/nse14th-kritanpo/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -549,7 +658,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/nse14th-kritanpo/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/nse14th-kritanpo/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -560,10 +671,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/nse14th-shirasagi/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -611,7 +722,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/nse14th-shirasagi/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/nse14th-shirasagi/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -622,10 +735,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/ise14th-fc/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -673,7 +786,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/ise14th-fc/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/ise14th-fc/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -684,10 +799,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/ise14th-vase/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -735,7 +850,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/ise14th-vase/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/ise14th-vase/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -746,10 +863,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/ise13rd-lchiki/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -797,7 +914,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/ise13rd-lchiki/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/ise13rd-lchiki/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>
@@ -808,10 +927,10 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="http://localhost:1313/projects/nse13rd-kaemreon/">
-                                          
-                                          <img src="/img/placeholder.png" class="img-responsive" alt="" />
-                                          
+                                        
+                                        
+                                        <img src="/img/placeholder.png" class="img-responsive" alt="">
+                                        
                                       </a>
                                   </div>
                                 </div>
@@ -859,7 +978,9 @@
                                     </div>
                                     
                                     <p class="intro"></p>
-                                    <p class="read-more"><a href="http://localhost:1313/projects/nse13rd-kaemreon/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="read-more">
+                                    <a href="http://localhost:1313/projects/nse13rd-kaemreon/" class="btn btn-template-main">続きを読む</a>
+                                    </p>
                                     </p>
                                     
                                 </div>

@@ -236,42 +236,38 @@
     <loc>http://localhost:1313/projects/nse3rd-sazanka/</loc>
     <lastmod>2007-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/about_s/</loc>
-  </url><url>
     <loc>http://localhost:1313/activity/2025/</loc>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/notice/</loc>
   </url><url>
     <loc>http://localhost:1313/privacy/</loc>
   </url><url>
-    <loc>http://localhost:1313/recruit/</loc>
+    <loc>http://localhost:1313/rocket-tabs/avionics/</loc>
   </url><url>
     <loc>http://localhost:1313/rocket-tabs/engine/</loc>
   </url><url>
-    <loc>http://localhost:1313/rocket-tabs/flight/</loc>
+    <loc>http://localhost:1313/rocket-tabs/fire/</loc>
   </url><url>
     <loc>http://localhost:1313/rocket-tabs/structure/</loc>
   </url><url>
-    <loc>http://localhost:1313/sponsor/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/activity/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/faq/</loc>
-  </url><url>
-    <loc>http://localhost:1313/rocket-tabs/overview/</loc>
-  </url><url>
-    <loc>http://localhost:1313/rocket-tabs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/history/</loc>
   </url><url>
+    <loc>http://localhost:1313/rocket-tabs/overview/</loc>
+  </url><url>
     <loc>http://localhost:1313/rocket/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rocket-tabs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sponsor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
