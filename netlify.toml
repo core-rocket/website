@@ -1,11 +1,11 @@
 [build]
+  base = ""
   publish = "public"
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [build.environment]
   HUGO_VERSION = "0.123.0"
   HUGO_EXTENDED = "true"
-
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
 
