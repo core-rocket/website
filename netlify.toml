@@ -1,13 +1,13 @@
 [build]
   publish = "docs"
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture -d docs -b $DEPLOY_PRIME_URL"
 
 [build.environment]
   HUGO_VERSION = "0.123.0"
   HUGO_EXTENDED = "true"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture -d docs -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -d docs -b $DEPLOY_PRIME_URL"
