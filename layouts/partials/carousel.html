@@ -20,31 +20,49 @@
 #intro {
     position: relative;
     width: 100%;
-    height: 100vh !important;
-    margin-top: -130px !important;
     padding: 0 !important;
     z-index: 1;
     overflow: hidden;
 }
 
-.home-carousel, 
-.home-carousel .owl-carousel, 
-.home-carousel .owl-stage-wrapper, 
-.home-carousel .owl-stage, 
-.home-carousel .owl-item, 
-.home-carousel .item {
-    height: 100vh !important;
+@media (min-width: 768px) {
+    #intro {
+        height: 100vh;
+    }
+
+    .home-carousel, 
+    .home-carousel .owl-carousel, 
+    .home-carousel .owl-stage-wrapper, 
+    .home-carousel .owl-stage, 
+    .home-carousel .owl-item, 
+    .home-carousel .item {
+        height: 100vh;
+    }
+
+    .item {
+        background-size: cover;
+        background-position: center bottom;
+    }
+}
+
+@media (max-width: 767px) {
+    #intro {
+        height: auto;
+    }
+
+    .home-carousel,
+    .home-carousel .item {
+        height: auto;
+    }
+
+    .item {
+        background-size: contain;
+        background-position: center;
+    }
 }
 
 .home-carousel .dark-mask {
     display: none !important;
-}
-
-.item {
-    width: 100%;
-    background-size: cover; 
-    background-position: center bottom;
-    background-repeat: no-repeat;
 }
 
 .owl-theme .owl-controls {
