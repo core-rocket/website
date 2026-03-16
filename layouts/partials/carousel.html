@@ -28,42 +28,48 @@
 @media (min-width: 768px) {
 
     #intro {
-        height: 100vh;
+        height: 100svh;
     }
 
     .home-carousel,
     .home-carousel .owl-carousel,
     .home-carousel .owl-stage-wrapper,
     .home-carousel .owl-stage,
+    .home-carousel .owl-stage-outer,
     .home-carousel .owl-item,
     .home-carousel .item {
-        height: 100vh !important;
+        height: 100svh !important;
     }
 
     .item {
+        width: 100%;
         background-size: cover;
         background-position: center bottom;
+        background-repeat: no-repeat;
     }
 }
 
 @media (max-width: 767px) {
 
     #intro {
-        height: 50vh;
+        height: 40svh;
     }
 
     .home-carousel,
     .home-carousel .owl-carousel,
     .home-carousel .owl-stage-wrapper,
     .home-carousel .owl-stage,
+    .home-carousel .owl-stage-outer,
     .home-carousel .owl-item,
     .home-carousel .item {
-        height: 50vh !important;
+        height: 40svh !important;
     }
 
     .item {
+        width: 100%;
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -82,7 +88,8 @@
     background: #ffffff !important;
 }
 
-#content, .homepage {
+#content,
+.homepage {
     padding-top: 0 !important;
     margin-top: 0 !important;
 }
