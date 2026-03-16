@@ -32,13 +32,16 @@ body {
 }
 
 @media (max-width: 991px) {
+
     .navbar {
-        position: fixed !important;
-        background-color: #ffffff;
+        position: absolute !important; 
+        background-color: transparent !important;
     }
+
     .navbar-brand img {
         height: 50px;
     }
+
     .navbar-collapse {
         background-color: #ffffff;
     }
@@ -48,7 +51,11 @@ body {
     background-color: #1d1c3b;
 }
 
-header, .navbar, .navbar-default, .navbar-header, .navbar-collapse {
+header,
+.navbar,
+.navbar-default,
+.navbar-header,
+.navbar-collapse {
     border: none !important;
     box-shadow: none !important;
     outline: none !important;

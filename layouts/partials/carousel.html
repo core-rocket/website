@@ -9,7 +9,7 @@
              data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
             
             {{ range sort .Site.Data.carousel "weight" }}
-            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover; width: 100vh;">
+            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover;">
                 </div>
             {{ end }}
         </div>
