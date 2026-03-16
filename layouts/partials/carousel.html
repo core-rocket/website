@@ -19,49 +19,23 @@
 <style>
 #intro {
     position: relative;
-    width: 100vw;
+    width: 100%;
     margin-top: -130px !important;
     padding: 0 !important;
     z-index: 1;
     overflow: hidden;
 }
 
-.home-carousel .dark-mask,
-.home-carousel::before,
-.home-carousel::after {
+.home-carousel .dark-mask {
     display: none !important;
 }
 
 .item {
+    width: 100%;
+    height: calc(100vh + 130px);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-@media (min-width: 992px) {
-    .item {
-        width: 100vw;
-        height: calc(100vh + 130px);
-    }
-}
-
-@media (max-width: 991px) {
-    #intro {
-        margin-top: -100px !important;
-    }
-    .item {
-        width: 100vw;
-        height: 50vh;
-    }
-}
-
-@media (max-width: 767px) {
-    #intro {
-        margin-top: -80px !important;
-    }
-    .item {
-        height: 40vh;
-    }
 }
 
 .owl-theme .owl-controls {
@@ -73,12 +47,6 @@
 
 .owl-theme .owl-controls .owl-page span {
     background: #ffffff !important;
-}
-
-@media (max-width: 991px) {
-    .owl-theme .owl-controls {
-        bottom: 15px;
-    }
 }
 </style>
 {{ end }}
