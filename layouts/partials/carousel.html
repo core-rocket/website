@@ -25,18 +25,17 @@
     overflow: hidden;
 }
 
-
 @media (min-width: 768px) {
 
     #intro {
         height: 100vh;
     }
 
-    .home-carousel, 
-    .home-carousel .owl-carousel, 
-    .home-carousel .owl-stage-wrapper, 
-    .home-carousel .owl-stage, 
-    .home-carousel .owl-item, 
+    .home-carousel,
+    .home-carousel .owl-carousel,
+    .home-carousel .owl-stage-wrapper,
+    .home-carousel .owl-stage,
+    .home-carousel .owl-item,
     .home-carousel .item {
         height: 100vh !important;
     }
@@ -50,7 +49,7 @@
 @media (max-width: 767px) {
 
     #intro {
-        height: auto !important;
+        height: 50vh;
     }
 
     .home-carousel,
@@ -59,11 +58,11 @@
     .home-carousel .owl-stage,
     .home-carousel .owl-item,
     .home-carousel .item {
-        height: auto !important;
+        height: 50vh !important;
     }
 
     .item {
-        background-size: contain;
+        background-size: cover;
         background-position: center;
     }
 }
