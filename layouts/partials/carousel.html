@@ -9,7 +9,7 @@
              data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
             
             {{ range sort .Site.Data.carousel "weight" }}
-            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover; height: 100vh; min-height: 500px;">
+            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover; width: 100vh;">
                 </div>
             {{ end }}
         </div>
@@ -17,20 +17,58 @@
 </section>
 
 <style>
-
-.home-carousel .dark-mask {
-    display: none !important;
-}
 #intro {
+    position: relative;
+    width: 100vw;
+    margin-top: -130px !important;
     padding: 0 !important;
+    z-index: 1;
+}
+
+.home-carousel .dark-mask,
+.home-carousel::before,
+.home-carousel::after,
+#intro::before,
+#intro::after {
+    display: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.item {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.owl-theme .owl-controls {
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    z-index: 10;
 }
 
 .owl-theme .owl-controls .owl-page span {
-    background: #fff !important;
+    background: #ffffff !important;
 }
-#intro {
-    position: relative;
-    top: -130px !important;
+
+@media (max-width: 991px) {
+    #intro {
+        margin-top: -100px !important;
+    }
+    .owl-theme .owl-controls {
+        bottom: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    #intro {
+        margin-top: -80px !important;
+    }
+    .owl-theme .owl-controls {
+        bottom: 100px;
+    }
 }
 </style>
 {{ end }}
