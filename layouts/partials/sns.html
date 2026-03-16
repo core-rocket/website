@@ -1,92 +1,100 @@
 <style>
 .sns{
-    background-image:url(img/fig_1.jpg);
-    background-size:cover;
-    background-position:center;
-    text-align:center;
-    color:#ffffff;
-    font-weight:600;
-    position:relative;
+background-image:url(img/fig_1.jpg);
+background-size:cover;
+background-position:center;
+text-align:center;
+color:#ffffff;
+font-weight:600;
+position:relative;
 }
 
 .img-overlay{
-    position:absolute;
-    inset:0;
-    background:linear-gradient(
-        to top,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.7)
-    );
-    z-index:1;
+position:absolute;
+inset:0;
+background:linear-gradient(
+to top,
+rgba(0,0,0,0.3),
+rgba(0,0,0,0.7)
+);
+z-index:1;
 }
 
 .sns .container{
-    position:relative;
-    z-index:2;
+position:relative;
+z-index:2;
 }
 
 .hr1{
-    height:2px;
-    background-color:#ffffff;
-    margin-top:40px;
-    margin-bottom:40px;
-    border:none;
+height:2px;
+background-color:#ffffff;
+margin-top:40px;
+margin-bottom:40px;
+border:none;
+}
+
+.sns-grid{
+display:flex;
+flex-wrap:wrap;
+width:100%;
 }
 
 .sns-icon{
-    text-align:center;
+width:25%;
+text-align:center;
+margin-bottom:20px;
 }
 
 .sns-icon img{
-    width:80px;
-    max-width:100%;
-    height:auto;
+width:80px;
+max-width:100%;
+height:auto;
 }
 
 .yt img{
-    width:130px;
-    max-width:100%;
+width:130px;
+max-width:100%;
 }
 
 @media (min-width:767px){
-    .space-top{
-        margin-top:120px;
-    }
-    .sns h1{
-        font-size:45pt;
-    }
-    .sns h2{
-        font-size:25pt;
-    }
-    .sns h2 span{
-        font-size:35pt;
-    }
+.space-top{
+margin-top:120px;
+}
+.sns h1{
+font-size:45pt;
+}
+.sns h2{
+font-size:25pt;
+}
+.sns h2 span{
+font-size:35pt;
+}
 }
 
 @media (max-width:767px){
-    .space-top{
-        margin-top:40px;
-    }
-    .sns h1{
-        font-size:35pt;
-    }
-    .sns h2{
-        font-size:15pt;
-    }
-    .sns h2 span{
-        font-size:25pt;
-    }
-    .sns-icon img{
-        width:40px;
-    }
-    .yt img{
-        width:65px;
-    }
-    .sns q{
-        display:block;
-        font-size:10px;
-        word-break:break-all;
-    }
+.space-top{
+margin-top:40px;
+}
+.sns h1{
+font-size:35pt;
+}
+.sns h2{
+font-size:15pt;
+}
+.sns h2 span{
+font-size:25pt;
+}
+.sns-icon img{
+width:40px;
+}
+.yt img{
+width:65px;
+}
+.sns q{
+display:block;
+font-size:10px;
+word-break:break-all;
+}
 }
 </style>
 
@@ -96,7 +104,7 @@
 <div class="container">
 
 <div class="row">
-<div class="col-12">
+<div class="col-12 le-text">
 <h1 style="text-align:left;color:#ffffff;">SNSは<br>こちらから</h1>
 </div>
 </div>
@@ -127,34 +135,30 @@
 
 <hr class="hr1">
 
-<div class="row text-center">
+<div class="sns-grid">
 
-<div class="col-12 col-md-4">
-<h2 style="color:#ffffff;">通常アカウント</h2>
-</div>
-
-<div class="col-3 col-md-2 sns-icon">
+<div class="sns-icon">
 <a href="https://x.com/CORE_Rocket">
 <img src="img/sns/x_w.png">
 </a>
 <q>@CORE_Rocket</q>
 </div>
 
-<div class="col-3 col-md-2 sns-icon">
+<div class="sns-icon">
 <a href="https://www.instagram.com/core_rocket">
 <img src="img/sns/insta.png">
 </a>
 <q>core_rocket</q>
 </div>
 
-<div class="col-3 col-md-2 sns-icon yt">
+<div class="sns-icon yt">
 <a href="https://www.youtube.com/@corerockets">
 <img src="img/sns/yt.png">
 </a>
 <q>@corerockets</q>
 </div>
 
-<div class="col-3 col-md-2 sns-icon">
+<div class="sns-icon">
 <a href="https://lin.ee/ygiruVC">
 <img src="img/sns/line.png">
 </a>
