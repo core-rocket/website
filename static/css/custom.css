@@ -43,7 +43,8 @@ body {
     }
 
     .navbar-collapse {
-        background-color: #ffffff;
+        background-color: #1e1e1e94;
+        color: #ffffff;
     }
 }
 

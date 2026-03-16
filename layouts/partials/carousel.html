@@ -17,81 +17,79 @@
 </section>
 
 <style>
-#intro {
+#intro{
     position: relative;
     width: 100%;
     padding: 0 !important;
-    z-index: 1;
     overflow: hidden;
 }
 
-@media (min-width: 768px) {
+/* ===== PC ===== */
+@media (min-width:768px){
 
-    #intro {
-        height: 100svh;
+    #intro{
+        height:100svh;
     }
 
     .home-carousel,
     .home-carousel .owl-carousel,
-    .home-carousel .owl-stage-wrapper,
-    .home-carousel .owl-stage,
     .home-carousel .owl-stage-outer,
+    .home-carousel .owl-stage,
     .home-carousel .owl-item,
-    .home-carousel .item {
-        height: 100svh !important;
+    .home-carousel .item{
+        height:100svh !important;
     }
 
-    .item {
-        width: 100%;
-        background-size: cover;
-        background-position: center bottom;
-        background-repeat: no-repeat;
+    .item{
+        background-size:cover;
+        background-position:center center;
+        background-repeat:no-repeat;
     }
 }
 
-@media (max-width: 767px) {
+/* ===== スマホ ===== */
+@media (max-width:767px){
 
-    #intro {
-        height: 40svh;
+    #intro{
+        height:56vw;
     }
 
     .home-carousel,
     .home-carousel .owl-carousel,
-    .home-carousel .owl-stage-wrapper,
-    .home-carousel .owl-stage,
     .home-carousel .owl-stage-outer,
+    .home-carousel .owl-stage,
     .home-carousel .owl-item,
-    .home-carousel .item {
-        height: 40svh !important;
+    .home-carousel .item{
+        height:56vw !important;
     }
 
-    .item {
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    .item{
+        background-size:cover;
+        background-position:center center;
     }
 }
 
-.home-carousel .dark-mask {
-    display: none !important;
+/* overlay削除 */
+.home-carousel .dark-mask{
+    display:none !important;
 }
 
-.owl-theme .owl-controls {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    z-index: 10;
+/* dots */
+.owl-theme .owl-controls{
+    position:absolute;
+    bottom:20px;
+    width:100%;
 }
 
-.owl-theme .owl-controls .owl-page span {
-    background: #ffffff !important;
+.owl-theme .owl-controls .owl-page span{
+    background:#fff !important;
 }
 
+/* 余白削除 */
 #content,
-.homepage {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
+.homepage{
+    padding-top:0 !important;
+    margin-top:0 !important;
 }
 </style>
 {{ end }}
