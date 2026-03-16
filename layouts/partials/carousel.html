@@ -2,97 +2,97 @@
 {{ if isset .Site.Data "carousel" }}
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section id="intro">
-    <div class="home-carousel no-mb no-padding" style="background: none !important;">
+    <div class="home-carousel no-mb no-padding">
         <div class="homepage owl-carousel"
              data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
              data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
              data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
-            
+
             {{ range sort .Site.Data.carousel "weight" }}
-            <div class="item" style="background: url('{{ .image | absURL }}') center center no-repeat; background-size: cover;">
-                </div>
+            <div class="item">
+                <img src="{{ .image | absURL }}" class="carousel-img">
+            </div>
             {{ end }}
+
         </div>
     </div>
 </section>
 
 <style>
-#intro {
-    position: relative;
-    width: 100%;
-    padding: 0 !important;
-    z-index: 1;
-    overflow: hidden;
+
+#intro{
+position:relative;
+width:100%;
+padding:0 !important;
+overflow:hidden;
 }
 
-@media (min-width: 768px) {
-
-    #intro {
-        height: 100svh;
-    }
-
-    .home-carousel,
-    .home-carousel .owl-carousel,
-    .home-carousel .owl-stage-wrapper,
-    .home-carousel .owl-stage,
-    .home-carousel .owl-stage-outer,
-    .home-carousel .owl-item,
-    .home-carousel .item {
-        height: 100svh !important;
-    }
-
-    .item {
-        width: 100%;
-        background-size: cover;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-    }
+.carousel-img{
+width:100%;
+height:100%;
+object-fit:contain;
+display:block;
 }
 
-@media (max-width: 767px) {
+/* PC */
 
-    #intro {
-        height: 75.8vw;
-    }
+@media (min-width:768px){
 
-    .home-carousel,
-    .home-carousel .owl-carousel,
-    .home-carousel .owl-stage-wrapper,
-    .home-carousel .owl-stage,
-    .home-carousel .owl-stage-outer,
-    .home-carousel .owl-item,
-    .home-carousel .item {
-        height: 75.8vw !important;
-    }
-
-    .item {
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+#intro{
+height:100svh;
 }
 
-.home-carousel .dark-mask {
-    display: none !important;
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer,
+.home-carousel .owl-stage,
+.home-carousel .owl-item,
+.home-carousel .item{
+height:100svh !important;
 }
 
-.owl-theme .owl-controls {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    z-index: 10;
 }
 
-.owl-theme .owl-controls .owl-page span {
-    background: #ffffff !important;
+/* スマホ */
+
+@media (max-width:767px){
+
+#intro{
+height:45vh;
+}
+
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer,
+.home-carousel .owl-stage,
+.home-carousel .owl-item,
+.home-carousel .item{
+height:45vh !important;
+}
+
+}
+
+.home-carousel .dark-mask{
+display:none !important;
+}
+
+.owl-theme .owl-controls{
+position:absolute;
+bottom:20px;
+width:100%;
+z-index:10;
+}
+
+.owl-theme .owl-controls .owl-page span{
+background:#ffffff !important;
 }
 
 #content,
-.homepage {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
+.homepage{
+padding-top:0 !important;
+margin-top:0 !important;
 }
+
 </style>
 {{ end }}
 {{ end }}
