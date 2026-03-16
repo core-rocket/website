@@ -25,7 +25,9 @@
     overflow: hidden;
 }
 
+
 @media (min-width: 768px) {
+
     #intro {
         height: 100vh;
     }
@@ -36,7 +38,7 @@
     .home-carousel .owl-stage, 
     .home-carousel .owl-item, 
     .home-carousel .item {
-        height: 100vh;
+        height: 100vh !important;
     }
 
     .item {
@@ -46,13 +48,18 @@
 }
 
 @media (max-width: 767px) {
+
     #intro {
-        height: auto;
+        height: auto !important;
     }
 
     .home-carousel,
+    .home-carousel .owl-carousel,
+    .home-carousel .owl-stage-wrapper,
+    .home-carousel .owl-stage,
+    .home-carousel .owl-item,
     .home-carousel .item {
-        height: auto;
+        height: auto !important;
     }
 
     .item {
