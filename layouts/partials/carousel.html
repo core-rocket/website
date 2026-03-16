@@ -23,23 +23,45 @@
     margin-top: -130px !important;
     padding: 0 !important;
     z-index: 1;
+    overflow: hidden;
 }
 
 .home-carousel .dark-mask,
 .home-carousel::before,
-.home-carousel::after,
-#intro::before,
-#intro::after {
+.home-carousel::after {
     display: none !important;
-    background: none !important;
-    box-shadow: none !important;
 }
 
 .item {
-    width: 100vw;
-    height: 100vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+    .item {
+        width: 100vw;
+        height: calc(100vh + 130px);
+    }
+}
+
+@media (max-width: 991px) {
+    #intro {
+        margin-top: -100px !important;
+    }
+    .item {
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 767px) {
+    #intro {
+        margin-top: -80px !important;
+    }
+    .item {
+        height: 40vh;
+    }
 }
 
 .owl-theme .owl-controls {
@@ -54,20 +76,8 @@
 }
 
 @media (max-width: 991px) {
-    #intro {
-        margin-top: -100px !important;
-    }
     .owl-theme .owl-controls {
-        bottom: 120px;
-    }
-}
-
-@media (max-width: 767px) {
-    #intro {
-        margin-top: -80px !important;
-    }
-    .owl-theme .owl-controls {
-        bottom: 100px;
+        bottom: 15px;
     }
 }
 </style>
