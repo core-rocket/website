@@ -1,22 +1,27 @@
 {{ if default true .Site.Params.CarouselHomepage.enable }}
 {{ if isset .Site.Data "carousel" }}
 {{ if gt (len .Site.Data.carousel) 0 }}
+
 <section id="intro">
-    <div class="home-carousel no-mb no-padding">
-        <div class="homepage owl-carousel"
-             data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
-             data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
-             data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
+<div class="home-carousel no-mb no-padding">
+<div class="homepage owl-carousel"
+data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
+data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
+data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
 
-            {{ range sort .Site.Data.carousel "weight" }}
-            <div class="item">
-                <img src="{{ .image | absURL }}" class="carousel-img">
-            </div>
-            {{ end }}
+{{ range sort .Site.Data.carousel "weight" }}
+<div class="item">
+<img src="{{ .image | absURL }}" class="carousel-img">
+</div>
+{{ end }}
 
-        </div>
-    </div>
+</div>
+</div>
 </section>
+
+<div class="mobile-hero">
+<img src="/img/hp2.jpg">
+</div>
 
 <style>
 
@@ -30,11 +35,20 @@ overflow:hidden;
 .carousel-img{
 width:100%;
 height:100%;
-object-fit:contain;
+object-fit:cover;
 display:block;
 }
 
-/* PC */
+.mobile-hero{
+display:none;
+width:100%;
+}
+
+.mobile-hero img{
+width:100%;
+height:auto;
+display:block;
+}
 
 @media (min-width:768px){
 
@@ -53,21 +67,44 @@ height:100svh !important;
 
 }
 
-/* スマホ */
+.mobile-hero{
+display:none;
+width:100%;
+height:45vh;
+overflow:hidden;
+}
+
+.mobile-hero img{
+width:100%;
+height:100%;
+object-fit:cover;
+object-position:center;
+display:block;
+}
+
+.mobile-hero{
+display:none;
+width:100%;
+height:45vh;
+overflow:hidden;
+}
+
+.mobile-hero img{
+width:100%;
+height:100%;
+object-fit:cover;
+object-position:center;
+display:block;
+}
 
 @media (max-width:767px){
 
 #intro{
-height:45vh;
+display:none;
 }
 
-.home-carousel,
-.home-carousel .owl-carousel,
-.home-carousel .owl-stage-outer,
-.home-carousel .owl-stage,
-.home-carousel .owl-item,
-.home-carousel .item{
-height:45vh !important;
+.mobile-hero{
+display:block;
 }
 
 }
@@ -94,6 +131,7 @@ margin-top:0 !important;
 }
 
 </style>
+
 {{ end }}
 {{ end }}
 {{ end }}
