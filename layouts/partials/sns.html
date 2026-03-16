@@ -33,63 +33,110 @@ margin-bottom:40px;
 border:none;
 }
 
-.sns-grid{
+.sns-top{
 display:flex;
 flex-wrap:wrap;
+align-items:center;
+margin-top:40px;
+}
+
+.sns-title{
+width:100%;
+text-align:left;
+}
+
+.sns-top-icons{
+display:flex;
 width:100%;
 }
 
-.sns-icon{
+.sns-top-icons .sns-icon{
+width:50%;
+}
+
+.sns-grid{
+display:flex;
+flex-wrap:wrap;
+}
+
+.sns-grid .sns-icon{
 width:25%;
+}
+
+.sns-icon{
 text-align:center;
 margin-bottom:20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+}
+
+.sns-icon a{
+height:80px;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
 .sns-icon img{
-width:80px;
+max-height:60px;
 max-width:100%;
 height:auto;
+width:auto;
 }
 
 .yt img{
-width:130px;
-max-width:100%;
+max-height:60px;
 }
 
 @media (min-width:767px){
 .space-top{
 margin-top:120px;
 }
+
 .sns h1{
 font-size:45pt;
 }
+
 .sns h2{
 font-size:25pt;
 }
+
 .sns h2 span{
 font-size:35pt;
+}
+
+.sns-top{
+display:block;
+}
+
+.sns-top-icons{
+display:block;
+}
+
+.sns-top-icons .sns-icon{
+width:auto;
 }
 }
 
 @media (max-width:767px){
-.space-top{
-margin-top:40px;
-}
 .sns h1{
 font-size:35pt;
 }
+
 .sns h2{
 font-size:15pt;
 }
+
 .sns h2 span{
 font-size:25pt;
 }
+
 .sns-icon img{
-width:40px;
+max-height:35px;
 }
-.yt img{
-width:65px;
-}
+
 .sns q{
 display:block;
 font-size:10px;
@@ -109,22 +156,24 @@ word-break:break-all;
 </div>
 </div>
 
-<div class="row space-top">
+<div class="sns-top">
 
-<div class="col-12 col-md-4">
+<div class="sns-title">
 <h2 style="color:#ffffff;">
 <span style="text-decoration:underline #da4d4d;">"新歓"</span>&nbsp;アカウント
 </h2>
 </div>
 
-<div class="col-6 col-md-4 sns-icon">
+<div class="sns-top-icons">
+
+<div class="sns-icon">
 <a href="https://x.com/CORE_Rocket">
 <img src="img/sns/x_w.png">
 </a>
 <q>@CORE_Rocket</q>
 </div>
 
-<div class="col-6 col-md-4 sns-icon">
+<div class="sns-icon">
 <a href="https://www.instagram.com/core_rocket">
 <img src="img/sns/insta.png">
 </a>
@@ -133,7 +182,15 @@ word-break:break-all;
 
 </div>
 
+</div>
+
 <hr class="hr1">
+
+<div class="sns-title">
+<h2 style="color:#ffffff;">
+<span style="text-decoration:underline #da4d4d;">"新歓"</span>&nbsp;アカウント
+</h2>
+</div>
 
 <div class="sns-grid">
 
