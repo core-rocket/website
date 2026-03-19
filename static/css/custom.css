@@ -44,7 +44,15 @@ body {
 
     .navbar-collapse {
         background-color: #1e1e1e94;
-        color: #ffffff;
+    }
+
+    .navbar-collapse a {
+        color: #fff;
+    }
+
+    .container .row{
+        margin-left:0;
+        margin-right:0;
     }
 }
 
