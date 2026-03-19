@@ -46,8 +46,8 @@ body {
         background-color: #1e1e1e94;
     }
 
-    .navbar-collapse a {
-        color: #fff;
+    .navbar-collapse .navbar-nav > li > a{
+        color:#fff !important;
     }
 
     .container .row{
