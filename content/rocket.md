@@ -1,4 +1,5 @@
 ---
 title: "Rocket"
-layout: rocket
+layout: single
+type: rocket
 ---
