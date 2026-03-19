@@ -1,4 +1,6 @@
 ---
 title: "History"
-layout: history
+layout: single
+type: history
 ---
+{{ .Layout }} / {{ .Type }}

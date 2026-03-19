@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1773660859" rel="stylesheet">
+<link href="/css/custom.css?1773915575" rel="stylesheet">
 
 
 
@@ -61,7 +61,7 @@
 
 
 
-
+<meta property="og:updated_time" content="2025-11-01T00:00:00Z">
 
 
 
@@ -239,63 +239,119 @@
         
 
 
+
 <section id="intro">
-    <div class="home-carousel no-mb no-padding" style="background: none !important;">
-        <div class="homepage owl-carousel"
-             data-autoplay="true"
-             data-slide-speed="2000"
-             data-pagination-speed="1000">
-            
-            
-            <div class="item" style="background: url('http://localhost:1313/img/hp1.jpg') center center no-repeat; background-size: cover; width: 100vh;">
-                </div>
-            
-            <div class="item" style="background: url('http://localhost:1313/img/hp1.jpg') center center no-repeat; background-size: cover; width: 100vh;">
-                </div>
-            
-            <div class="item" style="background: url('http://localhost:1313/img/hp1.jpg') center center no-repeat; background-size: cover; width: 100vh;">
-                </div>
-            
-            <div class="item" style="background: url('http://localhost:1313/img/hp1.jpg') center center no-repeat; background-size: cover; width: 100vh;">
-                </div>
-            
-        </div>
-    </div>
+<div class="home-carousel no-mb no-padding">
+<div class="homepage owl-carousel"
+data-autoplay="true"
+data-slide-speed="2000"
+data-pagination-speed="1000">
+
+
+<div class="item">
+<img src="http://localhost:1313/img/hp1.jpg" class="carousel-img">
+</div>
+
+<div class="item">
+<img src="http://localhost:1313/img/hp1.jpg" class="carousel-img">
+</div>
+
+<div class="item">
+<img src="http://localhost:1313/img/hp1.jpg" class="carousel-img">
+</div>
+
+<div class="item">
+<img src="http://localhost:1313/img/hp1.jpg" class="carousel-img">
+</div>
+
+
+</div>
+</div>
 </section>
 
+<div class="mobile-hero">
+<img src="/img/hp2.jpg">
+</div>
+
 <style>
-#intro {
-    position: relative;
-    width: 100%;
-    margin-top: -130px !important;
-    padding: 0 !important;
-    z-index: 1;
-    overflow: hidden;
+
+#intro{
+position:relative;
+width:100%;
+padding:0 !important;
+overflow:hidden;
 }
 
-.home-carousel .dark-mask {
-    display: none !important;
+.carousel-img{
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
 }
 
-.item {
-    width: 100%;
-    height: calc(100vh + 130px);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+@media (min-width:768px){
+
+#intro{
+height:100svh;
 }
 
-.owl-theme .owl-controls {
-    position: absolute;
-    bottom: 150px;
-    width: 100%;
-    z-index: 10;
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer,
+.home-carousel .owl-stage,
+.home-carousel .owl-item,
+.home-carousel .item{
+height:100svh !important;
 }
 
-.owl-theme .owl-controls .owl-page span {
-    background: #ffffff !important;
 }
+
+.mobile-hero{
+display:none;
+width:100%;
+}
+
+.mobile-hero img{
+width:100%;
+height:auto;
+display:block;
+}
+
+@media (max-width:767px){
+
+#intro{
+display:none;
+}
+
+.mobile-hero{
+display:block;
+}
+
+}
+
+.home-carousel .dark-mask{
+display:none !important;
+}
+
+.owl-theme .owl-controls{
+position:absolute;
+bottom:20px;
+width:100%;
+z-index:10;
+}
+
+.owl-theme .owl-controls .owl-page span{
+background:#ffffff !important;
+}
+
+#content,
+.homepage{
+padding-top:0 !important;
+margin-top:0 !important;
+}
+
 </style>
+
 
 
 
@@ -308,11 +364,9 @@
     .split-left-content {
         color: #303030;
     }
-
-     
     .video-container {
         position: relative;
-        padding-bottom: 56.25%;  
+        padding-bottom: 56.25%;
         height: 0;
         overflow: hidden;
         max-width: 100%;
@@ -342,20 +396,34 @@
         color: #da4d4d;
         background: #fff;
     }
+    .sns h2 {
+        font-size: 25pt;
+    }
+    
+
+    @media (max-width:767px){
+
+    .video-container{
+        margin-top: 50px;
+    }
+    .welcome h2 {
+        font-size: 20pt;
+    }
+    }
 </style>
 
 <section class="bar no-mb no-padding split-section welcome">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 split-left-content">
+            <div class="col-12 col-md-6 split-left-content">
                 <q style="color: #da4d4d; font-size: 10pt;">Welcome</q>
-                <h2 style="font-size: 25pt; color: #303030; border-left: 5pt solid #e69aa5; padding-left: 15px;">2026年度新歓</h2>
+                <h2 style="color: #303030; border-left: 5pt solid #e69aa5; padding-left: 15px;">2026年度新歓</h2>
                 <br>
                 <br>
-                <div class="heading text-center"><h2 style="color: #303030;font-size: 35pt;">新歓PV公開中！！</h2></div>
+                <div class="heading text-center"><h2 style="color: #303030;">新歓PV公開中！！</h2></div>
                 <a href=""class="btn_02">詳細はこちら</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-md-6">
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/ID3CWV6k8Fg?si=339YwT66QgE7JDSv" ...></iframe>
                 </div>
@@ -375,7 +443,6 @@
 	padding: 80px 0;
 	}
 
-	 
 	.aboutus-photo img {
 	width: 100%;
 	max-width: 500px;
@@ -384,7 +451,6 @@
 	transition: opacity 1s ease, transform 1s ease;
 	}
 
-	 
 	.aboutus-text {
 	opacity: 0;
 	transform: translateY(30px);
@@ -392,7 +458,6 @@
 	transition-delay: 0.2s;
 	}
 
-	 
 	.aboutus.is-show .aboutus-photo img {
 	opacity: 1;
 	transform: translateY(0) scale(1);
@@ -403,7 +468,6 @@
 	transform: translateY(0);
 	}
 
-	 
 	.aboutus q {
 	color: #da4d4d;
 	font-size: 10pt;
@@ -416,18 +480,31 @@
 	.aboutus h2 span {
 	font-size: 15pt;
 	}
+
+	@media (max-width:767px){
+
+    .aboutus-text{
+        margin-top: 50px;
+    }
+	.aboutus h2 {
+		font-size: 23pt;
+	}
+	.aboutus h2 span {
+		font-size: 10pt;
+	}
+    }
 	
 </style>
 
 <section class="bar no-mb no-padding aboutus js-fadein">
   <div class="container">
-    <div class="col-md-6 aboutus-photo">
+    <div class="col-12 col-md-6 aboutus-photo">
       <img src="/img/2.jpg" alt="About us">
     </div>
 
-    <div class="col-md-6 aboutus-text">
+    <div class="col12 col-md-6 aboutus-text">
       <q>About us</q>
-      <h2>CORE <span>(Challengers of Rocket Engineering) とは</span></h2>
+      <h2 class="aboutus-t">CORE <span>(Challengers of Rocket Engineering) とは</span></h2>
       <b>
         COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSatの製作・打上げを行っているサークルです．
         <br><br>
@@ -459,10 +536,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <section class="bar no-mb no-padding struct js-fadein">
   <div class="container">
-    <div class="row">
+    <div class="row g-4">
+      <div class="col-12 le-text">
         <q style="color: #da4d4d; font-size: 10pt;">Rocket</q>
         <h2 style="font-size: 25pt;">ロケット</h2><br>
-      <div class="col-md-3 struct-item">
+      </div>
+        
+      <div class="col-12 col-md-3 struct-item">
         <div class="struct-photo">
           <img src="/img/ab_r_struct.jpg" alt="">
           <div class="struct-overlay">
@@ -472,7 +552,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-      <div class="col-md-3 struct-item">
+      <div class="col-12 col-md-3 struct-item">
         <div class="struct-photo">
           <img src="/img/avio.jpg" alt="">
           <div class="struct-overlay">
@@ -482,7 +562,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-      <div class="col-md-3 struct-item">
+      <div class="col-12 col-md-3 struct-item">
         <div class="struct-photo">
           <img src="/img/burn.jpg" alt="">
           <div class="struct-overlay">
@@ -492,7 +572,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-      <div class="col-md-3 struct-item">
+      <div class="col-12 col-md-3 struct-item">
         <div class="struct-photo">
           <img src="/img/sim.png" alt="">
           <div class="struct-overlay">
@@ -506,13 +586,11 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </section>
 <style>
-    .struct {
+.struct {
   background-color: #ffffff;
   color: #303030;
 }
 .struct-item {
-  padding-left: -20px;
-  padding-right: -20px;
   margin-bottom: 20px;
 }
 
@@ -524,6 +602,7 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 .struct-photo {
   position: relative;
+  width: 100%;
   max-width: 300px;
   height: 500px;
   overflow: hidden;
@@ -606,6 +685,10 @@ document.addEventListener("DOMContentLoaded", () => {
     height: 240px;    
     margin-bottom: 20px;
   }
+
+  .le-text {
+    margin-left: 20px;
+  }
 }
 </style>
 <script>
@@ -629,115 +712,248 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         <style>
-    .sns{
-        background-image: url(img/fig_1.jpg);
-        background-size: cover;
-        background-position: center;
+.sns{
+background-image:url(img/fig_1.jpg);
+background-size:cover;
+background-position:center;
+text-align:center;
+color:#ffffff;
+font-weight:600;
+position:relative;
+}
 
-        text-align: center;
-        color: #ffffff;
-        font-weight: 600;
-    }
-    .space{
-        margin-top: 90px;
-        margin-bottom: 90px;
-    }
-    .space1{
-        margin-top: 240px;
-        margin-bottom: 40px;
-    }
-    .yt{
-        margin-top: -20px;
-    }
-    .img-overlay {
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.7)
-        );
-    }
-    .hr1{
-        height: 2px;
-        background-color: #ffffff;
-        width: 1100px;
-        margin-top: 30px;
-        margin-bottom: 90px;
-    }
+.img-overlay{
+position:absolute;
+inset:0;
+background:linear-gradient(
+to top,
+rgba(0,0,0,0.5),
+rgba(0,0,0,0.8)
+);
+z-index:1;
+}
+
+.sns .container{
+position:relative;
+z-index:2;
+}
+
+.hr1{
+height:2px;
+background-color:#ffffff;
+margin-bottom:40px;
+border:none;
+}
+
+.sns-top{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+margin-top:40px;
+}
+
+.sns-title{
+width:100%;
+text-align:left;
+}
+
+.sns-top-icons{
+display:flex;
+width:100%;
+}
+
+.sns-top-icons .sns-icon{
+width:50%;
+}
+
+.sns-grid{
+display:flex;
+flex-wrap:wrap;
+}
+
+.sns-grid .sns-icon{
+width:25%;
+}
+
+.sns-icon{
+text-align:center;
+margin-bottom:20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+}
+
+.sns-icon a{
+height:80px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.sns-icon img{
+max-height:80px;
+max-width:100%;
+height:auto;
+width:auto;
+}
+
+.yt img{
+max-height: 130px;
+}
+
+@media (min-width:767px){
+.space-top{
+margin-top:120px;
+}
+
+.sns h1{
+font-size:45pt;
+}
+
+.sns h2{
+font-size:25pt;
+}
+
+.sns h2 span{
+font-size:35pt;
+}
+
+.sns-top{
+display:block;
+}
+.sms-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width:767px){
+.sns h1{
+font-size:35pt;
+}
+
+.sns h2{
+font-size:15pt;
+}
+
+.sns h2 span{
+font-size:25pt;
+}
+
+.sns-icon img{
+max-height:40px;
+}
+
+.sns q{
+display:block;
+font-size:10px;
+word-break:break-all;
+}
+.yt img{
+    max-height: 65px;
+}
+}
 </style>
 
 <section class="bar no-mb no-padding split-section sns">
-    <div class="img-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 style="text-align: left; font-size: 45pt; color: #ffffff;">SNSは<br>こちらから</h2>
-            </div>
-            <div class="space1"></div>
-            <div class="col-md-4">
-                <br>
-                <h2 style="font-size: 25pt; color: #ffffff;"><span style="text-decoration: underline #da4d4d; font-size: 35pt;">"新歓"</span>&nbsp;アカウント</h2>
-            </div>
-            <div class="col-md-4" x_log>
-                <a href="https://x.com/CORE_Rocket">
-                    <img src="img/sns/x_w.png" width="80px">
-                </a><br>
-                <br><q>@CORE_Rocket</q>
-            </div>
-            <div class="col-md-4">
-                <a href="https://www.instagram.com/core_rocket">
-                    <img src="img/sns/insta.png" width="80px">
-                </a><br>
-                <br><q>core_rocket</q>
-            </div>
-        </div>
-        <div class="col-md-12"><hr class="hr1"></div>
-        <div class="space"></div>
-        <div class="row">
-            <div class="col-md-4">
-                <br>
-                <h2 style="font-size: 25pt; color: #ffffff;">通常アカウント</h2>
-            </div>
-            <div class="col-md-2" x_log>
-                <a href="https://x.com/CORE_Rocket">
-                    <img src="img/sns/x_w.png" width="80px">
-                </a><br>
-                <br><q>@CORE_Rocket</q>
-            </div>
-            <div class="col-md-2">
-                <a href="https://www.instagram.com/core_rocket">
-                    <img src="img/sns/insta.png" width="80px">
-                </a><br>
-                <br><q>core_rocket</q>
-            </div>
-            <div class="col-md-2 yt">
-                <a href="https://www.youtube.com/@corerockets">
-                    <img src="img/sns/yt.png" width="130px">
-                </a>
-                <br><q>@corerockets</q>
-            </div>
-            <div class="col-md-2">
-                <a href="https://lin.ee/ygiruVC">
-                    <img src="img/sns/line.png" width="80px">
-                </a><br>
-                <br><q>@217rvskv</q>
-            </div>
-        </div>
-        <div class="col-md-12"><hr class="hr1"></div>
-    </div>
+<div class="img-overlay"></div>
+
+<div class="container">
+
+<div class="row">
+<div class="col-12 le-text">
+<h1 style="text-align:left;color:#ffffff;">SNSは<br>こちらから</h1>
+</div>
+</div>
+
+<div class="sns-top">
+
+<div class="sns-title le-text">
+<h2 style="color:#ffffff;">
+<span style="text-decoration:underline #da4d4d;">"新歓"</span>&nbsp;アカウント
+</h2>
+</div>
+
+<div class="sns-top-icons">
+
+<div class="sns-icon">
+<a href="https://x.com/CORE_Rocket">
+<img src="img/sns/x_w.png">
+</a>
+<q>@CORE_Rocket</q>
+</div>
+
+<div class="sns-icon">
+<a href="https://www.instagram.com/core_rocket">
+<img src="img/sns/insta.png">
+</a>
+<q>core_rocket</q>
+</div>
+
+</div>
+
+</div>
+
+<hr class="hr1">
+
+<div class="sns-title le-text">
+<h2 style="color:#ffffff;">通常アカウント</h2>
+</div>
+
+<div class="sns-grid">
+
+<div class="sns-icon">
+<a href="https://x.com/CORE_Rocket">
+<img src="img/sns/x_w.png">
+</a>
+<q>@CORE_Rocket</q>
+</div>
+
+<div class="sns-icon">
+<a href="https://www.instagram.com/core_rocket">
+<img src="img/sns/insta.png">
+</a>
+<q>core_rocket</q>
+</div>
+
+<div class="sns-icon yt">
+<a href="https://www.youtube.com/@corerockets">
+<img src="img/sns/yt.png">
+</a>
+<q>@corerockets</q>
+</div>
+
+<div class="sns-icon">
+<a href="https://lin.ee/ygiruVC">
+<img src="img/sns/line.png">
+</a>
+<q>@217rvskv</q>
+</div>
+
+</div>
+
+<hr class="hr1">
+
+</div>
 </section>
                 
         <style>
 	.core-rocket-chan{
 		background-color: #ffffff;
 		color: #303030;
+        width: 100%;
+	}
+
+	.core-rocket-chan img{
+		width:70%;
+		height:auto;
 	}
 </style>
 
 <section class="bar no-mb no-padding core-rocket-chan">
     <div class="container">
-        <div class="col-md-12">
+        <div class="col-12 ">
 			<q style="color: #da4d4d; font-size: 10pt;">CORE-Rocket-chan</q>
 			<div class="heading text-left"><h2>COREロケットちゃん</h2></div><br>
             <div style="text-align: center;">
@@ -789,7 +1005,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <section class="bar no-mb no-padding custom-section">
     <div class="container">
-        <div class="col-md-12">
+        <div class="col-12 col-md-12">
 			<q style="color: #da4d4d; font-size: 10pt;">News</q>
 			<h2>お知らせ</h2>
             
