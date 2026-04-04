@@ -8,6 +8,10 @@ title: "About us"
         color: #303030 !important; 
 		margin-top: 0px !important; 
     }
+
+    .about p{
+        font-size: 12px;
+    }
     .about h2, 
     .about h3 {
         color: #303030 !important;
@@ -83,6 +87,19 @@ title: "About us"
 
     .activity-card:hover img{
     transform:scale(1.05);
+    }
+
+    @media (max-width: 991px) {
+        .about {
+            margin-top: 150px;
+        }
+        .about p {
+            font-size: 11px;
+        }
+
+        .activity-card img {
+            width: 70%;
+        }
     }
 </style>
 
