@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1773915575" rel="stylesheet">
+<link href="/css/custom.css?1775313181" rel="stylesheet">
 
 
 
@@ -253,7 +253,7 @@ data-pagination-speed="1000">
 </div>
 
 <div class="item">
-<img src="http://localhost:1313/img/hp1.jpg" class="carousel-img">
+<img src="http://localhost:1313/img/hp4.jpg" class="carousel-img">
 </div>
 
 <div class="item">
@@ -275,9 +275,14 @@ data-pagination-speed="1000">
 
 <style>
 
+html, body{
+overflow-x:hidden;
+}
+
 #intro{
 position:relative;
-width:100%;
+width:100vw;
+margin:0;
 padding:0 !important;
 overflow:hidden;
 }
@@ -287,12 +292,38 @@ width:100%;
 height:100%;
 object-fit:cover;
 display:block;
+max-width:100%;
+}
+
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer{
+width:100%;
+max-width:100%;
+overflow:hidden;
+}
+
+.owl-item{
+overflow:hidden;
+}
+
+.owl-stage{
+max-width:100% !important;
+transform:translate3d(0,0,0);
+}
+
+#intro .container,
+#intro .row{
+padding-left:0 !important;
+padding-right:0 !important;
+margin:0 !important;
+max-width:100% !important;
 }
 
 @media (min-width:768px){
 
 #intro{
-height:100svh;
+height:100vh;
 }
 
 .home-carousel,
@@ -301,7 +332,7 @@ height:100svh;
 .home-carousel .owl-stage,
 .home-carousel .owl-item,
 .home-carousel .item{
-height:100svh !important;
+height:100vh !important;
 }
 
 }
@@ -325,6 +356,17 @@ display:none;
 
 .mobile-hero{
 display:block;
+}
+
+.homepage,
+.owl-carousel,
+.owl-stage-outer{
+width:100% !important;
+overflow:hidden !important;
+}
+
+.owl-stage{
+transform:none !important;
 }
 
 }
@@ -421,7 +463,7 @@ margin-top:0 !important;
                 <br>
                 <br>
                 <div class="heading text-center"><h2 style="color: #303030;">新歓PV公開中！！</h2></div>
-                <a href=""class="btn_02">詳細はこちら</a>
+                <a href="welcome_2026"class="btn_02">詳細はこちら</a>
             </div>
             <div class="col-12 col-md-6">
                 <div class="video-container">
@@ -543,6 +585,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
         
       <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#structure">
         <div class="struct-photo">
           <img src="/img/ab_r_struct.jpg" alt="">
           <div class="struct-overlay">
@@ -550,9 +593,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>構造班</h3>
           </div>
         </div>
+        </a>
       </div>
 
       <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#avionics">
         <div class="struct-photo">
           <img src="/img/avio.jpg" alt="">
           <div class="struct-overlay">
@@ -560,9 +605,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>電装班</h3>
           </div>
         </div>
+        </a>
       </div>
 
       <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#engine">
         <div class="struct-photo">
           <img src="/img/burn.jpg" alt="">
           <div class="struct-overlay">
@@ -570,9 +617,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>推進系</h3>
           </div>
         </div>
+        </a>
       </div>
 
       <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#sim">
         <div class="struct-photo">
           <img src="/img/sim.png" alt="">
           <div class="struct-overlay">
@@ -580,6 +629,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>Sim班</h3>
           </div>
         </div>
+        </a>
       </div>
 
     </div>
@@ -1160,6 +1210,32 @@ word-break:break-all;
         border-left:1px solid rgba(255,255,255,0.2);
         border-right:1px solid rgba(255,255,255,0.2);
     }
+
+    @media (max-width:768px){
+
+    .logo_l{
+    text-align:center;
+    border:none;
+    padding:30px 10px;
+    }
+
+    .logo_l img{
+    display:block;
+    margin:0 auto;
+    height:200px;
+    }
+
+    .fot_col{
+    border:none;
+    margin-left:0;
+    padding:20px 10px;
+    }
+
+    #footer .container > div{
+    margin-bottom:20px;
+    }
+
+    }
 </style>
 
 <footer id="footer">
@@ -1177,11 +1253,11 @@ word-break:break-all;
         <div style="margin-top: 40px;"></div>
         <a href="/rocket"><h4>ロケット</h4></a>
         <ul>
-        <li><a href="">構造班</a></li>
-        <li><a href="">電装班</a></li>
-        <li><a href="">エンジン班</a></li>
-        <li><a href="">燃焼班</a></li>
-        <li><a href="">sim班</a></li>
+        <li><a href="/rocket/#structure">構造班</a></li>
+        <li><a href="/rocket/#avionics">電装班</a></li>
+        <li><a href="/rocket/#engine">エンジン班</a></li>
+        <li><a href="/rocket/#fire">燃焼班</a></li>
+        <li><a href="/rocket/#sim">sim班</a></li>
         </ul>
         <div style="margin-top: 40px;"></div>
         <a href="/history"><h4>COREの機体</h4></a>

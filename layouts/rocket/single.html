@@ -84,6 +84,23 @@ opacity:1;
 transform:translateY(0);
 }
 
+.abouthybrid b {
+    font-size: 12pt;
+    line-height: 2;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coreroke_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 </style>
 
 </head>
@@ -103,6 +120,19 @@ transform:translateY(0);
 <q style="color:#da4d4d;font-size:10pt;">Rocket</q>
 <h2>ロケット</h2>
 
+<div class="row abouthybrid flex-row">
+    <div class="col-xs-7">
+        <div class="heading text-left"><h2 style="font-size: 15pt;">学生の作るロケット</h2></div>
+        <b>
+          COREを含め能代宇宙イベントなどの共同打上実験に参加している学生ロケット団体は，"ハイブリッド"という推進方式を用いたエンジンを使用しています．<br>
+          学生のみで設計・制作・安全の検証を行い，打上げを行っています．
+        </b>
+    </div>
+    <div class="col-xs-5 coreroke_img">
+        <img src="/img/coreroke/coreroke_1.jpg" width="40%" >
+    </div>
+</div>
+
 <div class="rocket-tabs">
 
 <div class="rocket-tab-buttons">
@@ -113,6 +143,7 @@ transform:translateY(0);
 <button class="tab-btn" data-tab="avionics">Avionics</button>
 <button class="tab-btn" data-tab="engine">Engine</button>
 <button class="tab-btn" data-tab="fire">Fire</button>
+<button class="tab-btn" data-tab="sim">Sim</button>
 
 </div>
 
@@ -148,6 +179,12 @@ transform:translateY(0);
 {{ end }}
 </div>
 
+<div class="tab-panel" id="sim">
+{{ with site.GetPage "/rocket-tabs/sim" }}
+{{ .Content }}
+{{ end }}
+</div>
+
 </div>
 
 </div>
@@ -160,38 +197,54 @@ transform:translateY(0);
 </div>
 
 {{ partial "scripts.html" . }}
-
 <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".tab-btn");
+  const panels = document.querySelectorAll(".tab-panel");
+  const line = document.querySelector(".tab-line");
 
-const buttons=document.querySelectorAll(".tab-btn")
-const panels=document.querySelectorAll(".tab-panel")
-const line=document.querySelector(".tab-line")
+  function moveLine(btn) {
+    if (!btn) return;
+    line.style.width = btn.offsetWidth + "px";
+    line.style.left = btn.offsetLeft + "px";
+  }
+  function activateTab(tabId) {
+    const targetBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+    const targetPanel = document.getElementById(tabId);
 
-function moveLine(btn){
-line.style.width=btn.offsetWidth+"px"
-line.style.left=btn.offsetLeft+"px"
-}
+    if (targetBtn && targetPanel) {
+      buttons.forEach(b => b.classList.remove("active"));
+      panels.forEach(p => p.classList.remove("active"));
 
-buttons.forEach(btn=>{
+      targetBtn.classList.add("active");
+      targetPanel.classList.add("active");
+      
+      moveLine(targetBtn);
+    }
+  }
 
-btn.addEventListener("click",()=>{
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.tab;
+      activateTab(id);
+      window.history.replaceState(null, null, "#" + id);
+    });
+  });
+  const initialHash = window.location.hash.replace('#', '');
+  
+  if (initialHash) {
+    setTimeout(() => {
+      activateTab(initialHash);
+    }, 100);
+  } else {
+    moveLine(document.querySelector(".tab-btn.active"));
+  }
 
-buttons.forEach(b=>b.classList.remove("active"))
-panels.forEach(p=>p.classList.remove("active"))
-
-btn.classList.add("active")
-
-const id=btn.dataset.tab
-document.getElementById(id).classList.add("active")
-
-moveLine(btn)
-
-})
-
-})
-
-moveLine(document.querySelector(".tab-btn.active"))
-
+  window.addEventListener("resize", () => {
+    const activeBtn = document.querySelector(".tab-btn.active");
+    moveLine(activeBtn);
+  });
+});
 </script>
 
 </body>
