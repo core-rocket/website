@@ -1,0 +1,13 @@
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- if $image -}}
+  {{/* 画質90%（ほぼ劣化なし）のWebPに変換。幅はPCサイトで十分な1600pxに設定 */}}
+  {{- $optimized := $image.Resize "1600x webp q90" -}}
+  <img src="{{ $optimized.RelPermalink }}" 
+       width="{{ $optimized.Width }}" 
+       height="{{ $optimized.Height }}" 
+       alt="{{ .Text }}" 
+       loading="lazy" 
+       style="max-width: 100%; height: auto;">
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy">
+{{- end -}}
