@@ -33,7 +33,7 @@
 
 
 
-<link href="/css/custom.css?1775311662" rel="stylesheet">
+<link href="/css/custom.css?1776433853" rel="stylesheet">
 
 
 
@@ -248,6 +248,9 @@
         color: #303030 !important; 
 		margin-top: 0px !important; 
     }
+    .about b {
+        font-size: 12pt;
+    }
     .about h2, 
     .about h3 {
         color: #303030 !important;
@@ -324,40 +327,98 @@
     .activity-card:hover img{
     transform:scale(1.05);
     }
+    .about-space1 {
+        height: 50px;
+    }
+    .about-space2 {
+        height: 80px;
+    }
+    .about-coreroke img{
+        width: 70%;
+    }
+    .about-coreroke {
+        margin-top: 50px;
+    }
+
+    @media (max-width:1199px) {
+        .about-coreroke img{
+            width: 80%;
+        }
+        .about-coreroke {
+            margin-top: 60px;
+        }
+    }
+    @media (max-width: 991px) {
+        .about b {
+            font-size: 11pt;
+        }
+
+        .about-wi {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+        .about-space1 {
+            height: 120px;
+        }
+        .about-coreroke img{
+            width: 30%;
+        }
+    }
+    @media (max-width: 767px) {
+        .activity-title {
+            font-size: 25px;
+        }
+        .about-space1 {
+            height: 50px;
+        }
+        .about-space2 {
+            height: 40px;
+        }
+        .about-coreroke img{
+            width: 40%;
+        }
+    }
 </style>
 
 <section class="bar no-mb no-padding about">
     <div class="container">
-        <div class="col-md-12">
+        <div class="about-space1"></div>
+        <div class="col-xs-12 col-md-8">
             <q style="color: #da4d4d; font-size: 10pt;">Profile</q>
 			<h2>COREとは</h2>
-            <p>
+            <b>
                 COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．<br>
                 <br>
                 航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．<br>
                 <br>
                 COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，
                 プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．
-            </p>
+            </b>
         </div>
-        <div class="col-md-12 prof">
+        <div class="col-xs-12 col-md-4 about-coreroke">
+            <img src="/img/coreroke/coreroke_5.jpg">
+        </div>
+        <div class="col-xs-12 about-space2"></div>
+        <div class="col-xs-12 prof">
             <q style="color: #da4d4d; font-size: 10pt;">Profile</q>
 			<h2>活動情報</h2>
         </div>
-        <div class="col-md-5">
+        <div class="col-xs-12 col-md-6 about-wi">
         <a href="/activity/2025/" class="activity-card">
             <img src="/img/15.jpg" alt="">
             <div class="activity-title">2025年度</div>
         </a>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-xs-12 col-md-6 about-wi">
         <a href="/activity/2025/" class="activity-card">
             <img src="/img/2.jpg" alt="">
             <div class="activity-title">2026年度</div>
         </a>
         </div>
-        <div class="col-md-12 prof">
+        <div class="col-xs-12 about-space2"></div>
+        <div class="col-xs-12 prof">
 			<q style="color: #da4d4d; font-size: 10pt;">Profile</q>
 			<h2>団体概要</h2>
             <table>

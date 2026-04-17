@@ -84,6 +84,28 @@ layout: single
         color: #28385f;
         margin-bottom: 70px;
     }
+
+    @media (max-width:1200px) {
+        .slides {
+            aspect-ratio: 1/1;
+        }
+        .overview b {
+            font-size: 11pt;
+        }
+    }
+    @media (max-width: 991px) {
+        .slides {
+            aspect-ratio: 16/9;
+        }
+        .slideshow {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .overview-space {
+            height: 60px;
+        }
+    }
 </style>
 
 <div class="bar no-mb no-padding overview">
@@ -98,6 +120,7 @@ layout: single
                 <br><br>これらを軸に，性能や計画を詰め，プロジェクトの方向性を決定します．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 
@@ -175,6 +198,7 @@ layout: single
                 共同打上実験の安全監督や，責任者の許可のもと，PMが点火シークエンスを行い，実際にロケットを打ち上げます．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 

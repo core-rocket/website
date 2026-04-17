@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1775311663" rel="stylesheet">
+<link href="/css/custom.css?1776437323" rel="stylesheet">
 
 
 
@@ -76,13 +76,18 @@
 
 <style>
 
+.rocket {
+  background-color: #fff;
+}
+
 .rocket-tabs{
 margin-top:60px;
 }
 
 .rocket-tab-buttons{
 display:flex;
-gap:42px;
+flex-wrap: wrap;
+gap:20px 42px;
 border-bottom:1px solid #e8e8e8;
 position:relative;
 padding-bottom:12px;
@@ -168,6 +173,39 @@ transform:translateY(0);
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+.coreroke_img img {
+  width: 50%;
+}
+.rocket-space {
+  height: 100px;
+}
+
+@media (max-width: 991px){
+  .rocket-space {
+    height: 180px;
+  }
+  .coreroke_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coreroke_img img {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .coreroke_img img {
+    width: 0px;
+  }
+  .tab-line {
+    display: none;
+  }
+
+  .tab-btn.active {
+    border-bottom: 2px solid #da4d4d;
+  }
 }
 
 </style>
@@ -334,24 +372,24 @@ transform:translateY(0);
 
 
 
+<section class="bar no-mb no-padding rocket">
 <div id="content">
-<div class="container">
+<div class="container rocket">
 
-<div style="margin-top:70px;"></div>
+<div class="rocket-space"></div>
 
 <q style="color:#da4d4d;font-size:10pt;">Rocket</q>
 <h2>ロケット</h2>
-
 <div class="row abouthybrid flex-row">
-    <div class="col-xs-7">
+    <div class="col-xs-12 col-sm-7">
         <div class="heading text-left"><h2 style="font-size: 15pt;">学生の作るロケット</h2></div>
         <b>
           COREを含め能代宇宙イベントなどの共同打上実験に参加している学生ロケット団体は，"ハイブリッド"という推進方式を用いたエンジンを使用しています．<br>
-          学生のみで設計・制作・安全の検証を行い，打上げを行っています．
+          3DCADソフトなどのソフトを用いた設計，工作機械を使用した加工・製作から，安全の検証までを学生のみで行い，打上げに挑んでいます．
         </b>
     </div>
-    <div class="col-xs-5 coreroke_img">
-        <img src="/img/coreroke/coreroke_1.jpg" width="40%" >
+    <div class="col-xs-0 col-sm-5 coreroke_img">
+        <img src="/img/coreroke/coreroke_1.jpg">
     </div>
 </div>
 
@@ -455,6 +493,28 @@ transform:translateY(0);
         color: #28385f;
         margin-bottom: 70px;
     }
+
+    @media (max-width:1200px) {
+        .slides {
+            aspect-ratio: 1/1;
+        }
+        .overview b {
+            font-size: 11pt;
+        }
+    }
+    @media (max-width: 991px) {
+        .slides {
+            aspect-ratio: 16/9;
+        }
+        .slideshow {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .overview-space {
+            height: 60px;
+        }
+    }
 </style>
 
 <div class="bar no-mb no-padding overview">
@@ -469,6 +529,7 @@ transform:translateY(0);
                 <br><br>これらを軸に，性能や計画を詰め，プロジェクトの方向性を決定します．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 
@@ -546,6 +607,7 @@ transform:translateY(0);
                 共同打上実験の安全監督や，責任者の許可のもと，PMが点火シークエンスを行い，実際にロケットを打ち上げます．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 
@@ -835,6 +897,22 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         color: #28385f;
         margin-bottom: 70px;
     }
+
+    @media (min-width:992px) {
+        .structure-md {
+            display: none;
+        }
+    }
+    @media (max-width:991px) and (min-width:767px){
+        .structure-sm {
+            display: none;
+        }
+    }
+    @media (max-width:767px){
+        .structure-xs {
+            display: none;
+        }
+    }
 </style>
 
 <div class="bar no-mb no-padding structure">
@@ -849,6 +927,7 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 また，CFRPやアルミなどの材料について，シミュレーションによる強度評価や，実機実験を行い軽量化を行います．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 
@@ -876,10 +955,26 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         </div>
         <div class="col-md-12" style="height: 150px;"></div>
         <div class="col-md-6"></div>
-        <div class="col-md-3"><h2>ノーズ部</h2></div>
-        <div class="col-md-3"><h2>開放部</h2></div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-3"><h2>ノーズ部</h2></div>
+        <div class="col-sm-6 col-md-3 structure-xs"><h2>開放部</h2></div>
+        <div class="col-sm-6 structure-md">
+            <b style="margin-bottom: 80px;">
+                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
+                制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
+                開放の構成によって，ノーズが開放する場合もあります．
+            </b>
+        </div>
+        <div class="col-xs-12 structure-sm structure-md"><h2>開放部</h2></div>
+        <div class="col-sm-6 structure-md"> 
+            <b style="margin-bottom: 10px;">
+                ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．
+                機体の一部を開放させることで，そのパラシュートを放出しています．
+                開放部では，それらの機構を設計・開発します．
+            </b>
+        </div>
+        <div class="col-xs-12 col-md-6">
              <div class="slideshow">
+                <div class="overview-space"></div>
 
                 <div class="slides">
 
@@ -907,38 +1002,53 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 structure-xs structure-sm">
             <b style="margin-bottom: 80px;">
                 ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
                 制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
                 開放の構成によって，ノーズが開放する場合もあります．
             </b>
         </div>
-        <div class="col-md-3"> 
+        <div class="col-md-3 structure-xs structure-sm"> 
             <b style="margin-bottom: 10px;">
                 ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．
                 機体の一部を開放させることで，そのパラシュートを放出しています．
                 開放部では，それらの機構を設計・開発します．
             </b>
         </div>
-        <div class="col-md-12" style="height: 150px;"></div>
-        <div class="col-md-3"><h2>電装部</h2></div>
-        <div class="col-md-3"><h2>推進部</h2></div>
-        <div class="col-md-6" style="height: 130px;"></div>
-        <div class="col-md-3">
+        <div class="col-xs-12 col-md-12" style="height: 150px;"></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><h2>電装部</h2></div>
+        <div class="col-xs-6 col-md-3 structure-xs"><h2>推進部</h2></div>
+        <div class="col-xs-12 col-sm-6 structure-md">
             <b>
                 データログを収集また，開放を操作する電装を格納する構造部です．<br>
                 海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
+                <div class="overview-space"></div>
             </b>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-12 structure-sm structure-md"><h2>推進部</h2></div>
+        <div class="col-xs-12 col-sm-6 structure-md">
             <b>
                 推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
 
             </b>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" style="height: 130px;"></div>
+        <div class="col-md-3 structure-sm structure-xs">
+            <b>
+                データログを収集また，開放を操作する電装を格納する構造部です．<br>
+                海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
+            </b>
+        </div>
+        <div class="col-md-3 structure-sm structure-xs">
+            <b>
+                推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
+
+            </b>
+        </div>
+        <div class="col-xs-12 col-md-6">
              <div class="slideshow">
+            <div class="overview-space"></div>
 
                 <div class="slides">
 
@@ -1047,11 +1157,11 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 <div class="bar no-mb no-padding engine">
     <div class="container">
     <div class="row">
-        <h2>ハイブリッドロケットとは</h2>
+        <h2>エンジン</h2>
         <div class="col-md-6"> 
-             <b>
-                COREを含め，能代宇宙イベントなどの，共同打上実験に参加している，学生ロケット団体は，"ハイブリッドロケット"という形式のエンジンを使用しています．<br>
-                ハイブリットロケットは火薬や扱いの難しい液体酸素を用いずに，液体の酸化剤と固体のプラスチックという2つの物質を扱う安全なエンジンを用いたロケットです．
+             <b style="margin-top: 30px;">
+                ハイブリットロケットのエンジンは火薬や扱いの難しい液体酸素を用いずに，液体の亜酸化窒素と固体のプラスチックの2つの物質を扱う安全なエンジンを用いたロケットです．<br><br>
+                COREでは，市販であるHyperTEK社のエンジンを用いた打上げから始まり，現在では，エンジンを自ら設計し制作しています．
             </b>
         </div>
         <div class="col-md-6">
@@ -1108,7 +1218,46 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
             </div>
         </div>
         <div class="col-md-6">
-            <b></b>
+            <b style="margin-top: 20px;">
+                目標とする飛翔高度や想定される機体の重量などから必要な推力及びトータルインパルス(力積の合計)を見積もり，それらを満たすサイズのエンジンを設計しタンク容量を決定します．<br>
+                液体の亜酸化窒素を放出するインジェクタ部や，ノズル部においても，独自の設計を反映し，燃焼の高効率化を目指しています．<br>
+                また，固体のプラスチック燃料部に関しても，燃焼の高効率化のために，3Dプリンタを用いた燃料の開発を行っています．
+
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2>製作・試験</h2></div>
+        <div class="col-md-6"> 
+             <b style="margin-top: 30px;">
+                設計を基に，CNC旋盤やフライス盤を用いて，加工を行います．<br><br>
+                燃焼試験を通して，実際に設計した推力・トータルインパルスを得ることができるか検証を行います．
+                2回の試験結果が，設計値に対して適切な範囲に収まっていることで，そのエンジンを，実際に打上げで使用することができます．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_7.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
         </div>
     </div>
     </div>
@@ -1171,13 +1320,357 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 
 <div class="tab-panel" id="fire">
 
+<style>
+    .fire{
+        background-color: #FFF;
+    }
 
+    .fire b {
+        display: block;
+        width: 85%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fire h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+    
+</style>
+
+<div class="bar no-mb no-padding fire">
+    <div class="container">
+    <div class="row">
+        <h2>燃焼</h2>
+        <div class="col-md-6"> 
+             <b style="margin-top: 30px;">
+                燃焼班では，エンジンの点火に用いるGSEの作成・管理を行う．<br><br>
+                GSE(Ground Support Equipment)とは，ロケットの燃料である亜酸化窒素・酸素及び，駆動部に使う窒素のラインを管理するシステムである．
+                打ち上げ当日はもちろん，エンジンの検証を行う燃焼試験でも必要不可欠なシステムである．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_7.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>燃焼試験</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="データに基づいて方向性を決める">
+                        <img src="/img/engine/engine_4.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="解析作業">
+                        <img src="/img/engine/engine_5.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="レビュー">
+                        <img src="/img/engine/engine_6.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b style="margin-top: 20px;">
+                
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2></h2></div>
+        <div class="col-md-6"> 
+             <b style="margin-top: 30px;">
+                
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_7.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>
 
 </div>
 
 <div class="tab-panel" id="sim">
 
+<style>
+    .sim{
+        background-color: #FFF;
+    }
 
+    .sim b {
+        display: block;
+        width: 85%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sim h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+    
+</style>
+
+<div class="bar no-mb no-padding sim">
+    <div class="container">
+    <div class="row">
+        <h2>Simulation</h2>
+        <div class="col-md-6"> 
+             <b style="margin-top: 30px;">
+                Simでは，
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_7.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>設計</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="データに基づいて方向性を決める">
+                        <img src="/img/engine/engine_4.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="解析作業">
+                        <img src="/img/engine/engine_5.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="レビュー">
+                        <img src="/img/engine/engine_6.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b style="margin-top: 20px;">
+                
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2></h2></div>
+        <div class="col-md-6"> 
+             <b style="margin-top: 30px;">
+                
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_7.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.jpg">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>
 
 </div>
 
@@ -1299,6 +1792,7 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 
 
 </div>
+</body>
 
 
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

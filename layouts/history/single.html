@@ -11,7 +11,7 @@
 <style>
 
 .projects-page{
-max-width:1100px;
+max-width:1170px;
 margin:auto;
 padding-top:80px;
 padding-bottom:60px;
@@ -200,7 +200,16 @@ font-size:14px;
 color:#888;
 letter-spacing:.03em;
 }
-@media (max-width: 768px){
+.history-space {
+    height: 50px;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .history-space {
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px){
 
 .projects-page{
 max-width: 92%;
@@ -252,6 +261,7 @@ font-size:23px;
 <div id="content">
 
 <div class="projects-page">
+<div class="history-space"></div>
 
 <q style="color: #da4d4d; font-size: 10pt;">History</q>
 <h2>COREの歴代ロケット</h2>

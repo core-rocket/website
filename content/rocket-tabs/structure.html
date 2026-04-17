@@ -22,6 +22,22 @@ layout: single
         color: #28385f;
         margin-bottom: 70px;
     }
+
+    @media (min-width:992px) {
+        .structure-md {
+            display: none;
+        }
+    }
+    @media (max-width:991px) and (min-width:767px){
+        .structure-sm {
+            display: none;
+        }
+    }
+    @media (max-width:767px){
+        .structure-xs {
+            display: none;
+        }
+    }
 </style>
 
 <div class="bar no-mb no-padding structure">
@@ -36,6 +52,7 @@ layout: single
                 また，CFRPやアルミなどの材料について，シミュレーションによる強度評価や，実機実験を行い軽量化を行います．
             </b>
         </div>
+        <div class="overview-space"></div>
         <div class="col-md-6">
              <div class="slideshow">
 
@@ -63,10 +80,26 @@ layout: single
         </div>
         <div class="col-md-12" style="height: 150px;"></div>
         <div class="col-md-6"></div>
-        <div class="col-md-3"><h2>ノーズ部</h2></div>
-        <div class="col-md-3"><h2>開放部</h2></div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-3"><h2>ノーズ部</h2></div>
+        <div class="col-sm-6 col-md-3 structure-xs"><h2>開放部</h2></div>
+        <div class="col-sm-6 structure-md">
+            <b style="margin-bottom: 80px;">
+                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
+                制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
+                開放の構成によって，ノーズが開放する場合もあります．
+            </b>
+        </div>
+        <div class="col-xs-12 structure-sm structure-md"><h2>開放部</h2></div>
+        <div class="col-sm-6 structure-md"> 
+            <b style="margin-bottom: 10px;">
+                ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．
+                機体の一部を開放させることで，そのパラシュートを放出しています．
+                開放部では，それらの機構を設計・開発します．
+            </b>
+        </div>
+        <div class="col-xs-12 col-md-6">
              <div class="slideshow">
+                <div class="overview-space"></div>
 
                 <div class="slides">
 
@@ -94,38 +127,53 @@ layout: single
 
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 structure-xs structure-sm">
             <b style="margin-bottom: 80px;">
                 ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
                 制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
                 開放の構成によって，ノーズが開放する場合もあります．
             </b>
         </div>
-        <div class="col-md-3"> 
+        <div class="col-md-3 structure-xs structure-sm"> 
             <b style="margin-bottom: 10px;">
                 ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．
                 機体の一部を開放させることで，そのパラシュートを放出しています．
                 開放部では，それらの機構を設計・開発します．
             </b>
         </div>
-        <div class="col-md-12" style="height: 150px;"></div>
-        <div class="col-md-3"><h2>電装部</h2></div>
-        <div class="col-md-3"><h2>推進部</h2></div>
-        <div class="col-md-6" style="height: 130px;"></div>
-        <div class="col-md-3">
+        <div class="col-xs-12 col-md-12" style="height: 150px;"></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><h2>電装部</h2></div>
+        <div class="col-xs-6 col-md-3 structure-xs"><h2>推進部</h2></div>
+        <div class="col-xs-12 col-sm-6 structure-md">
             <b>
                 データログを収集また，開放を操作する電装を格納する構造部です．<br>
                 海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
+                <div class="overview-space"></div>
             </b>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-12 structure-sm structure-md"><h2>推進部</h2></div>
+        <div class="col-xs-12 col-sm-6 structure-md">
             <b>
                 推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
 
             </b>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" style="height: 130px;"></div>
+        <div class="col-md-3 structure-sm structure-xs">
+            <b>
+                データログを収集また，開放を操作する電装を格納する構造部です．<br>
+                海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
+            </b>
+        </div>
+        <div class="col-md-3 structure-sm structure-xs">
+            <b>
+                推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
+
+            </b>
+        </div>
+        <div class="col-xs-12 col-md-6">
              <div class="slideshow">
+            <div class="overview-space"></div>
 
                 <div class="slides">
 
