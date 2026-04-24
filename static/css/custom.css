@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     width: 100%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 .navbar {
@@ -29,6 +30,13 @@ body {
 
 .navbar.scrolled .navbar-brand img {
     height: 50px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  content-visibility: auto;
 }
 
 @media (max-width: 767px) {
