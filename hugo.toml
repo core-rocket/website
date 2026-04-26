@@ -1,7 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'ja-jp'
 title = 'CORE'
+hasCJKLanguage = true
 theme = "hugo-universal-theme"
+publishDir = "docs"
 
 [markup]
 	[markup.goldmark]
@@ -100,4 +102,13 @@ theme = "hugo-universal-theme"
 
     date_format = "2006-01-02"
     description = "Site description"
-    address = "Niigata, Japan"
+    address = "Hino, Tokyo"
+
+[params.features]
+    enable = false
+
+[params.testimonials]
+    enable = false
+    
+[params.clients]
+    enable = false
