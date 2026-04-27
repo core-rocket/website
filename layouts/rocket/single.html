@@ -138,9 +138,6 @@ transform:translateY(0);
     display: none;
   }
 
-  .tab-btn.active {
-    border-bottom: 2px solid #da4d4d;
-  }
   .rocket h2 {
     font-size: 20pt;
   }
@@ -148,6 +145,24 @@ transform:translateY(0);
     font-size: 11pt;
   }
   
+}
+@media (max-width: 580px) {
+  .rocket-tab-buttons{
+    gap:10px 25px;
+  }
+  .tab-btn{
+    background:none;
+    border:none;
+    font-size:10pt;
+    font-weight:600;
+    letter-spacing:0.05em;
+    color:#8a8a8a;
+    cursor:pointer;
+    padding:8px 0;
+    position:relative;
+    transition:0.25s;
+  }
+
 }
 
 </style>
