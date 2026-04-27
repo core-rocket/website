@@ -76,3 +76,6 @@ header,
     box-shadow: none !important;
     outline: none !important;
 }
+:root {
+    color-scheme: light;/
+}

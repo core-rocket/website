@@ -110,11 +110,26 @@
         .list-space {
             height: 100px;
         }
-        @media (max-width:991px) and (min-width:767px){
+        .list-page {
+            width: 92%;
+        }
+        @media (max-width:991px) and (min-width:768px){
             .list-space {
                 height: 180px;
             }
+            .list-page {
+                width: 550px;
+            }
         }
+        @media (max-width:767px){
+            .list-space {
+                height: 70px;
+            }
+            .list-page {
+                max-width: 550px;
+            }
+        }
+        
 </style>
 
     <div id="all">
@@ -124,7 +139,7 @@
         {{ partial "nav.html" . }}
 
         <div id="content">
-            <div class="container">
+            <div class="container list-page">
                 <div class="row">
                     <div class="list-space"></div>
                     <!-- *** LEFT COLUMN *** -->
