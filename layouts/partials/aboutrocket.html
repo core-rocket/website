@@ -3,7 +3,7 @@
     <div class="row g-4">
       <div class="col-12 le-text">
         <q style="color: #da4d4d; font-size: 10pt;">Rocket</q>
-        <h2 style="font-size: 25pt;">ロケット</h2><br>
+        <h2>ロケット</h2><br>
       </div>
         
       <div class="col-12 col-md-3 struct-item">
@@ -147,6 +147,9 @@
   opacity: 1;
   transform: translateY(0);
 }
+.le-text h2 {
+    font-size: 25pt;
+  }
 @media (max-width: 991px) {
   .struct {
     padding: 40px 0;
@@ -154,12 +157,28 @@
 
   .struct-photo {
     max-width: 100%;
-    height: 240px;   /* SPでは低め */
+    height: 240px;
     margin-bottom: 20px;
   }
 
   .le-text {
     margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .struct-overlay h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .le-text h2 {
+    font-size: 20pt;
+  }
+  .struct-photo {
+    max-width: 85%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
   }
 }
 </style>
