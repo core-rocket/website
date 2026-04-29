@@ -11,7 +11,7 @@ toc: false
 
 <!--more-->
 
-1. 「ハッシュタグロケット」を制作している「Project-e」（参考：[2022年度の活動報告PART2](https://core-rocket-official.netlify.app/blog/2022_activity_report_2/)）
+1. 「ハッシュタグロケット」を制作している「Project-e」（参考：[2022年度の活動報告PART2]({{< ref "/blog/2022_activity_report_2.md" >}})）
 2. 「Master」を制作している「CORE’s Bar」
 
 どちらのプロジェクトも第18回能代宇宙イベント（NSE）での打上げを目指していますが、多くの違いもあります。ここでその違いを整理してみます。

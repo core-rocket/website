@@ -13,7 +13,7 @@ toc: false
 
 <!--more-->
 
-　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2](https://core-rocket-official.netlify.app/blog/2022_activity_report_2/))とMaster(参考: [2022年度の活動報告PART3](https://core-rocket-official.netlify.app/blog/2022_activity_report_3/))の打ち上げを行いました。
+　COREではハッシュタグロケット(参考: [2022年度の活動報告PART2]({{< ref "/blog/2022_activity_report_2.md" >}}))とMaster(参考: [2022年度の活動報告PART3]({{< ref "/blog/2022_activity_report_3.md" >}}))の打ち上げを行いました。
 結果としては
 
 <h1 style = "text-align: center"><font color="#c8574f">2機体とも「打ち上げ成功」</font></h1>
@@ -33,11 +33,12 @@ toc: false
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">8月18日に「はっしゅたぐろけっと」の打ち上げを行い成功しました！動画は機体装着のカメラからの映像と射点の様子です！！<br><br>関わってくださった全ての方々に感謝申し上げます。 <a href="https://t.co/3JqAtn3rri">pic.twitter.com/3JqAtn3rri</a></p>&mdash; CORE (@CORE_Rocket) <a href="https://twitter.com/CORE_Rocket/status/1560601421166571522?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dw4_JDhQ3jE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align:center;">
+<iframe  width="100%" height="300px" style="max-width:600px;" src="https://www.youtube.com/embed/Dw4_JDhQ3jE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <br>
 <br>
 
-　[次回](https://core-rocket-official.netlify.app/blog/2022_activity_report_5/)は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
+　[次回]({{< ref "/blog/2022_activity_report_5.md" >}})は，現在製作中の第21回伊豆大島共同打上実験で打ち上げ予定のプロジェクト紹介です。
 お楽しみに！
