@@ -39,6 +39,7 @@ img {
 @media (max-width: 767px) {
 
     .navbar {
+        overflow-x: hidden;
         position: fixed;
         background-color: transparent !important;
     }
