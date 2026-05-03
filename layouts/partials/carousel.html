@@ -11,13 +11,13 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 
 {{ range sort .Site.Data.carousel "weight" }}
 <div class="item">
- {{ if .video }}
+     {{ if .video }}
         <video autoplay muted loop playsinline style="width: 100%; height: auto;">
             <source src="{{ .video | absURL }}" type="video/mp4">
             お使いのブラウザは動画タグをサポートしていません。
         </video>
     {{ else }}
-        <img class="img-responsive" src="{{ .image | absURL }}" alt="">
+        <img src="{{ .image | absURL }}" class="carousel-img">
     {{ end }}
 </div>
 {{ end }}
