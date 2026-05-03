@@ -115,3 +115,8 @@ googleAnalytics = "G-ZX4CJMTV2W"
     
 [params.clients]
     enable = false
+
+[params.carousel]
+    enable = true
+    auto_play = true
+    interval = 14000
