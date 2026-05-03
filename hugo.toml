@@ -105,6 +105,8 @@ googleAnalytics = "G-ZX4CJMTV2W"
     description = "Site description"
     address = "Hino, Tokyo"
 
+    favicon = "/img/CORE_logo_wh.ico"
+
 [params.features]
     enable = false
 
