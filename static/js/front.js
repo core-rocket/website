@@ -9,6 +9,7 @@ if ($.cookie('themeLayout')) {
 }
 
 $(function () {
+  setTimeout(function(){
   sliderHomepage()
   sliders()
   fullScreenContainer()
@@ -21,6 +22,7 @@ $(function () {
   counters()
   demo()
   contactFormAjax()
+  } ,200)
 })
 
 // Ajax contact
@@ -83,11 +85,13 @@ function sliderHomepage () {
     // var owl = $('#slider')
 
     $('#slider').owlCarousel({
-      autoPlay: 10000,
+      autoPlay: 4000,
+      stopOnHover: true,
       items: 4,
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
-      itemsMobile: [500, 2]
+      itemsMobile: [500, 2],
+      lazyLoad: false
     })
   }
 }
