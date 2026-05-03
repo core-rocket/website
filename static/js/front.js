@@ -8,8 +8,7 @@ if ($.cookie('themeLayout')) {
   $('body').addClass($.cookie('themeLayout'))
 }
 
-$(function () {
-  setTimeout(function(){
+$(window).on('load', function () {
   sliderHomepage()
   sliders()
   fullScreenContainer()
@@ -22,7 +21,8 @@ $(function () {
   counters()
   demo()
   contactFormAjax()
-  } ,200)
+  
+  $(window).trigger('resize');
 })
 
 // Ajax contact
