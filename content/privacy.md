@@ -1,9 +1,7 @@
 ---
 title: "privacy policy"
 ---
-<br>
-<br>
-<br>
+<div style="height:150px;"></div>
 
 # プライバシーポリシー
 
