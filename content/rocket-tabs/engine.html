@@ -1,0 +1,182 @@
+<style>
+    .engine {
+        background-color: #FFF;
+    }
+
+    .engine b {
+        display: block;
+        width: 85%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .engine h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+    
+</style>
+
+<div class="bar no-mb no-padding engine">
+    <div class="container">
+    <div class="row">
+        <h2 style="font-size: 30pt;">エンジン班</h2>
+        <div class="col-md-6"> 
+             <b>
+                学生ロケット団体が用いるハイブリットロケットのエンジンは，火薬や扱いの難しい液体酸素を用いずに，液体の亜酸化窒素と固体のプラスチックの2つの物質を扱う比較的安全なエンジンを用いたロケットです．<br><br>
+                COREでは，市販であるCesaroni Technology社のHyperTEKエンジンを用いた打上げから始まり，現在では，エンジンを自ら設計し製作しています．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_3.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_2.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_9.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>設計</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" >
+                        <img src="/img/engine/engine_4.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/engine/engine_5.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/engine/engine_6.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b>
+                目標とする飛翔高度や想定される機体の重量などから必要な推力及びトータルインパルス(力積の合計)を見積もり，それらを満たすサイズのエンジンを設計しタンク容量を決定します．<br>
+                液体の亜酸化窒素を放出するインジェクタ部や，ノズル部においても，独自の設計を反映し，燃焼の高効率化を目指しています．<br>
+                また，固体のプラスチック燃料部に関しても，燃焼の高効率化のために，3Dプリンタを用いた燃料の開発を行っています．
+
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2>製作・試験</h2></div>
+        <div class="col-md-6"> 
+             <b>
+                設計を基に，旋盤やロボドリルを用いて加工を行います．<br><br>
+                燃焼試験を通して，実際に設計した推力・トータルインパルスを得ることができるか検証を行います．
+                2回の試験結果が，設計値に対して適切な範囲に収まっていることで，そのエンジンを実際に打上げで使用することができます．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/engine/engine_8.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_10.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/engine/engine_11.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+// ページ内のすべてのスライドショーに対して処理
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  // すでに初期化済みの場合はスキップ（二重実行防止）
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  // ドットコンテナを一旦空にする（これが重要！）
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  // ドットの生成
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>

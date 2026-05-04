@@ -7,16 +7,21 @@ draft: false
 toc: false
 ---
 
-　はじめまして，2022年度新入生プロジェクトで構造班長を務めていた須藤です．今回は[Part 5](https://core-rocket-official.netlify.app/blog/2022_activity_report_5/)でお話した第21回伊豆大島共同打上実験の報告になります．
+　はじめまして，2022年度新入生プロジェクトで構造班長を務めていた須藤です．今回は[Part 5]({{< ref "/blog/2022_activity_report_5.md" >}})でお話した第21回伊豆大島共同打上実験の報告になります．
 
 　結果からいえば，打ち上げは成功となりました．やったぁ～
+
+<!--more-->
 
 　11月12日と13日の2日間用意されていた実験期間のうち，私たちの機体Violetは2日目の13日，午前6時30分に打ち上げられました．
 
 　点火後機体は高度219mまで上昇し，その後パラシュートとCamSatの放出に成功，減速落下をして着地しました．落下後の機体は2つに折れていたものの，ほとんどすべてを回収することができました．
 
 　打ち上げの様子はYouTubeで公開しています．ぜひご覧ください．
-<iframe width="560" height="315"  style = "text-align: center" src="https://www.youtube.com/embed/BvmJCboTarQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div style="text-align:center;">
+<iframe width="100%" height="300px" style="max-width:600px; "src="https://www.youtube.com/embed/BvmJCboTarQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <br>
 
 

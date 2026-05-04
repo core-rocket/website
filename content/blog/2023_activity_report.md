@@ -11,16 +11,18 @@ toc: false
 
 1年ぶりの更新となってしまい申し訳ありません。今回は2023年度の活動のまとめです。
 
+<!--more-->
+
 # 第19回能代宇宙イベント
 
-　8月の能代宇宙イベントでは、バルブシステムを搭載したロケットの海打ちを行いました。[前回の能代宇宙イベント](2022_activity_report_2)でもバルブシステムを搭載したロケットの打上げを目指していましたが、開発が難航し従来の方式でロケットを打ち上げました。その次の2023年3月の伊豆大島共同打上実験に向けて準備を進めていましたが、実験が中止となったためこのプロジェクトを引き継ぐ形での開発となりました。
+　8月の能代宇宙イベントでは、バルブシステムを搭載したロケットの海打ちを行いました。[前回の能代宇宙イベント]({{< ref "/blog/2022_activity_report_2.md" >}})でもバルブシステムを搭載したロケットの打上げを目指していましたが、開発が難航し従来の方式でロケットを打ち上げました。その次の2023年3月の伊豆大島共同打上実験に向けて準備を進めていましたが、実験が中止となったためこのプロジェクトを引き継ぐ形での開発となりました。
 
 　伊豆大島のプロジェクトでは、ノーズが左右に分離することでペイロードやパラシュートを放出するフェアリング機構の実証機体とバルブシステムの実証機体の2機体を開発していました。この成果を引き継ぎ、能代ではフェアリングとバルブシステムの両方を搭載しています。
 
 　現地ではいくつかトラブルが発生しましたが、無事バルブシステムを搭載したロケットの打上げとフェアリングの開放に成功しました。COREのこれまでのバルブ開発の歴史と今回の打上げの動画をYouTubeで公開しています。ぜひご覧ください。
 
 <div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4FkKJOqfx5w?si=yJTb7Z_czOoNa-x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="300px" style="max-width:600px;" src="https://www.youtube.com/embed/4FkKJOqfx5w?si=yJTb7Z_czOoNa-x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 # 第23回伊豆大島共同打上実験

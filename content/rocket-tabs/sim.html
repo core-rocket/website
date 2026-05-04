@@ -1,0 +1,141 @@
+<style>
+    .sim{
+        background-color: #FFF;
+    }
+
+    .sim b {
+        display: block;
+        width: 85%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sim h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+    
+</style>
+
+<div class="bar no-mb no-padding sim">
+    <div class="container">
+    <div class="row">
+        <h2 style="font-size: 30pt;">Sim班</h2>
+        <div class="col-md-6"> 
+             <b>
+                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算します．<br><br>
+                PythonやC言語のプログラムをもとに，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，
+                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証します．
+
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/sim/sim_1.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/sim/sim_2.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/sim/sim_3.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>シミュレータの改良</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="/img/sim/sim_4.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/sim/sim_5.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b>
+                現在COREでは，新たな自作シミュレータの開発を行っています．<br><br>
+                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指し改良を行っています．
+            </b>
+        
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>

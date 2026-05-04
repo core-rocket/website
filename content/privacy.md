@@ -1,6 +1,11 @@
+---
+title: "privacy policy"
+---
+<div style="height:150px;"></div>
+
 # プライバシーポリシー
 
-最終更新: 2020/05/01
+最終更新: 2026/05/03
 
 ## Google Analyticsの利用について
 ---
@@ -12,8 +17,7 @@ Googleによるアクセス解析サービスである[Google Analytics](https:/
 Google Analyticsの利用により収集されるデータは匿名で収集されており，個人を特定するものではありません．
 このデータは，Googleのプライバシーポリシーに基づいて管理されています．
 
-当サイトのユーザは，Google Analyticsによる情報の収集を拒否することができます．
-収集の拒否には，[Googleアナリティクスオプトアウトアドオン](https://tools.google.com/dlpage/gaoptout?hl=ja)を使用することができます．
+この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
 
 Google Analyticsの利用規約およびプライバシーポリシーについては，
 以下のGoogleのサイトをご覧ください．

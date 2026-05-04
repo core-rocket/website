@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CORE</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on CORE</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第28回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise28th-harukaze/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise28th-harukaze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第27回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise27th-crex/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise27th-crex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第21回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse21th-fugaku/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse21th-fugaku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第26回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise26th-yukimi/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise26th-yukimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024年度の活動報告part02</title>
+      <link>http://localhost:1313/blog/2024_activity_report_02/</link>
+      <pubDate>Thu, 05 Dec 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024_activity_report_02/</guid>
+      <description>&lt;p&gt;お久しぶりです．7か月ぶりの更新となってしまいました．&#xA;能代宇宙イベントと並列でこのホームページのドメインの再取得に手間取り手間取り……&lt;/p&gt;&#xA;&lt;p&gt;……というわけで，今月からちゃんと毎月更新を目指します．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第25回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise25th-orange/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise25th-orange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第20回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse20th-tsurugi/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse20th-tsurugi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024年度の活動報告part01</title>
+      <link>http://localhost:1313/blog/2024_activity_report_01/</link>
+      <pubDate>Thu, 02 May 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024_activity_report_01/</guid>
+      <description>&lt;h2 id=&#34;新年度のご挨拶&#34;&gt;新年度のご挨拶&lt;/h2&gt;&#xA;&lt;p&gt;　皆さんお久しぶりです．2024年度のHP担当になりました須藤です．2022年にブログを担当した回（&lt;a href=&#34;https://core-rocket-official.netlify.app/blog/2022_activity_report_6/&#34;&gt;これ&lt;/a&gt;）があったのでもしかしたら見覚えがあるかもしれません．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2023年度の活動報告</title>
+      <link>http://localhost:1313/blog/2023_activity_report/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2023_activity_report/</guid>
+      <description>&lt;p&gt;お久しぶりです…&lt;/p&gt;&#xA;&lt;p&gt;1年ぶりの更新となってしまい申し訳ありません。今回は2023年度の活動のまとめです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第24回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise24th-kuroffuru/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise24th-kuroffuru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第23回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise23rd-dvinci/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise23rd-dvinci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第19回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse19th-chisya/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse19th-chisya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第22回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise22nd-kyabetsu/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise22nd-kyabetsu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第22回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise22nd-retasu/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise22nd-retasu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part6</title>
+      <link>http://localhost:1313/blog/2022_activity_report_6/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_6/</guid>
+      <description>&lt;p&gt;　はじめまして，2022年度新入生プロジェクトで構造班長を務めていた須藤です．今回は&lt;a href=&#34;https://core-rocket-official.netlify.app/blog/2022_activity_report_5/&#34;&gt;Part 5&lt;/a&gt;でお話した第21回伊豆大島共同打上実験の報告になります．&lt;/p&gt;&#xA;&lt;p&gt;　結果からいえば，打ち上げは成功となりました．やったぁ～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第21回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise21st-violet/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise21st-violet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part5</title>
+      <link>http://localhost:1313/blog/2022_activity_report_5/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_5/</guid>
+      <description>&lt;p&gt;　はじめまして、11月に打ち上げるロケットのPMの藤田です。&lt;/p&gt;&#xA;&lt;p&gt;　今回は11/12,13に実施される第21回伊豆大島共同打上実験で打ち上げるロケットの紹介です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part4</title>
+      <link>http://localhost:1313/blog/2022_activity_report_4/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_4/</guid>
+      <description>&lt;p&gt;　こんにちは。CORE代表の神田です。ブログの更新が途絶え申し訳ありません。約3ヶ月ぶりのブログ投稿となります。&lt;/p&gt;&#xA;&lt;p&gt;　今回は8/11~8/19で開催された能代宇宙イベントの結果報告です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第18回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse18th-proe/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse18th-proe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part3</title>
+      <link>http://localhost:1313/blog/2022_activity_report_3/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_3/</guid>
+      <description>&lt;p&gt;こんにちは！CORE’s BarのPM、石﨑です。現在COREでは2つのプロジェクトが同時進行しています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part2</title>
+      <link>http://localhost:1313/blog/2022_activity_report_2/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_2/</guid>
+      <description>&lt;p&gt;こんにちは！16代の濵下です．&lt;/p&gt;&#xA;&lt;p&gt;　現在COREでは能代宇宙イベントへ向けて2本のロケットの開発を行っています！！&#xA;　1つ目は学部1-3年生がメインになって活動しているロケットです．2つ目は学部4年生以上の先輩方が製作しています．今回は学部1-3年生が製作している方のロケットの紹介を行いたいと思います！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2022年度の活動報告part1</title>
+      <link>http://localhost:1313/blog/2022_activity_report_1/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022_activity_report_1/</guid>
+      <description>&lt;p&gt;みなさん、こんにちは！&#xA;16thCORE代表の神田智哉です。&lt;/p&gt;&#xA;&lt;p&gt;　昨年度、ブログの更新が年3回しかなかったということで今年度はブログの更新頻度を上げていきます。他のメンバーのことも知ってほしいので、毎回ブログを書く人を変えていきます！目標は2週間に1回の頻度での更新です。（今年度は全員1回はブログを書いてもらうつもりです笑）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2021年度の活動報告part2</title>
+      <link>http://localhost:1313/blog/2021_activity_report_p2/</link>
+      <pubDate>Mon, 11 Apr 2022 17:35:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2021_activity_report_p2/</guid>
+      <description>&lt;p&gt;こんにちは！&lt;/p&gt;&#xA;&lt;p&gt;CORE15th代表のけんTです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://core-rocket-official.netlify.app/blog/2021_activity_report_p1/&#34;&gt;前回&lt;/a&gt;に引き続き、2021年度の活動を振り返ります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2021年度の活動報告part1</title>
+      <link>http://localhost:1313/blog/2021_activity_report_p1/</link>
+      <pubDate>Thu, 07 Apr 2022 17:35:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2021_activity_report_p1/</guid>
+      <description>&lt;p&gt;こんにちは！&lt;/p&gt;&#xA;&lt;p&gt;CORE15th代表のけんTです。&lt;/p&gt;&#xA;&lt;p&gt;約1年ぶりのブログ更新です。本当にすみません…&lt;/p&gt;&#xA;&lt;p&gt;1年ぶりの更新ということで、今回はCOREの2021年度の活動を振り返ってみます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第20回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise20th-canvas/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise20th-canvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第17回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse17th-duo/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse17th-duo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>COREってどんなところ？代表に聞いてみた</title>
+      <link>http://localhost:1313/blog/core.interview/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/core.interview/</guid>
+      <description>&lt;!--StartFragment--&gt;&#xD;&#xA;&lt;p&gt;みなさんこんにちは．&lt;br&gt;&#xA;COREに入ってみないとわからない，COREの裏側を紹介するために，COREの代表である吉田健人さんにインタビューを行いました．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CORE2021年度新歓情報~第2弾~</title>
+      <link>http://localhost:1313/blog/recruite2-2021/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/recruite2-2021/</guid>
+      <description>&lt;p&gt;こんにちは！COREの15th代表でHP更新担当のけんTです．5月に入りましたね(早いですね～)．ということで5月の新歓情報を更新したので是非チェックしてください．&#xA;また現在緊急事態宣言中(2021/5/3現在)ですので，対面での新歓は未定とさせてください．申し訳ございません！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CORE2021年度新歓情報</title>
+      <link>http://localhost:1313/blog/recruite-2021/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/recruite-2021/</guid>
+      <description>&lt;p&gt;こんにちは新B2の正木です．今回は，2021年春のCOREの新歓情報を載せたいと思います！新入生の方も，B2以上の方も是非いらしてみてください！！他にもYoutube新歓などを画策しているので，お見逃しなく！！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>COREを知る方法 ３選！</title>
+      <link>http://localhost:1313/blog/core%E3%82%92%E7%9F%A5%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%93%E9%81%B8/</link>
+      <pubDate>Wed, 03 Mar 2021 05:22:38 +0000</pubDate>
+      <guid>http://localhost:1313/blog/core%E3%82%92%E7%9F%A5%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%93%E9%81%B8/</guid>
+      <description>&lt;p&gt;みなさんこんにちは。&lt;/p&gt;&#xA;&lt;p&gt;COREの2020年度広報担当の伊澤です。&lt;/p&gt;&#xA;&lt;p&gt;気づけば3月になってしまいました。そろそろ引退の時期が近づいてきて、ブログに記事を書くのはこれが最初で最後となってしまうかもしれませんが、がんばって書きたいと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>御宿共同打上実験</title>
+      <link>http://localhost:1313/projects/ose-hibari1/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ose-hibari1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>御宿共同打上実験</title>
+      <link>http://localhost:1313/projects/ose-hibari2/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ose-hibari2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CORE×TELSTARコラボ企画について</title>
+      <link>http://localhost:1313/blog/core-telstar/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/core-telstar/</guid>
+      <description>&lt;p&gt;こんにちは。このHPのブログの更新も随分ご無沙汰でしたが、これから徐々に更新頻度を上げられたらと思っているところです。&#xA;あっ申し遅れました。私COREで燃焼副班長やってるけんTです。COREのHP更新の担当(？)することになりましたので今後度々登場する予定です。よろしくお願いします。&#xA;ブログ更新再開一発目の話題は宇宙広報団体TELSTARとのコラボ企画についてです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第16回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse16th-misora/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse16th-misora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ホームページをリニューアルしました</title>
+      <link>http://localhost:1313/blog/renewal-2020/</link>
+      <pubDate>Mon, 18 May 2020 15:35:15 +0000</pubDate>
+      <guid>http://localhost:1313/blog/renewal-2020/</guid>
+      <description>&lt;p&gt;こんにちは．今年度からホームページ担当になったsksatです．&lt;/p&gt;&#xA;&lt;p&gt;タイトルの通り，リニューアルのお知らせです．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第18回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise18th-donburako/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise18th-donburako/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第18回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise18th-piglet/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise18th-piglet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第17回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise17th-amatsukaze/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise17th-amatsukaze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第15回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse15th-asahi/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse15th-asahi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第15回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse15th-gemini/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse15th-gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第16回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise16th-gunguniru/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise16th-gunguniru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第16回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise16th-pf/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise16th-pf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse14th-kritanpo/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse14th-kritanpo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse14th-shirasagi/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse14th-shirasagi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise14th-fc/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise14th-fc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise14th-vase/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise14th-vase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise13rd-lchiki/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise13rd-lchiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse13rd-kaemreon/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse13rd-kaemreon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse13rd-seachiki/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse13rd-seachiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise12nd-musasabi/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise12nd-musasabi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise12nd-phase/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise12nd-phase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第11回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise11st-nporo/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise11st-nporo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse12nd-dennshin/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse12nd-dennshin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse12nd-eyens/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse12nd-eyens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise10th-suzuna/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise10th-suzuna/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise10th-swiftx/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise10th-swiftx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第9回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise9th-swift/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise9th-swift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第11回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse11st-cyclops/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse11st-cyclops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-crazythunder/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-crazythunder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-helix/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-helix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-vertex/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-vertex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第7回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise7th-valture/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise7th-valture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse10th-freshg/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse10th-freshg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse10th-volvox/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse10th-volvox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第9回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse9th-milanda/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse9th-milanda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第4回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise4th-ssp/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise4th-ssp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第6回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise6th-jorujona/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise6th-jorujona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第3回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise3rd-gxp/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise3rd-gxp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse8th-kyolo/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse8th-kyolo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第2回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise2nd-tomatoku/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise2nd-tomatoku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第2回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise2nd-trocket/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise2nd-trocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第7回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse7th-/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse7th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第6回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse6th-/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse6th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第5回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse5th-ultraman/</link>
+      <pubDate>Sat, 01 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse5th-ultraman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第4回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse4th-/</link>
+      <pubDate>Fri, 01 Aug 2008 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse4th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第3回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse3rd-sazanka/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse3rd-sazanka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/activity/2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/activity/2025/</guid>
+      <description>&lt;br&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h1 id=&#34;2025年度活動&#34;&gt;&lt;div class=&#34;heading text-left&#34;&gt;&lt;h2&gt;2025年度活動&lt;/h2&gt;&lt;/div&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;スケジュール&#34;&gt;スケジュール&lt;/h2&gt;&#xA;&lt;div style=&#34;margin-left: 50px; margin-bottom: 50px;&#34;&gt;&#xD;&#xA;&lt;img src=&#34;\img\2025\active_sh.jpg&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;section class=&#34;bar no-mb no-padding ac_2025&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-8&#34;&gt;&#xD;&#xA;        &lt;h2&gt;21thNSE&lt;/h2&gt;&#xD;&#xA;        &lt;b&gt;&#xD;&#xA;        COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．&#xD;&#xA;        航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．&#xD;&#xA;        COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，&#xD;&#xA;        プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．&#xD;&#xA;        &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-4&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;\img\4.jpg&#34; width=&#34;70%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-4&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;\img\4.jpg&#34; width=&#34;70%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-8&#34;&gt;&#xD;&#xA;        &lt;h2&gt;27thISE&lt;/h2&gt;&#xD;&#xA;        &lt;b&gt;&#xD;&#xA;        COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．&#xD;&#xA;        航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．&#xD;&#xA;        COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，&#xD;&#xA;        プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．&#xD;&#xA;        &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;    .ac_2025 {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notice/</guid>
+      <description>&lt;!--&#xD;&#xA;↓ホームページトップに表示する画像&#xD;&#xA;[&lt;img src=&#34;\img\2024\Shinkan_schedule_2024.jpg&#34; class=&#34;center&#34; width=&#34;100%&#34;&gt;]()&#xD;&#xA;--&gt;&#xD;&#xA;&lt;!--&#xD;&#xA;## &lt;div class=&#34;heading text-center&#34;&gt;&lt;h2&gt;ご入学おめでとうございます！&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;## &lt;div class=&#34;heading text-center&#34;&gt;&lt;h3&gt;今年の春からロケット作りませんか？&lt;/h3&gt;&lt;/div&gt;&#xD;&#xA;## &lt;div class=&#34;heading text-center&#34;&gt;&lt;h3&gt;-新歓の日程-&lt;/h3&gt;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;\img\2025\schedule.png&#34; class=&#34;center&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;--&gt;&#xD;&#xA;&lt;div class=&#34;simple-table&#34; style=&#34;height: 250px; overflow-y:scroll;&#34;&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;更新情報&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2025/11/29&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;活動情報について更新いたしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2025/9/26&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;活動情報について更新いたしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2025/4/09&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;新年度へ向け情報を更新しました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/12/05&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2024 年度の活動報告 PART2」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/10/08&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;協賛・協力の更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/05/02&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2024 年度の活動報告 PART1」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/05/02&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;活動情報&amp;gt;自作エンジンプロジェクトを更新しました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/04/15&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2023 年度の活動報告」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024/04/09&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;新歓日程を掲載しました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023/04/13&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;協賛・協力の更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023/04/04&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;新歓日程の更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023/01/04&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;協賛・協力の更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/12/20&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART6」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/10/27&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART5」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/10/06&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART4」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/07/03&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART3」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/06/16&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART2」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/06/03&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;活動情報と CORE のロケットの更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/05/20&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2022 年度の活動報告 PART1」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/04/11&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2021 年度の活動報告 PART2」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022/04/07&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「2021 年度の活動報告 PART1」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/06/16&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;協賛・協力の更新をしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/05/26&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「CORE ってどんなところ？代表に聞いてみた」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/05/03&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「～第 2 弾～ CORE2021 年度新歓情報」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/04/08&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「CORE2021 年度新歓情報」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/03/03&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「CORE を知る方法　３選！」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021/02/05&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;ブログを更新しました「CORE×TELSTAR コラボ企画について」&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2020/05/19&lt;br&gt;&amp;lt;更新情報&amp;gt;&lt;/td&gt;&#xA;          &lt;td&gt;サイトをリニューアルしました&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;br&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h1 id=&#34;プライバシーポリシー&#34;&gt;プライバシーポリシー&lt;/h1&gt;&#xA;&lt;p&gt;最終更新: 2020/05/01&lt;/p&gt;&#xA;&lt;h2 id=&#34;google-analyticsの利用について&#34;&gt;Google Analyticsの利用について&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Challengers of Rocket Engineering（以下「CORE」）では，Webサイトの利用状況の確認やサイトの改善のために，&#xA;Googleによるアクセス解析サービスである&lt;a href=&#34;https://developers.google.com/analytics?hl=ja&#34;&gt;Google Analytics&lt;/a&gt;を使用しています．&#xA;また，これに伴い本サイト内でGoogle Analyticsから提供されるCookieを使用しています．&lt;/p&gt;&#xA;&lt;p&gt;Google Analyticsの利用により収集されるデータは匿名で収集されており，個人を特定するものではありません．&#xA;このデータは，Googleのプライバシーポリシーに基づいて管理されています．&lt;/p&gt;&#xA;&lt;p&gt;当サイトのユーザは，Google Analyticsによる情報の収集を拒否することができます．&#xA;収集の拒否には，&lt;a href=&#34;https://tools.google.com/dlpage/gaoptout?hl=ja&#34;&gt;Googleアナリティクスオプトアウトアドオン&lt;/a&gt;を使用することができます．&lt;/p&gt;&#xA;&lt;p&gt;Google Analyticsの利用規約およびプライバシーポリシーについては，&#xA;以下のGoogleのサイトをご覧ください．&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://marketingplatform.google.com/about/analytics/terms/jp/&#34;&gt;Google Analytics利用規約&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/topic/2919631?hl=ja&amp;amp;amp;ref_topic=1008008&#34;&gt;データのプライバシーとセキュリティ - アナリティクスヘルプ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://policies.google.com/privacy?hl=ja&#34;&gt;Googleプライバシーポリシー&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;なお，Google Analyticsのサービス利用による損害については，COREは責任を負わないものとします．&lt;/p&gt;&#xA;&lt;h2 id=&#34;ポリシーの変更&#34;&gt;ポリシーの変更&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;このポリシーは随時変更されます．&lt;/p&gt;&#xA;&lt;p&gt;COREは，このプライバシーポリシーに基づくユーザーの権利を&#xA;ユーザーの明示的な同意なく縮小することはありません．&#xA;また，ポリシーの最終変更を公開した日付を常に明示します．&lt;/p&gt;&#xA;&lt;p&gt;参考情報として，旧版のプライバシーポリシーも確認することができます．&#xA;当サイトの全てのソースコードはGitHub上で&lt;a href=&#34;https://github.com/core-rocket/website&#34;&gt;公開&lt;/a&gt;されており，&#xA;このページの元になったMarkdownファイルについてもGitHub上で確認することができます．&#xA;最新のプライバシーポリシーは以下から確認することができます．&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/core-rocket/website/blob/master/content/privacy.md&#34;&gt;最新のプライバシーポリシーのMarkdownファイル&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;当サイトでは，個人情報に関して適用される日本の法令を遵守するとともに，&#xA;本ポリシーの内容を適宜見直し，その改善に努めます．&#xA;修正された最新のプライバシーポリシーは常に本ページにて開示されます．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/engine/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .engine {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .engine b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 85%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .engine h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding engine&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;エンジン&lt;/h2&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt; &#xD;&#xA;             &lt;b style=&#34;margin-top: 30px;&#34;&gt;&#xD;&#xA;                ハイブリットロケットのエンジンは火薬や扱いの難しい液体酸素を用いずに，液体の亜酸化窒素と固体のプラスチックの2つの物質を扱う比較的安全なエンジンを用いたロケットです．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                COREでは，市販であるHyperTEK社のエンジンを用いた打上げから始まり，現在では，エンジンを自ら設計し制作しています．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_3.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_2.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_9.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;h2&gt;設計&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; &gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_4.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_5.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_6.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-top: 20px;&#34;&gt;&#xD;&#xA;                目標とする飛翔高度や想定される機体の重量などから必要な推力及びトータルインパルス(力積の合計)を見積もり，それらを満たすサイズのエンジンを設計しタンク容量を決定します．&lt;br&gt;&#xD;&#xA;                液体の亜酸化窒素を放出するインジェクタ部や，ノズル部においても，独自の設計を反映し，燃焼の高効率化を目指しています．&lt;br&gt;&#xD;&#xA;                また，固体のプラスチック燃料部に関しても，燃焼の高効率化のために，3Dプリンタを用いた燃料の開発を行っています．&#xD;&#xA;&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34;&gt;&lt;h2&gt;製作・試験&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt; &#xD;&#xA;             &lt;b style=&#34;margin-top: 30px;&#34;&gt;&#xD;&#xA;                設計を基に，旋盤やロボドリルを用いて，加工を行います．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                燃焼試験を通して，実際に設計した推力・トータルインパルスを得ることができるか検証を行います．&#xD;&#xA;                2回の試験結果が，設計値に対して適切な範囲に収まっていることで，そのエンジンを，実際に打上げで使用することができます．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_8.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_10.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/engine/engine_11.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;// ページ内のすべてのスライドショーに対して処理&#xD;&#xA;document.querySelectorAll(&#34;.slideshow&#34;).forEach(slideshow =&gt; {&#xD;&#xA;  &#xD;&#xA;  // すでに初期化済みの場合はスキップ（二重実行防止）&#xD;&#xA;  if (slideshow.dataset.initialized) return;&#xD;&#xA;  slideshow.dataset.initialized = &#34;true&#34;;&#xD;&#xA;&#xD;&#xA;  const slides = slideshow.querySelectorAll(&#34;.slide&#34;);&#xD;&#xA;  const dotsContainer = slideshow.querySelector(&#34;.dots&#34;);&#xD;&#xA;  const caption = slideshow.querySelector(&#34;.caption&#34;);&#xD;&#xA;&#xD;&#xA;  // ドットコンテナを一旦空にする（これが重要！）&#xD;&#xA;  if (dotsContainer) dotsContainer.innerHTML = &#34;&#34;;&#xD;&#xA;&#xD;&#xA;  let struct_index = 0;&#xD;&#xA;&#xD;&#xA;  // ドットの生成&#xD;&#xA;  slides.forEach((_, i) =&gt; {&#xD;&#xA;    let d = document.createElement(&#34;span&#34;);&#xD;&#xA;    d.className = &#34;dot&#34;;&#xD;&#xA;    d.onclick = () =&gt; {&#xD;&#xA;      struct_index = i;&#xD;&#xA;      show();&#xD;&#xA;    };&#xD;&#xA;    if (dotsContainer) dotsContainer.appendChild(d);&#xD;&#xA;  });&#xD;&#xA;&#xD;&#xA;  const dots = dotsContainer ? dotsContainer.querySelectorAll(&#34;.dot&#34;) : [];&#xD;&#xA;&#xD;&#xA;  function show() {&#xD;&#xA;    slides.forEach(s =&gt; s.classList.remove(&#34;active&#34;));&#xD;&#xA;    dots.forEach(d =&gt; d.classList.remove(&#34;active&#34;));&#xD;&#xA;&#xD;&#xA;    if (slides[struct_index]) {&#xD;&#xA;      slides[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (dots[struct_index]) dots[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (caption) {&#xD;&#xA;        caption.textContent = slides[struct_index].dataset.caption || &#34;&#34;;&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  function next() {&#xD;&#xA;    struct_index = (struct_index + 1) % slides.length;&#xD;&#xA;    show();&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  setInterval(next, 5000);&#xD;&#xA;  show();&#xD;&#xA;});&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/fire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/fire/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .fire{&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .fire b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 85%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .fire h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding fire&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;燃焼&lt;/h2&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt; &#xD;&#xA;             &lt;b style=&#34;margin-top: 30px;&#34;&gt;&#xD;&#xA;                燃焼班では，エンジンの点火に用いるGSEの作成・管理を行う．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                GSE(Ground Support Equipment)とは，ロケットの燃料である亜酸化窒素・酸素及び，駆動部に使う窒素のラインを管理するシステムである．&#xD;&#xA;                打ち上げ当日はもちろん，エンジンの検証を行う燃焼試験でも必要不可欠なシステムである．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_1.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_5.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_3.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;h2&gt;燃焼試験&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_4.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_2.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_6.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-top: 20px;&#34;&gt;&#xD;&#xA;                COREでは，エンジンの推力や安全性を確認するための燃焼試験を行っている．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                実際の飛翔を想定し，大学グラウンドや県外の燃焼試験場にて実際にエンジンを点火する．&lt;br&gt;&#xD;&#xA;                また燃焼試験によって得られた，エンジン内の圧力や温度，推力などを元にシミュレーションを行っている． &#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34;&gt;&lt;h2&gt;バルブ&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt; &#xD;&#xA;             &lt;b style=&#34;margin-top: 30px;&#34;&gt;&#xD;&#xA;                燃料をタンクに充填し，エンジンに供給するバルブの設計・製作を行っている．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                従来の&#34;ステム式&#34;に比べ，エンジンの開発の自由度が上がり，燃焼効率の向上・推力の増加が見込まれる．&lt;br&gt;&#xD;&#xA;                さらに，バルブ式を用いることによって燃料の流量調節が可能になり，安定した燃焼を実現できる．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_7.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/fire/fire_8.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;document.querySelectorAll(&#34;.slideshow&#34;).forEach(slideshow =&gt; {&#xD;&#xA;  &#xD;&#xA;  if (slideshow.dataset.initialized) return;&#xD;&#xA;  slideshow.dataset.initialized = &#34;true&#34;;&#xD;&#xA;&#xD;&#xA;  const slides = slideshow.querySelectorAll(&#34;.slide&#34;);&#xD;&#xA;  const dotsContainer = slideshow.querySelector(&#34;.dots&#34;);&#xD;&#xA;  const caption = slideshow.querySelector(&#34;.caption&#34;);&#xD;&#xA;&#xD;&#xA;  if (dotsContainer) dotsContainer.innerHTML = &#34;&#34;;&#xD;&#xA;&#xD;&#xA;  let struct_index = 0;&#xD;&#xA;&#xD;&#xA;  slides.forEach((_, i) =&gt; {&#xD;&#xA;    let d = document.createElement(&#34;span&#34;);&#xD;&#xA;    d.className = &#34;dot&#34;;&#xD;&#xA;    d.onclick = () =&gt; {&#xD;&#xA;      struct_index = i;&#xD;&#xA;      show();&#xD;&#xA;    };&#xD;&#xA;    if (dotsContainer) dotsContainer.appendChild(d);&#xD;&#xA;  });&#xD;&#xA;&#xD;&#xA;  const dots = dotsContainer ? dotsContainer.querySelectorAll(&#34;.dot&#34;) : [];&#xD;&#xA;&#xD;&#xA;  function show() {&#xD;&#xA;    slides.forEach(s =&gt; s.classList.remove(&#34;active&#34;));&#xD;&#xA;    dots.forEach(d =&gt; d.classList.remove(&#34;active&#34;));&#xD;&#xA;&#xD;&#xA;    if (slides[struct_index]) {&#xD;&#xA;      slides[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (dots[struct_index]) dots[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (caption) {&#xD;&#xA;        caption.textContent = slides[struct_index].dataset.caption || &#34;&#34;;&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  function next() {&#xD;&#xA;    struct_index = (struct_index + 1) % slides.length;&#xD;&#xA;    show();&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  setInterval(next, 5000);&#xD;&#xA;  show();&#xD;&#xA;});&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/rocket-tabs/sim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/sim/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .sim{&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sim b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 85%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sim h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding sim&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;Simulation&lt;/h2&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt; &#xD;&#xA;             &lt;b style=&#34;margin-top: 30px;&#34;&gt;&#xD;&#xA;                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算する．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                PythonやC言語のプログラムを用いて，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，&#xD;&#xA;                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証する．&#xD;&#xA;&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/sim/sim_1.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/sim/sim_2.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/sim/sim_3.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;h2&gt;シミュレータの改良&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/sim/sim_4.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/sim/sim_5.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-top: 20px;&#34;&gt;&#xD;&#xA;                現在COREでは，新たな自作シミュレータの開発を行っている．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指している．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;document.querySelectorAll(&#34;.slideshow&#34;).forEach(slideshow =&gt; {&#xD;&#xA;  &#xD;&#xA;  if (slideshow.dataset.initialized) return;&#xD;&#xA;  slideshow.dataset.initialized = &#34;true&#34;;&#xD;&#xA;&#xD;&#xA;  const slides = slideshow.querySelectorAll(&#34;.slide&#34;);&#xD;&#xA;  const dotsContainer = slideshow.querySelector(&#34;.dots&#34;);&#xD;&#xA;  const caption = slideshow.querySelector(&#34;.caption&#34;);&#xD;&#xA;&#xD;&#xA;  if (dotsContainer) dotsContainer.innerHTML = &#34;&#34;;&#xD;&#xA;&#xD;&#xA;  let struct_index = 0;&#xD;&#xA;&#xD;&#xA;  slides.forEach((_, i) =&gt; {&#xD;&#xA;    let d = document.createElement(&#34;span&#34;);&#xD;&#xA;    d.className = &#34;dot&#34;;&#xD;&#xA;    d.onclick = () =&gt; {&#xD;&#xA;      struct_index = i;&#xD;&#xA;      show();&#xD;&#xA;    };&#xD;&#xA;    if (dotsContainer) dotsContainer.appendChild(d);&#xD;&#xA;  });&#xD;&#xA;&#xD;&#xA;  const dots = dotsContainer ? dotsContainer.querySelectorAll(&#34;.dot&#34;) : [];&#xD;&#xA;&#xD;&#xA;  function show() {&#xD;&#xA;    slides.forEach(s =&gt; s.classList.remove(&#34;active&#34;));&#xD;&#xA;    dots.forEach(d =&gt; d.classList.remove(&#34;active&#34;));&#xD;&#xA;&#xD;&#xA;    if (slides[struct_index]) {&#xD;&#xA;      slides[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (dots[struct_index]) dots[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (caption) {&#xD;&#xA;        caption.textContent = slides[struct_index].dataset.caption || &#34;&#34;;&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  function next() {&#xD;&#xA;    struct_index = (struct_index + 1) % slides.length;&#xD;&#xA;    show();&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  setInterval(next, 5000);&#xD;&#xA;  show();&#xD;&#xA;});&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>About us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .about {&#xD;&#xA;        background-color: #ffffff !important;&#xD;&#xA;        color: #303030 !important; &#xD;&#xA;&#x9;&#x9;margin-top: 0px !important; &#xD;&#xA;    }&#xD;&#xA;    .about b {&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;    }&#xD;&#xA;    .about h2, &#xD;&#xA;    .about h3 {&#xD;&#xA;        color: #303030 !important;&#xD;&#xA;    }&#xD;&#xA;    table , td, th {&#xD;&#xA;        border: 1px solid #595959;&#xD;&#xA;        border-collapse: collapse;&#xD;&#xA;        width: 100%;&#xD;&#xA;        border-left: none;&#xD;&#xA;        border-right: none;&#xD;&#xA;    }&#xD;&#xA;    th , td {&#xD;&#xA;         border-right: none !important;&#xD;&#xA;        border-left: none !important;&#xD;&#xA;        padding: 20px;&#xD;&#xA;        width: 30px;&#xD;&#xA;        height: 40px;&#xD;&#xA;    }&#xD;&#xA;    td {&#xD;&#xA;        font-weight: 500;&#xD;&#xA;    }&#xD;&#xA;    th {&#xD;&#xA;        background: #ffffff;&#xD;&#xA;        text-align: center;&#xD;&#xA;    }&#xD;&#xA;    .even {&#xD;&#xA;        background: #fbf8f0;&#xD;&#xA;    }&#xD;&#xA;    .odd {&#xD;&#xA;        background: #fefcf9;&#xD;&#xA;    }&#xD;&#xA;    .prof {&#xD;&#xA;        margin-top: 50px;&#xD;&#xA;    }&#xD;&#xA;    .activity-card{&#xD;&#xA;    position: relative;&#xD;&#xA;    display: block;&#xD;&#xA;    overflow: hidden;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .activity-card img{&#xD;&#xA;    width: 100%;&#xD;&#xA;    display: block;&#xD;&#xA;    }&#xD;&#xA;    .activity-card::after{&#xD;&#xA;    content: &#34;&#34;;&#xD;&#xA;    position: absolute;&#xD;&#xA;    inset: 0;&#xD;&#xA;    background: rgba(0, 0, 0, 0.503);&#xD;&#xA;    transition: 0.3s;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .activity-card:hover::after{&#xD;&#xA;    background: rgba(0, 0, 0, 0.822);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .activity-title{&#xD;&#xA;    position: absolute;&#xD;&#xA;    top: 50%;&#xD;&#xA;    left: 50%;&#xD;&#xA;    transform: translate(-50%, -50%);&#xD;&#xA;    &#xD;&#xA;    color: white;&#xD;&#xA;    font-size: 40px;&#xD;&#xA;    font-weight: 600;&#xD;&#xA;    text-align: center;&#xD;&#xA;    z-index: 2;&#xD;&#xA;    }&#xD;&#xA;    .activity-card img{&#xD;&#xA;    width:100%;&#xD;&#xA;    transition:0.4s;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .activity-card:hover img{&#xD;&#xA;    transform:scale(1.05);&#xD;&#xA;    }&#xD;&#xA;    .about-space1 {&#xD;&#xA;        height: 50px;&#xD;&#xA;    }&#xD;&#xA;    .about-space2 {&#xD;&#xA;        height: 80px;&#xD;&#xA;    }&#xD;&#xA;    .about-coreroke img{&#xD;&#xA;        width: 70%;&#xD;&#xA;    }&#xD;&#xA;    .about-coreroke {&#xD;&#xA;        margin-top: 50px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    @media (max-width:1199px) {&#xD;&#xA;        .about-coreroke img{&#xD;&#xA;            width: 80%;&#xD;&#xA;        }&#xD;&#xA;        .about-coreroke {&#xD;&#xA;            margin-top: 60px;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width: 991px) {&#xD;&#xA;        .about b {&#xD;&#xA;            font-size: 11pt;&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        .about-wi {&#xD;&#xA;            width: 70%;&#xD;&#xA;            margin-left: auto;&#xD;&#xA;            margin-right: auto;&#xD;&#xA;            margin-top: 10px;&#xD;&#xA;        }&#xD;&#xA;        .about-space1 {&#xD;&#xA;            height: 120px;&#xD;&#xA;        }&#xD;&#xA;        .about-coreroke img{&#xD;&#xA;            width: 30%;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width: 767px) {&#xD;&#xA;        .activity-title {&#xD;&#xA;            font-size: 25px;&#xD;&#xA;        }&#xD;&#xA;        .about-space1 {&#xD;&#xA;            height: 50px;&#xD;&#xA;        }&#xD;&#xA;        .about-space2 {&#xD;&#xA;            height: 40px;&#xD;&#xA;        }&#xD;&#xA;        .about-coreroke img{&#xD;&#xA;            width: 40%;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section class=&#34;bar no-mb no-padding about&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;about-space1&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-md-8&#34;&gt;&#xD;&#xA;            &lt;q style=&#34;color: #da4d4d; font-size: 10pt;&#34;&gt;Profile&lt;/q&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;h2&gt;COREとは&lt;/h2&gt;&#xD;&#xA;            &lt;b&gt;&#xD;&#xA;                COREは関東圏の大学生が集まり，ハイブリッドロケットやCanSat(缶サイズの模擬人工衛星)の製作・打上げを行っているサークルです．&lt;br&gt;&#xD;&#xA;                &lt;br&gt;&#xD;&#xA;                航空宇宙に興味があり，ロケットを自分の手で打ち上げたいという想いを持った学生が多く集まっています．&lt;br&gt;&#xD;&#xA;                &lt;br&gt;&#xD;&#xA;                COREでは実践的なプロジェクトを通して，ロケットの設計・製作に必要な技術や知識とともに，&#xD;&#xA;                プロジェクトマネジメント・ロジカルシンキング・システムズエンジニアリングなどを学ぶことができます．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-md-4 about-coreroke&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/coreroke/coreroke_7.webp&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 about-space2&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 prof&#34;&gt;&#xD;&#xA;            &lt;q style=&#34;color: #da4d4d; font-size: 10pt;&#34;&gt;Profile&lt;/q&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;h2&gt;活動情報&lt;/h2&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-md-6 about-wi&#34;&gt;&#xD;&#xA;        &lt;a href=&#34;http://localhost:1313/activity/2025/&#34; class=&#34;activity-card&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/ss/15.webp&#34; alt=&#34;&#34;&gt;&#xD;&#xA;            &lt;div class=&#34;activity-title&#34;&gt;2025年度&lt;/div&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-md-6 about-wi&#34;&gt;&#xD;&#xA;        &lt;a href=&#34;http://localhost:1313/activity/2025/&#34; class=&#34;activity-card&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/ss/1.webp&#34; alt=&#34;&#34;&gt;&#xD;&#xA;            &lt;div class=&#34;activity-title&#34;&gt;2026年度&lt;/div&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 about-space2&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 prof&#34;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;q style=&#34;color: #da4d4d; font-size: 10pt;&#34;&gt;Profile&lt;/q&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;h2&gt;団体概要&lt;/h2&gt;&#xD;&#xA;            &lt;table&gt;&#xD;&#xA;                &lt;tbody&gt;&#xD;&#xA;                    &lt;tr&gt;&#xD;&#xA;                        &lt;th&gt;団体名&lt;/th&gt;&#xD;&#xA;                        &lt;td&gt;Challengers of Rocket Engineering (略称 CORE)&lt;/td&gt;&#xD;&#xA;                    &lt;/tr&gt;&#xD;&#xA;                    &lt;tr&gt;&#xD;&#xA;                        &lt;th&gt;代表者&lt;/th&gt;&#xD;&#xA;                        &lt;td&gt;藤澤　海大&lt;/td&gt;&#xD;&#xA;                    &lt;/tr&gt;&#xD;&#xA;                    &lt;tr&gt;&#xD;&#xA;                        &lt;th&gt;所属&lt;/th&gt;&#xD;&#xA;                        &lt;td&gt;UNISEC(宇宙団体コンソーシアム)&lt;/td&gt;&#xD;&#xA;                    &lt;/tr&gt;&#xD;&#xA;                    &lt;tr&gt;&#xD;&#xA;                        &lt;th&gt;発足&lt;/th&gt;&#xD;&#xA;                        &lt;td&gt;2007年3月21日&lt;/td&gt;&#xD;&#xA;                    &lt;/tr&gt;&#xD;&#xA;                    &lt;tr&gt;&#xD;&#xA;                        &lt;th&gt;現役メンバー人数&lt;/th&gt;&#xD;&#xA;                        &lt;td&gt;18人(2025年3月現在)&lt;/td&gt;&#xD;&#xA;                    &lt;/tr&gt;&#xD;&#xA;                &lt;/tbody&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
+      <title>About us</title>
+      <link>http://localhost:1313/welcome_2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/welcome_2026/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .welcome_2026 {&#xD;&#xA;        background-color: #ffffff !important;&#xD;&#xA;        color: #303030 !important; &#xD;&#xA;&#x9;&#x9;margin-top: 0px !important; &#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section class=&#34;bar no-mb no-padding welcome_2026&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34;&gt;&#xD;&#xA;            &lt;q style=&#34;color: #da4d4d; font-size: 10pt;&#34;&gt;Profile&lt;/q&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;h2&gt;2026年新歓日程&lt;/h2&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/2026_welcome_sche.jpg&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
+      <title>avionics</title>
+      <link>http://localhost:1313/rocket-tabs/avionics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/avionics/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .avionics {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    .avionics b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 80%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .avionics h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding avionics&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;電装班&lt;/h2&gt; &#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-top: 60px;&#34;&gt;&#xD;&#xA;                電装班では，ロケットの減速落下のための開放機構を適切に操作するため，&#xD;&#xA;                また飛行軌道・高度を解析するデータログ収集のために，&#xD;&#xA;                気圧・加速度センサや無線機器を搭載し，それらを管理するシステムを構築します．&lt;br&gt;&lt;br&gt;&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_7.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_6.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_8.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;h2&gt;設計&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_1.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_13.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_10.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-bottom: 80px;&#34;&gt;&#xD;&#xA;                電装のシステム，機能を決定した後，実際に基板の設計を行います．&#xD;&#xA;                主に，GPSで位置情報を取得するGNSSモジュール，&#xD;&#xA;                ロケットの飛翔・頂点を検知する気圧・加速度センサモジュール，&#xD;&#xA;                ロケットからログを受け取り，コマンドを送信するために，地上との通信を行う通信モジュール，&#xD;&#xA;                これらを動かす電源モジュールの4つを設計します．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                互いのモジュールが連携し，洗練された電装システムの設計を目指します．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&lt;h2&gt;制作&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34; style=&#34;height: 130px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b&gt;&#xD;&#xA;                回路設計ソフトを用いて設計したPCB，使用する部品を発注する．&lt;br&gt;&#xD;&#xA;                到着した基板に部品を組み込み，はんだ付けを行う．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                各マイコンに対してArduino言語を用いて，プログラミングを行う．&#xD;&#xA;                それぞれのセンサやモジュールが正常に作動し，速度やGPSを取得できるか試験を行う．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_9.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_12.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/avio/avio_11.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;document.querySelectorAll(&#34;.slideshow&#34;).forEach(slideshow =&gt; {&#xD;&#xA;  &#xD;&#xA;  if (slideshow.dataset.initialized) return;&#xD;&#xA;  slideshow.dataset.initialized = &#34;true&#34;;&#xD;&#xA;&#xD;&#xA;  const slides = slideshow.querySelectorAll(&#34;.slide&#34;);&#xD;&#xA;  const dotsContainer = slideshow.querySelector(&#34;.dots&#34;);&#xD;&#xA;  const caption = slideshow.querySelector(&#34;.caption&#34;);&#xD;&#xA;&#xD;&#xA;  if (dotsContainer) dotsContainer.innerHTML = &#34;&#34;;&#xD;&#xA;&#xD;&#xA;  let struct_index = 0;&#xD;&#xA;&#xD;&#xA;  slides.forEach((_, i) =&gt; {&#xD;&#xA;    let d = document.createElement(&#34;span&#34;);&#xD;&#xA;    d.className = &#34;dot&#34;;&#xD;&#xA;    d.onclick = () =&gt; {&#xD;&#xA;      struct_index = i;&#xD;&#xA;      show();&#xD;&#xA;    };&#xD;&#xA;    if (dotsContainer) dotsContainer.appendChild(d);&#xD;&#xA;  });&#xD;&#xA;&#xD;&#xA;  const dots = dotsContainer ? dotsContainer.querySelectorAll(&#34;.dot&#34;) : [];&#xD;&#xA;&#xD;&#xA;  function show() {&#xD;&#xA;    slides.forEach(s =&gt; s.classList.remove(&#34;active&#34;));&#xD;&#xA;    dots.forEach(d =&gt; d.classList.remove(&#34;active&#34;));&#xD;&#xA;&#xD;&#xA;    if (slides[struct_index]) {&#xD;&#xA;      slides[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (dots[struct_index]) dots[struct_index].classList.add(&#34;active&#34;);&#xD;&#xA;      if (caption) {&#xD;&#xA;        caption.textContent = slides[struct_index].dataset.caption || &#34;&#34;;&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  function next() {&#xD;&#xA;    struct_index = (struct_index + 1) % slides.length;&#xD;&#xA;    show();&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  setInterval(next, 5000);&#xD;&#xA;  show();&#xD;&#xA;});&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .contact {&#xD;&#xA;        background-color: #fff;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    .contact b {&#xD;&#xA;        font-size: 14pt;&#xD;&#xA;    }&#xD;&#xA;    .contact-space {&#xD;&#xA;        height: 50px;&#xD;&#xA;    }&#xD;&#xA;    .contact-coreroke img {&#xD;&#xA;        width: 280px;&#xD;&#xA;        margin-top: auto;&#xD;&#xA;        margin-bottom: auto;&#xD;&#xA;    }&#xD;&#xA;    .contact-logo {&#xD;&#xA;        width: 100px;&#xD;&#xA;        margin-left: 20px;&#xD;&#xA;    }&#xD;&#xA;    .contact-mail {&#xD;&#xA;        margin-top: 60px;&#xD;&#xA;        text-align: center;&#xD;&#xA;        font-size: 30pt;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    @media (max-width:991px) and (min-width:767px){&#xD;&#xA;        .contact-space {&#xD;&#xA;            height: 100px;&#xD;&#xA;        }&#xD;&#xA;        .contact h2 {&#xD;&#xA;            font-size: 18pt;&#xD;&#xA;        }&#xD;&#xA;        .contact b {&#xD;&#xA;            font-size: 12pt;&#xD;&#xA;        }&#xD;&#xA;        .contact-coreroke img {&#xD;&#xA;        width: 200px;&#xD;&#xA;        }&#xD;&#xA;        .contact-logo {&#xD;&#xA;        width: 90px;&#xD;&#xA;        margin-left: 0px;&#xD;&#xA;        }&#xD;&#xA;        .contact-mail {&#xD;&#xA;            margin-top: 60px;&#xD;&#xA;            text-align: center;&#xD;&#xA;            font-size: 25pt;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width:767px){&#xD;&#xA;        .contact h2 {&#xD;&#xA;            font-size: 14pt;&#xD;&#xA;        }&#xD;&#xA;        .contact b {&#xD;&#xA;            font-size: 11pt;&#xD;&#xA;        }&#xD;&#xA;        .contact-coreroke img {&#xD;&#xA;            width: 200px;&#xD;&#xA;        }&#xD;&#xA;        .contact-logo {&#xD;&#xA;            width: 80px;&#xD;&#xA;            margin-left: 0px;&#xD;&#xA;        }&#xD;&#xA;        .contact-mail {&#xD;&#xA;            margin-top: 60px;&#xD;&#xA;            text-align: center;&#xD;&#xA;            font-size: 20pt;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width:650px) {&#xD;&#xA;        .contact-logo {&#xD;&#xA;            width: 80px;&#xD;&#xA;            margin-left: -20px;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width:600px) {&#xD;&#xA;        .contact-logo {&#xD;&#xA;            width: 70px;&#xD;&#xA;            margin-left: -20px;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section class=&#34;bar no-mb no-padding contact&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;contact-space&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;q style=&#34;color: #da4d4d; font-size: 10pt;&#34;&gt;Contact&lt;/q&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;h2&gt;お問い合わせ&lt;/h2&gt;&#xD;&#xA;            &lt;div class=&#34;heading text-left&#34;&gt;&#xD;&#xA;            &lt;h2&gt;参加を希望される方へ&lt;/h2&gt;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-6 col-sm-8&#34;&gt;&#xD;&#xA;            &lt;b&gt;入会・活動の見学については，以下のSNSからご連絡ください．&lt;/b&gt;&#xD;&#xA;            &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;                &lt;div style=&#34;margin-top: 60px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;                &lt;div class=&#34;col-xs-4 contact-logo&#34;&gt;&#xD;&#xA;                &lt;a href=&#34;&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;http://localhost:1313/img/sns/x_b.webp&#34;&gt;&#xD;&#xA;                &lt;/a&gt;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;                &lt;div class=&#34;col-xs-4 contact-logo&#34;&gt;&#xD;&#xA;                &lt;a href=&#34;&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;http://localhost:1313/img/sns/insta.webp&#34;&gt;&#xD;&#xA;                &lt;/a&gt;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;                &lt;div class=&#34;col-xs-4 contact-logo&#34;&gt;&#xD;&#xA;                &lt;a href=&#34;&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;http://localhost:1313/img/sns/line.webp&#34;&gt;&#xD;&#xA;                &lt;/a&gt;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-6 col-sm-4 contact-coreroke&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/coreroke/coreroke_5.webp&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12&#34; style=&#34;height: 250px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;heading text-left&#34;&gt;&#xD;&#xA;                &lt;h2&gt;スポンサーやリクルートにご興味の企業様&lt;/h2&gt;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-6&#34; style=&#34;margin-top: 8%;&#34;&gt;&#xD;&#xA;            &lt;b&gt;こちらのメールアドレスまで，ご連絡いただけると幸いです．&lt;/b&gt;&lt;br&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-6 contact-coreroke&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/coreroke/coreroke_3.webp&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;contact-mail&#34;&gt;&#xD;&#xA;                &lt;b&gt;mail;&amp;nbsp;&lt;/b&gt;&#xD;&#xA;                &lt;a href=&#34;mailto:core.rockets@gmail.com&#34;&gt;&#xD;&#xA;                core.rockets@gmail.com&#xD;&#xA;            &lt;/a&gt;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>http://localhost:1313/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>overview</title>
+      <link>http://localhost:1313/rocket-tabs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/overview/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .overview {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;    .slideshow{&#xD;&#xA;    max-width:1100px;&#xD;&#xA;    width:90%;&#xD;&#xA;    font-family:sans-serif;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slides{&#xD;&#xA;    position:relative;&#xD;&#xA;    aspect-ratio:4/3;&#xD;&#xA;    overflow:hidden;&#xD;&#xA;    border-radius:6px;&#xD;&#xA;    box-shadow:0 6px 20px rgba(0,0,0,0.15);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide{&#xD;&#xA;    position:absolute;&#xD;&#xA;    top:0;&#xD;&#xA;    left:0;&#xD;&#xA;    width:100%;&#xD;&#xA;    height:100%;&#xD;&#xA;    opacity:0;&#xD;&#xA;    transition:opacity 0.9s ease;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide.active{&#xD;&#xA;    opacity:1;&#xD;&#xA;    z-index:1;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .slide img{&#xD;&#xA;    width:100%;&#xD;&#xA;    height:100%;&#xD;&#xA;    object-fit:cover;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .caption{&#xD;&#xA;    text-align:center;&#xD;&#xA;    margin-top:14px;&#xD;&#xA;    font-size:13px;&#xD;&#xA;    color:#444;&#xD;&#xA;    letter-spacing:0.03em;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dots{&#xD;&#xA;    text-align:center;&#xD;&#xA;    margin-top:14px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dot{&#xD;&#xA;    height:8px;&#xD;&#xA;    width:8px;&#xD;&#xA;    margin:5px;&#xD;&#xA;    display:inline-block;&#xD;&#xA;    border-radius:6px;&#xD;&#xA;    background:#cfcfcf;&#xD;&#xA;    transition:all .25s ease;&#xD;&#xA;    cursor:pointer;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .dot.active{&#xD;&#xA;    background:#222;&#xD;&#xA;    width:24px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .overview b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 85%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .overview h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    @media (max-width:1200px) {&#xD;&#xA;        .slides {&#xD;&#xA;            aspect-ratio: 1/1;&#xD;&#xA;        }&#xD;&#xA;        .overview b {&#xD;&#xA;            font-size: 11pt;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width: 991px) {&#xD;&#xA;        .slides {&#xD;&#xA;            aspect-ratio: 16/9;&#xD;&#xA;        }&#xD;&#xA;        .slideshow {&#xD;&#xA;            width: 70%;&#xD;&#xA;            margin-left: auto;&#xD;&#xA;            margin-right: auto;&#xD;&#xA;        }&#xD;&#xA;        .overview-space {&#xD;&#xA;            height: 60px;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding overview&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;プロジェクト発足&lt;/h2&gt; &#xD;&#xA;        &lt;div class=&#34;col-md-6&#34; style=&#34;margin-top: -20px;&#34;&gt;&#xD;&#xA;            &lt;b&gt;&#xD;&#xA;                COREでは，8月能代宇宙イベント，11月伊豆大島共同打上実験，3月伊豆大島共同打上実験と1年で3回のプロジェクトに向けて機体の制作を行っています．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                各プロジェクトの発足の際に，プロジェクトの目標となる，ミッションを決定しています．&#xD;&#xA;                近年では，8月能代で剣岳や富士山を超える「到達高度」の更新．あるいは，11月伊豆大島で機体内で絵を書く，みかんジュースなど「独自ミッション」に挑戦しています．&#xD;&#xA;                &lt;br&gt;&lt;br&gt;これらを軸に，性能や計画を詰め，プロジェクトの方向性を決定します．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;overview-space&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/overview/overview_10.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/overview/overview_11.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/overview/overview_12.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/overview/overview_13.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;                    &#xD;&#xA;                    &#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rocket</title>
+      <link>http://localhost:1313/rocket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sponsor</title>
+      <link>http://localhost:1313/sponsor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sponsor/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;&#xD;&#xA;.sponsor {&#xD;&#xA;background-color: #fff;&#xD;&#xA;margin-top: 30px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sponsor b {&#xD;&#xA;    display: block;&#xD;&#xA;    width: 90%;&#xD;&#xA;    font-size: 12pt;&#xD;&#xA;    line-height: 2;&#xD;&#xA;    margin-left: auto;&#xD;&#xA;    margin-right: auto;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_box{&#xD;&#xA;    background:#f5f5f5;&#xD;&#xA;    padding:30px 24px;&#xD;&#xA;    border-radius:12px;&#xD;&#xA;    transition:0.2s;&#xD;&#xA;    height:100%;&#xD;&#xA;    display:flex;&#xD;&#xA;    flex-direction:column;&#xD;&#xA;    margin:15px 0;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_box a {&#xD;&#xA;    display: flex;&#xD;&#xA;    flex-direction: column;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.logo-box{&#xD;&#xA;    order: 0;&#xD;&#xA;    height: 120px;&#xD;&#xA;    display:flex;&#xD;&#xA;    align-items:center;&#xD;&#xA;    justify-content:center;&#xD;&#xA;    margin-bottom:20px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.logo-box img{&#xD;&#xA;    max-height:100px;&#xD;&#xA;    max-width:100%;&#xD;&#xA;    object-fit:contain;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_box h2{&#xD;&#xA;    order: 1;&#xD;&#xA;    text-align:center;&#xD;&#xA;    font-size:20px;&#xD;&#xA;    margin-bottom:15px;&#xD;&#xA;    min-height:54px;&#xD;&#xA;    display:flex;&#xD;&#xA;    align-items:flex-start;&#xD;&#xA;    justify-content:center;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_box b {&#xD;&#xA;    order: 2;&#xD;&#xA;    flex-grow: 1;&#xD;&#xA;    margin-top: 0;&#xD;&#xA;    width: 100%;&#xD;&#xA;    font-size: 11pt;&#xD;&#xA;    line-height: 1.6;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_box:hover{&#xD;&#xA;    transform:translateY(-4px);&#xD;&#xA;    box-shadow:0 6px 20px rgba(0,0,0,0.1);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_row{&#xD;&#xA;    display:flex;&#xD;&#xA;    flex-wrap:wrap;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sp_row &gt; div{&#xD;&#xA;    display:flex;&#xD;&#xA;    padding-top:15px;&#xD;&#xA;    padding-bottom:15px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.hr2{&#xD;&#xA;    height:2px;&#xD;&#xA;    background-color:#b2b2b2;&#xD;&#xA;    margin-top:30px;&#xD;&#xA;    margin-bottom:40px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.btn_03{&#xD;&#xA;    display:block;&#xD;&#xA;    text-align:center;&#xD;&#xA;    text-decoration:none;&#xD;&#xA;    width:170px;&#xD;&#xA;    margin:auto;&#xD;&#xA;    padding:1rem 4rem;&#xD;&#xA;    font-weight:bold;&#xD;&#xA;    border:2px solid #da4d4d;&#xD;&#xA;    background:#da4d4d;&#xD;&#xA;    color:#fff;&#xD;&#xA;    transition:0.5s;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.btn_03:hover{&#xD;&#xA;    color:#da4d4d;&#xD;&#xA;    background:#fff;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sponsor-card{&#xD;&#xA;    max-width:700px;&#xD;&#xA;    padding:40px 50px;&#xD;&#xA;    border:2px solid #616161;&#xD;&#xA;    border-radius:18px;&#xD;&#xA;    background:#fff;&#xD;&#xA;    margin:20px auto;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sponsor-card h2 {&#xD;&#xA;    margin-bottom: 40px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.sponsor-space {&#xD;&#xA;    height: 30px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;@media (max-width:1199px) {&#xD;&#xA;    .sponsor-card h2 {&#xD;&#xA;        font-size: 19pt;&#xD;&#xA;        margin-bottom: 20px;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;@media (max-width: 991px){&#xD;&#xA;    .sponsor-space {&#xD;&#xA;        height: 70px;&#xD;&#xA;    }&#xD;&#xA;    .sponsor-coreroke {&#xD;&#xA;        width: 30%;&#xD;&#xA;    }&#xD;&#xA;    .sponsor-card {&#xD;&#xA;        padding:30px 20px;&#xD;&#xA;        margin-top: 40px;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;@media (max-width: 767px){&#xD;&#xA;    .sp_row &gt; div {&#xD;&#xA;        width: 100%; &#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sp_box {&#xD;&#xA;        width: 80%;&#xD;&#xA;        margin: 15px auto;&#xD;&#xA;        padding: 20px 16px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .logo-box{&#xD;&#xA;        height:80px;&#xD;&#xA;        margin-bottom: 10px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .logo-box img{&#xD;&#xA;        max-height:70px;&#xD;&#xA;        max-width:90%;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sp_box h2{&#xD;&#xA;        font-size:18px;&#xD;&#xA;        min-height: 48px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sp_box b{&#xD;&#xA;        font-size:13px;&#xD;&#xA;        line-height:1.6;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .sponsor-card{&#xD;&#xA;        padding:20px;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding sponsor&#34;&gt;&#xD;&#xA;&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;row&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sponsor-space&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;col-12 col-md-5&#34;&gt;&#xD;&#xA;&lt;h2&gt;支援のお願い&lt;/h2&gt;&#xD;&#xA;&lt;b&gt;&#xD;&#xA;私達の活動に資金提供をしてくださるスポンサー様を募集しています．&#xD;&#xA;&lt;br&gt;&lt;br&gt;&#xD;&#xA;我々の活動理念にご賛同いただき，ご支援いただけるスポンサー様のご連絡をお待ちしております．&#xD;&#xA;&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-md-7&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sponsor-card&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-7&#34;&gt;&#xD;&#xA;            &lt;h2 style=&#34;text-align: center;&#34;&gt;スポンサーシップの&lt;br&gt;内容と連絡先&lt;/h2&gt;&#xD;&#xA;            &lt;a href=&#34;&#34; class=&#34;btn_03&#34;&gt;続きを見る&lt;/a&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-5 sponsor-coreroke&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;http://localhost:1313/img/coreroke/coreroke_6.webp&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;row&#34;&gt;&#xD;&#xA;&lt;div class=&#34;col-12&#34;&gt;&#xD;&#xA;&lt;hr class=&#34;hr2&#34;&gt;&#xD;&#xA;&lt;q style=&#34;color:#da4d4d;font-size:10pt;&#34;&gt;Sponsor&lt;/q&gt;&#xD;&#xA;&lt;h2&gt;協賛・協力企業&lt;/h2&gt;&#xD;&#xA;&lt;b&gt;COREに対して協賛・協力を頂いている企業様についての情報です．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;row sp_row&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;http://hokuyoh.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-hokuyoh.jpg&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社ホクヨー様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社ホクヨー様からは，推力，圧力，熱電対のレコーディングシステム(ロガー)に関する物品支援をしていただいております．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://www.fujikin.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-fujikin.png&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社フジキン様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社フジキン様からは，高圧ガス，配管・バルブ類に関する安全教育及び技術教育を行っていただいております．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;http://www.misumi.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-misumi.jpg&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社ミスミ様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社ミスミ様からは，学生ものづくり支援により部品提供を受けています．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;http://www.mst-corp.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-mst.jpg&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社MSTコーポレーション様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社MSTコーポレーション様は，独自開発エンジンの部品の一つであるグラファイト製のノズルの加工を行って頂いております．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;http://www.hopec.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-hopec.png&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社ホーペック様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社ホーペック様からは，ロケットのボディチューブに使用するFRPパイプを購入しています．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://www.nos-nmp.com/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-nmp_2.jpg&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;Nitrous Max Power様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;NMP様からは，配管や電磁バルブ等，GSEの部品を購入しています.&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://www.koki-holdings.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-hikoki.jpg&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;工機ホールディングス株式会社様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;工機ホールディングス株式会社様からは，電動工具の物品支援をして頂いております．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://www.alumitech.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;有限会社アルミテック様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;有限会社アルミテック様からは，ロケットの構造パーツや，自作エンジンに使用するアルミニウム材をご提供いただいています．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://www.unipla.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-unipla.png&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;ユニプラ株式会社様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;ユニプラ株式会社様からは独自開発エンジンの部品の一つであるフェノール樹脂パイプを購入しています．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;col-12 col-sm-6 col-md-4&#34;&gt;&#xD;&#xA;&lt;div class=&#34;sp_box&#34;&gt;&#xD;&#xA;&lt;a href=&#34;http://www.nomura-industory.co.jp/&#34;&gt;&#xD;&#xA;&lt;div class=&#34;logo-box&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/logo-NOMURA.png&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;h2&gt;株式会社ノムラ様&lt;/h2&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;b&gt;株式会社ノムラ様からは，金属部品の加工及び技術教育を行っていただいております．&lt;/b&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>structure</title>
+      <link>http://localhost:1313/rocket-tabs/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rocket-tabs/structure/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .structure {&#xD;&#xA;        background-color: #FFF;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    .structure b {&#xD;&#xA;        display: block;&#xD;&#xA;        width: 90%;&#xD;&#xA;        font-size: 12pt;&#xD;&#xA;        line-height: 2.4;&#xD;&#xA;        margin-left: auto;&#xD;&#xA;        margin-right: auto;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .structure h2 {&#xD;&#xA;        color: #28385f;&#xD;&#xA;        margin-bottom: 70px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    @media (min-width:992px) {&#xD;&#xA;        .structure-md {&#xD;&#xA;            display: none;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width:991px) and (min-width:767px){&#xD;&#xA;        .structure-sm {&#xD;&#xA;            display: none;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    @media (max-width:767px){&#xD;&#xA;        .structure-xs {&#xD;&#xA;            display: none;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;bar no-mb no-padding structure&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;h2&gt;構造班&lt;/h2&gt; &#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-top: 60px;&#34;&gt;&#xD;&#xA;                構造班では，ミッション決定に基づき，3DCADを用いてロケットの構造を設計します．&lt;br&gt;&lt;br&gt;&#xD;&#xA;                ノーズ，開放，電装，推進，フィンの5つの部に分かれ，推力による圧縮・引張応力・空力荷重などを考慮し，&#xD;&#xA;                破壊されないよう，安全な構造を設計します．&lt;br&gt;&#xD;&#xA;                また，CFRPやアルミなどの材料について，シミュレーションによる強度評価や，実機実験を行い軽量化を行います．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;overview-space&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-6&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/struct_1.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/struct_2.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34; data-caption=&#34;&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/struct_3.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;            &lt;/div&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-12&#34; style=&#34;height: 150px;&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-5&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-sm-6 col-md-3&#34;&gt;&lt;h2&gt;ノーズ部&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-sm-6 col-md-3 structure-xs&#34;&gt;&lt;h2&gt;開放部&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-md-1&#34;&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-sm-6 structure-md&#34;&gt;&#xD;&#xA;            &lt;b style=&#34;margin-bottom: 80px;&#34;&gt;&#xD;&#xA;                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．&lt;br&gt;&#xD;&#xA;                制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．&#xD;&#xA;                開放の構成によって，ノーズが開放する場合もあります．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 structure-sm structure-md&#34;&gt;&lt;h2&gt;開放部&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-sm-6 structure-md&#34;&gt; &#xD;&#xA;            &lt;b style=&#34;margin-bottom: 10px;&#34;&gt;&#xD;&#xA;                ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．&#xD;&#xA;                機体の一部を開放させることで，そのパラシュートを放出しています．&#xD;&#xA;                開放部では，それらの機構を設計・開発します．&#xD;&#xA;            &lt;/b&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;col-xs-12 col-md-5&#34;&gt;&#xD;&#xA;             &lt;div class=&#34;slideshow&#34;&gt;&#xD;&#xA;                &lt;div class=&#34;overview-space&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/nose_1.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/nose_2.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/kaihou_3.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                    &lt;div class=&#34;slide active&#34;&gt;&#xD;&#xA;                        &lt;img src=&#34;http://localhost:1313/img/struct/kaihou_5.webp&#34;&gt;&#xD;&#xA;                    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;div class=&#34;dots&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;                &lt;p class=&#34;caption&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,188 @@
+---
+title: avionics
+layout: single
+---
+
+<style>
+    .avionics {
+        background-color: #FFF;
+    }
+    
+    
+    .avionics b {
+        display: block;
+        width: 80%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .avionics h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+</style>
+
+<div class="bar no-mb no-padding avionics">
+    <div class="container">
+    <div class="row">
+        <h2 style="font-size:30pt;">電装班</h2> 
+        <div class="col-md-6">
+            <b style="margin-top: 0px;">
+                電装班では，ロケットの減速落下のための開放機構を適切に操作こと，
+                また飛行軌道・高度を解析するデータログを収集ことを目的として，
+                気圧・加速度センサや無線機器を搭載し，それらを管理するシステムを構築します．<br><br>
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="/img/avio/avio_7.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_6.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_8.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>設計</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="/img/avio/avio_1.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_13.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_10.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b style="margin-top: -10px; margin-bottom: 80px;">
+                電装システムの機能を決定した後，実際に基板の設計を行います．
+                主に，GPSで位置情報を取得するGNSSモジュール，
+                ロケットの飛翔・頂点を検知する気圧・加速度センサモジュール，
+                ロケットからログを受け取り，コマンドを送信するために地上との通信を行う通信モジュール，
+                これらを動かす電源モジュールの4つを設計します．<br><br>
+                互いのモジュールが連携し，洗練された電装システムの設計を目指します．
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"><h2>製作</h2></div>
+        <div class="col-md-6" style="height: 130px;"></div>
+        <div class="col-md-6">
+            <b>
+                回路設計ソフトを用いて設計したPCB，使用する部品を発注します．<br>
+                到着した基板に部品を組み込みはんだ付けを行います．<br><br>
+                各マイコンに対してArduino言語を用いてプログラミングを行います．
+                それぞれのセンサやモジュールが正常に作動し，速度やGPSを取得できるか試験を行います．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="/img/avio/avio_9.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_12.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/avio/avio_11.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>

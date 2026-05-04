@@ -5,6 +5,7 @@ image: /img/noshiro2021.jpg
 slug: 2021_activity_report_p1
 draft: false
 toc: false
+type: blog
 ---
 
 こんにちは！
@@ -14,6 +15,8 @@ CORE15th代表のけんTです。
 約1年ぶりのブログ更新です。本当にすみません…
 
 1年ぶりの更新ということで、今回はCOREの2021年度の活動を振り返ってみます。
+
+<!--more-->
 
 # 第17回能代宇宙イベント
 
@@ -35,4 +38,4 @@ CORE15th代表のけんTです。
 
 <div style="text-align: center"><img src = "/img/hibari2.jpg" alt ="hibari2" width = "200"></div>
 
-さて[次の回](https://core-rocket-official.netlify.app/blog/2021_activity_report_p2/)で第20回伊豆大島共同打上実験について書きますよ～
+さて[次の回]({{< ref "/blog/2021_activity_report_p2.md" >}})で第20回伊豆大島共同打上実験について書きますよ～

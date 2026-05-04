@@ -10,21 +10,23 @@ COREの2020年度広報担当の伊澤です。
 
 気づけば3月になってしまいました。そろそろ引退の時期が近づいてきて、ブログに記事を書くのはこれが最初で最後となってしまうかもしれませんが、がんばって書きたいと思います。
 
+<!--more-->
+
 今回は、『COREを知る方法　３選！』 と題しまして、COREの歴史や現在の活動内容を、簡単に知ることが出来る方法をご紹介します！
 
 ---
 
 ## ①過去のロケット
 
-まず1つ目は、『 <a href="https://core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>を見る！』です。
+まず1つ目は、『 [過去のロケット]({{< ref "/history.md" >}})を見る！』です。
 
 ![](/img/03031.png "過去のロケット")
 
-こちらはHPの<a href="https://core-rocket-official.netlify.app/rocket/" target="_blank" rel="noopener noreferrer">COREのロケット</a>内にあります。
+こちらはHPの[COREのロケット]({{< ref "/history.md" >}})</a>内にあります。
 
-<a href="https://core-rocket-official.netlify.app/about/" target="_blank" rel="noopener noreferrer">団体概要</a>にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
+[団体概要]({{< ref "/about.md" >}})にも記載がある通り、COREは2007年3月に発足し、これまでたくさんの先輩方が、数々のロケットを製作してきました。
 
-<a href="https://core-rocket-official.netlify.app/rocket/#%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88" target="_blank" rel="noopener noreferrer">過去のロケット</a>では、発足当初から現在までの **約14年間（！）** で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
+[過去のロケット]({{< ref "/history.md" >}})では、発足当初から現在までの **約14年間（！）** で生まれた、様々なプロジェクトのロケット機体写真・ロゴ・ポスターなどを閲覧することができます！
 
 まずはこちらのページを見て、COREの歴史を辿っていただければと思います。
 

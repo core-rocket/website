@@ -1,77 +1,97 @@
+<style>
+    .fot_col{
+        padding: 20px;
+        border-right:1px solid rgba(255,255,255,0.2);
+        margin-left: 10px;
+    }
+    .logo_l {
+        padding: 40px;
+        border-left:1px solid rgba(255,255,255,0.2);
+        border-right:1px solid rgba(255,255,255,0.2);
+    }
+
+    @media  (max-width: 992px) {
+        .logo_l img{
+            display:block;
+            margin:0 auto;
+            height:200px;
+        }
+
+    }
+
+    @media (max-width:768px){
+
+    .logo_l{
+    text-align:center;
+    border:none;
+    padding:30px 10px;
+    }
+
+    .logo_l img{
+    display:block;
+    margin:0 auto;
+    height:200px;
+    }
+
+    .fot_col{
+    border:none;
+    margin-left:0;
+    padding:20px 10px;
+    }
+
+    #footer .container > div{
+    margin-bottom:20px;
+    }
+
+    }
+</style>
+
 <footer id="footer">
     <div class="container">
-		<div class="container sns_section">
-			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="{{ .Title }}" data-url="{{ .Permalink }}" data-lang="ja" data-show-count="false">Tweet</a>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v6.0"></script>
-			<div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button_count" data-size="small"></div>
-
-			<a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-		</div>
-
-        {{ if isset .Site.Params "about_us" }}
-        <div class="col-md-4 col-sm-6">
-            <h4>{{ i18n "aboutUs" }}</h4>
-
-            {{ .Site.Params.about_us | safeHTML }}
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-			<br/><br/>
-			<a href="/privacy">プライバシーポリシー</a>
-
+        <div class="col-md-3 logo_l">
+            <a href=""><img src="/img/CORE_logo_wh.png" height="200px" ></a>
+            <br><h2><span style="font-size: 10pt;">Challengers of Rocket Engineering</span></h2>
         </div>
-        <!-- /.col-md-4 -->
-        {{ end }}
-
-        <div class="col-md-4 col-sm-6">
-
-            {{ if isset .Site.Params "recent_posts" }} {{ if .Site.Params.recent_posts.enable }}
-            <h4>{{ i18n "recentPosts" }}</h4>
-
-            <div class="blog-entries">
-                {{ range first 3 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="{{ .Permalink }}">
-                          {{ if isset .Params "banner" }}
-                            <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}">
-                          {{ else }}
-                            <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="{{ .Title }}">
-                          {{ end }}
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-            {{ end }} {{ end }}
-
+        <div class="col-md-3 fot_col">
+        <a href="/about"><h4>団体について</h4></a>
+        <ul>
+        <li><a href="/activity/1">2025</a></li>
+        <li><a href="/activity/1">2026</a></li>
+        </ul>
+        <div style="margin-top: 40px;"></div>
+        <a href="/rocket"><h4>ロケット</h4></a>
+        <ul>
+        <li><a href="/rocket/#structure">構造班</a></li>
+        <li><a href="/rocket/#avionics">電装班</a></li>
+        <li><a href="/rocket/#engine">エンジン班</a></li>
+        <li><a href="/rocket/#fire">燃焼班</a></li>
+        <li><a href="/rocket/#sim">sim班</a></li>
+        </ul>
+        <div style="margin-top: 40px;"></div>
+        <a href="/history"><h4>COREの機体</h4></a>
         </div>
-        <!-- /.col-md-4 -->
 
-        {{ if isset .Site.Params "address" }}
-        <div class="col-md-4 col-sm-6">
-
-          <h4>{{ i18n "contactTitle" }}</h4>
-
-            {{ .Site.Params.address | safeHTML }}
-
-            <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
+        <div class="col-md-3 fot_col">
+        <a href="/blog"><h4>ブログ</h4></a>
+        <div style="margin-top: 40px;"></div>
+        <a href="/sponsor"><h4>協賛・協力</h4></a>
+        <ul>
+        <li><a href="/sponsor">スポンサー一覧</a></li>
+        <li><a href="/sponsor/">協賛募集</a></li>
+        </ul>
+        <div style="margin-top: 40px;"></div>
+        <a href="/contact"><h4>お問い合わせ</h4></a>
+        <div style="margin-top: 40px;"></div>
+        <h4>その他</h4>
+        <ul>
+        <li><a href="/privacy">プライバシーポリシー</a></li>
+        </ul>
         </div>
-        <!-- /.col-md-4 -->
-        {{ end }}
 
+        <div class="col-md-2 fot_col">
+            © {{ now.Year }} {{ .Site.Title }}
+        </div>
     </div>
-    <!-- /.container -->
 </footer>
 
 <!-- /#footer -->

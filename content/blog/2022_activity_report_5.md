@@ -11,10 +11,12 @@ toc: false
 
 　今回は11/12,13に実施される第21回伊豆大島共同打上実験で打ち上げるロケットの紹介です。
 
+<!--more-->
+
 ## プロジェクトの特徴
 　今回のロケットは、新入生の技術習得のために班長含めて新入生を中心に開発を行っています。エンジンは自作ではなくHyperTEK J250でスタンダードな陸打ち機体ですが、CanSatの放出を行います。
 
-　CanSatは開発コストがかかるローバーではなく、カメラからロケットを撮影するものにしています。このカメラは[2021年度の新入生プロジェクトの機体](https://core-rocket-official.netlify.app/blog/2021_activity_report_p2/)のものを再利用しました。360度カメラで画角が広く、これでロケットを自撮りする予定です。ただカメラを搭載するだけでなくカーボンクロスを積層してCFRPを自作していて、今後ロケットへ応用することも考えています。
+　CanSatは開発コストがかかるローバーではなく、カメラからロケットを撮影するものにしています。このカメラは[2021年度の新入生プロジェクトの機体]({{< ref "/blog/2021_activity_report_p2.md" >}})のものを再利用しました。360度カメラで画角が広く、これでロケットを自撮りする予定です。ただカメラを搭載するだけでなくカーボンクロスを積層してCFRPを自作していて、今後ロケットへ応用することも考えています。
 
 <br>
 <div style = "text-align: center"><img src = "/img/2022_activity_report_5/CanSat.png" width = "600"></div>
@@ -34,6 +36,6 @@ toc: false
 <div style = "text-align: center"><img src = "/img/2022_activity_report_5/rocket.jpg" width = "600"></div>
 <br>
 
-　[次回](https://core-rocket-official.netlify.app/blog/2022_activity_report_6/)は，このロケットの打上げの結果報告になります。
+　[次回]({{< ref "/blog/2022_activity_report_6.md" >}})は，このロケットの打上げの結果報告になります。
 
 　お楽しみに！

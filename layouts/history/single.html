@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+
+{{ partial "headers.html" . }}
+{{ partial "custom_headers.html" . }}
+
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+
+<style>
+
+.projects-page{
+max-width:1170px;
+margin:auto;
+padding-top:80px;
+padding-bottom:60px;
+}
+
+.projects-page h2{
+font-size:34px;
+font-weight:700;
+margin-bottom:35px;
+letter-spacing:.05em;
+color:#222;
+}
+
+.sort-bar{
+display:flex;
+gap:36px;
+border-bottom:1px solid #e5e5e5;
+margin-bottom:40px;
+position:relative;
+}
+
+.sort-btn{
+background:none;
+border:none;
+cursor:pointer;
+font-size:18px;
+font-weight:600;
+letter-spacing:.04em;
+padding:12px 0;
+color:#8a8a8a;
+transition:.25s;
+}
+
+.sort-btn:hover{
+color:#333;
+}
+
+.sort-btn.active{
+color:#d94b4b;
+}
+
+.sort-slider{
+position:absolute;
+bottom:-1px;
+height:3px;
+width:0;
+background:#d94b4b;
+border-radius:2px;
+transition:all .35s cubic-bezier(.4,0,.2,1);
+}
+
+.project-card{
+border:1px solid #ececec;
+border-radius:14px;
+padding:26px 30px;
+margin-bottom:22px;
+cursor:pointer;
+background:white;
+transition:transform .35s, box-shadow .35s, border-color .35s;
+}
+
+.project-card:hover{
+transform:translateY(-4px);
+box-shadow:0 18px 40px rgba(0,0,0,0.08);
+border-color:#e2e2e2;
+}
+
+.project-header{
+display:flex;
+flex-direction:column;
+gap:8px;
+margin-bottom:14px;
+}
+
+.rocket-line{
+display:flex;
+justify-content:space-between;
+align-items:baseline;
+}
+
+.rocket-title{
+font-size:30px;
+font-weight:700;
+border-left:5px solid #da4d4d;
+padding-left:14px;
+letter-spacing:.05em;
+color:#111;
+transition:.25s;
+}
+
+.project-card:hover .rocket-title{
+border-left-color:#ff5b5b;
+}
+
+.project-date{
+font-size:14px;
+color:#8a8a8a;
+letter-spacing:.04em;
+}
+
+.project-subtitle{
+font-size:17px;
+color:#555;
+margin-left:18px;
+letter-spacing:.03em;
+}
+
+.gallery{
+display:none;
+grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+gap:16px;
+margin-top:22px;
+animation:fadeIn .35s ease;
+}
+
+.gallery.active{
+display:grid;
+}
+
+.gallery a{
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:hidden;
+border-radius:10px;
+background:#f6f6f6;
+aspect-ratio:5/4;
+padding:8px;
+transition:transform .25s, box-shadow .25s, background .25s;
+}
+
+.gallery a:hover{
+background:#efefef;
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.gallery img{
+max-width:100%;
+max-height:100%;
+object-fit:contain;
+transition:.35s;
+}
+
+.gallery a:hover img{
+transform:scale(1.08);
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(6px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+.project-meta{
+display:flex;
+flex-direction:column;
+gap:4px;
+margin-left:18px;
+margin-top:4px;
+}
+
+.project-pj{
+font-size:18px;
+font-weight:600;
+color:#555;
+width: 40%;
+letter-spacing:.04em;
+display:inline-block;
+font-size:12px;
+font-weight:600;
+padding:3px 8px;
+background:#f3f3f3;
+border-radius:5px;
+color:#666;
+margin-bottom:2px;
+}
+
+.project-subtitle{
+margin-top: 10px;
+font-size:14px;
+color:#888;
+letter-spacing:.03em;
+}
+.history-space {
+    height: 50px;
+}
+.projects-page{
+    width: 92%;
+    max-width: 1192px;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .history-space {
+        height: 100px;
+    }
+    .projects-page{
+        max-width: 92%;
+    }
+}
+
+@media (max-width: 767px){
+    .history-space {
+    height: 30px;
+}
+
+.projects-page{
+max-width: 92%;
+}
+
+.project-card{
+padding: 20px 18px;
+}
+
+.rocket-title{
+font-size: 24px;
+}
+
+.project-subtitle{
+font-size: 15px;
+}
+
+
+
+.projects-page h2{
+font-size:20pt;
+}
+
+.sort-btn {
+    font-size: 10pt;
+}
+.project-pj {
+    width: 70%;
+}
+.sort-bar {
+    gap: 20px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="all">
+
+{{ partial "top.html" . }}
+{{ partial "nav.html" . }}
+
+<div id="content">
+
+<div class="projects-page">
+<div class="history-space"></div>
+
+<q style="color: #da4d4d; font-size: 10pt;">History</q>
+<h2>COREの歴代ロケット</h2>
+
+<div class="sort-bar">
+
+<button class="sort-btn active" onclick="sortProjects(event,'new')">
+新しい順
+</button>
+
+<button class="sort-btn" onclick="sortProjects(event,'old')">
+古い順
+</button>
+
+<button class="sort-btn" onclick="sortProjects(event,'name')">
+名前順
+</button>
+
+<div class="sort-slider"></div>
+
+</div>
+
+<div id="project-list">
+
+{{ range $i, $p := where site.RegularPages "Section" "projects" }}
+
+<div class="project-card"
+data-date="{{ $p.Date }}"
+data-rocket="{{ .Params.rocket }}"
+onclick="toggleGallery('gallery{{$i}}')">
+
+<div class="project-header">
+
+<div class="rocket-line">
+
+<div class="rocket-title">
+{{ .Params.rocket }}
+</div>
+
+<div class="project-date">
+{{ .Date.Format "2006.01" }}
+</div>
+
+</div>
+
+<div class="project-meta">
+
+<div class="project-pj">
+{{ .Params.pj }}
+</div>
+
+<div class="project-subtitle">
+{{ .Title }}
+</div>
+
+</div>
+
+</div>
+
+<div class="gallery" id="gallery{{$i}}">
+
+{{ $images := $p.Resources.ByType "image" }}
+
+{{ range sort $images "Name" }}
+
+{{ $img := . }}
+
+<a href="{{ $img.RelPermalink }}"
+data-pswp-width="{{ $img.Width }}"
+data-pswp-height="{{ $img.Height }}">
+
+<img src="{{ $img.RelPermalink }}">
+
+</a>
+
+{{ end }}
+
+</div>
+
+</div>
+
+{{ end }}
+
+</div>
+
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+<script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js" type="module"></script>
+
+<script type="module">
+
+import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js'
+
+const lightbox = new PhotoSwipeLightbox({
+gallery: '.projects-page',
+children: '.gallery a',
+pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js')
+})
+
+lightbox.init()
+
+</script>
+
+<script>
+
+function toggleGallery(id){
+
+const galleries=document.querySelectorAll(".gallery")
+
+galleries.forEach(g=>{
+if(g.id!==id){
+g.classList.remove("active")
+}
+})
+
+const el=document.getElementById(id)
+el.classList.toggle("active")
+
+}
+
+function sortProjects(e,type){
+
+const list=document.getElementById("project-list")
+const items=[...list.children]
+
+items.sort((a,b)=>{
+
+if(type=="new"){
+return new Date(b.dataset.date)-new Date(a.dataset.date)
+}
+
+if(type=="old"){
+return new Date(a.dataset.date)-new Date(b.dataset.date)
+}
+
+if(type=="name"){
+return a.dataset.rocket.localeCompare(b.dataset.rocket,'ja')
+}
+
+})
+
+items.forEach(el=>list.appendChild(el))
+
+document.querySelectorAll(".sort-btn").forEach(b=>b.classList.remove("active"))
+e.target.classList.add("active")
+
+moveSlider(e.target)
+
+}
+
+function moveSlider(el){
+
+const slider=document.querySelector(".sort-slider")
+const rect=el.getBoundingClientRect()
+const parent=el.parentElement.getBoundingClientRect()
+
+slider.style.width=rect.width+"px"
+slider.style.left=(rect.left-parent.left)+"px"
+
+}
+
+window.addEventListener("load",()=>{
+
+const active=document.querySelector(".sort-btn.active")
+moveSlider(active)
+
+})
+
+</script>
+
+</body>
+</html>

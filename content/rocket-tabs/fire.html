@@ -1,0 +1,174 @@
+<style>
+    .fire{
+        background-color: #FFF;
+    }
+
+    .fire b {
+        display: block;
+        width: 85%;
+        font-size: 12pt;
+        line-height: 2.4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fire h2 {
+        color: #28385f;
+        margin-bottom: 70px;
+    }
+    
+</style>
+
+<div class="bar no-mb no-padding fire">
+    <div class="container">
+    <div class="row">
+        <h2 style="font-size: 30pt;">燃焼班</h2>
+        <div class="col-md-6"> 
+             <b>
+                燃焼班では，エンジンの点火に用いるGSEの作成・管理を行います．<br><br>
+                GSE(Ground Support Equipment)とは，ロケットの酸化剤である亜酸化窒素・酸素及び，駆動部に使う窒素のラインを管理するシステムです．
+                打ち上げ当日はもちろん，エンジンの検証を行う燃焼試験でも必要不可欠なシステムです．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/fire/fire_1.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/fire/fire_5.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/fire/fire_3.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6"><h2>燃焼試験</h2></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="/img/fire/fire_4.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/fire/fire_2.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/fire/fire_6.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <b style="margin-top: -10px;">
+                COREでは，エンジンの推力や安全性を確認するための燃焼試験を行っています．<br><br>
+                実際の飛翔を想定し，大学グラウンドや県外の燃焼試験場にて実際にエンジンの点火を行います．<br>
+                また燃焼試験によって得られた，エンジン内の圧力や温度，推力などを元にシミュレーションを行っています． 
+            </b>
+        </div>
+        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2>バルブ</h2></div>
+        <div class="col-md-6"> 
+             <b style="margin-top: -5px;">
+                酸化剤をタンクに充填し，エンジンに供給するバルブの設計・製作を行っています．<br><br>
+                従来の"ステム式"に比べ，エンジンの開発の自由度が上がり，燃焼効率の向上・推力の増加が見込まれます．<br>
+                さらに，バルブ式を用いることによって酸化剤の流量調節が実現可能になります．より安定した燃焼に向け開発を行っています．
+            </b>
+        </div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/fire/fire_7.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/fire/fire_8.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".slideshow").forEach(slideshow => {
+  
+  if (slideshow.dataset.initialized) return;
+  slideshow.dataset.initialized = "true";
+
+  const slides = slideshow.querySelectorAll(".slide");
+  const dotsContainer = slideshow.querySelector(".dots");
+  const caption = slideshow.querySelector(".caption");
+
+  if (dotsContainer) dotsContainer.innerHTML = "";
+
+  let struct_index = 0;
+
+  slides.forEach((_, i) => {
+    let d = document.createElement("span");
+    d.className = "dot";
+    d.onclick = () => {
+      struct_index = i;
+      show();
+    };
+    if (dotsContainer) dotsContainer.appendChild(d);
+  });
+
+  const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+  function show() {
+    slides.forEach(s => s.classList.remove("active"));
+    dots.forEach(d => d.classList.remove("active"));
+
+    if (slides[struct_index]) {
+      slides[struct_index].classList.add("active");
+      if (dots[struct_index]) dots[struct_index].classList.add("active");
+      if (caption) {
+        caption.textContent = slides[struct_index].dataset.caption || "";
+      }
+    }
+  }
+
+  function next() {
+    struct_index = (struct_index + 1) % slides.length;
+    show();
+  }
+
+  setInterval(next, 5000);
+  show();
+});
+</script>

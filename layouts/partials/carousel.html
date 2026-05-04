@@ -1,0 +1,209 @@
+{{ if default true .Site.Params.CarouselHomepage.enable }}
+{{ if isset .Site.Data "carousel" }}
+{{ if gt (len .Site.Data.carousel) 0 }}
+
+<section id="intro">
+<div class="home-carousel no-mb no-padding">
+<div class="homepage owl-carousel"
+data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
+data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
+data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
+
+{{ range sort .Site.Data.carousel "weight" }}
+<div class="item">
+     {{ if .video }}
+        <video autoplay muted loop playsinline style="width: 100%; height: auto;">
+            <source src="{{ .video | absURL }}" type="video/mp4">
+            お使いのブラウザは動画タグをサポートしていません。
+        </video>
+    {{ else }}
+        <img src="{{ .image | absURL }}" class="carousel-img">
+    {{ end }}
+</div>
+{{ end }}
+
+</div>
+</div>
+</section>
+
+<div class="mobile-hero">
+<img src="/img/ss/hp2.webp">
+</div>
+
+<style>
+
+#intro{
+    position:relative;
+    width:100vw;
+    margin:0;
+    padding:0 !important;
+    overflow:hidden;
+}
+
+.carousel-img{
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
+max-width:100%;
+}
+.owl-item video {
+    margin-top: -150px;
+}
+
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer{
+width:100%;
+max-width:100%;
+overflow:hidden;
+}
+
+.owl-item{
+overflow:hidden;
+}
+
+.owl-stage{
+max-width:100% !important;
+transform:translate3d(0,0,0);
+}
+
+#intro .container,
+#intro .row{
+padding-left:0 !important;
+padding-right:0 !important;
+margin:0 !important;
+max-width:100% !important;
+}
+@media (min-width:1101px) and (max-width:1300px) {
+    .owl-item video {
+    margin-top: -50px;
+}
+}
+@media (min-width:991px) and (max-width:1100px) {
+    .owl-item video {
+    margin-top: 35px;
+}
+}
+
+@media (min-width:851px) and (max-width:991px) {
+
+#intro{
+height:70vh;
+}
+
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer,
+.home-carousel .owl-stage,
+.home-carousel .owl-item,
+.home-carousel .item{
+height:70vh !important;
+
+}
+
+.owl-item video {
+    margin-top: -100px;
+}
+
+.owl-theme .owl-dots {
+    bottom: 25px;
+}
+}
+
+@media (min-width:768px) and (max-width:850px) {
+
+#intro{
+height:70vh;
+}
+
+.home-carousel,
+.home-carousel .owl-carousel,
+.home-carousel .owl-stage-outer,
+.home-carousel .owl-stage,
+.home-carousel .owl-item,
+.home-carousel .item{
+height:70vh !important;
+
+}
+
+.owl-item video {
+    margin-top: 5px;
+}
+}
+
+.mobile-hero{
+display:none;
+width:100%;
+}
+
+.mobile-hero img{
+width:100%;
+height:auto;
+display:block;
+}
+
+
+@media (min-width: 992px){
+    #intro{
+    height:100vh;
+    }
+    .home-carousel,
+    .home-carousel .owl-carousel,
+    .home-carousel .owl-stage-outer,
+    .home-carousel .owl-stage,
+    .home-carousel .owl-item,
+    .home-carousel .item{
+    height:100vh !important;
+    }
+}
+
+@media (max-width:767px){
+
+#intro{
+display:none;
+}
+
+.mobile-hero{
+display:block;
+}
+
+.homepage,
+.owl-carousel,
+.owl-stage-outer{
+width:100% !important;
+overflow:hidden !important;
+}
+
+.owl-stage{
+transform:none !important;
+}
+
+}
+
+.home-carousel .dark-mask{
+display:none !important;
+}
+
+.owl-theme .owl-controls{
+position:absolute;
+bottom:20px;
+width:100%;
+z-index:10;
+}
+
+.owl-theme .owl-controls .owl-page span{
+background:#ffffff !important;
+}
+
+#content,
+.homepage{
+padding-top:0 !important;
+margin-top:0 !important;
+}
+
+</style>
+
+{{ end }}
+{{ end }}
+{{ end }}

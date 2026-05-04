@@ -1,0 +1,202 @@
+<section class="bar no-mb no-padding struct js-fadein">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 le-text">
+        <q style="color: #da4d4d; font-size: 10pt;">Rocket</q>
+        <h2>ロケット</h2><br>
+      </div>
+        
+      <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#structure">
+        <div class="struct-photo">
+          <img src="/img/ss/ab_r_struct.webp" loading="lazy" alt="">
+          <div class="struct-overlay">
+            <p>Structure</p>
+            <h3>構造班</h3>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#avionics">
+        <div class="struct-photo">
+          <img src="/img/ss/avio.webp" loading="lazy" alt="">
+          <div class="struct-overlay">
+            <p>Avionics</p>
+            <h3>電装班</h3>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#engine">
+        <div class="struct-photo">
+          <img src="/img/ss/burn.webp" loading="lazy" alt="">
+          <div class="struct-overlay">
+            <p>Propulusion</p>
+            <h3>推進系</h3>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-3 struct-item">
+        <a href="/rocket/#sim">
+        <div class="struct-photo">
+          <img src="/img/ss/sim.webp" loading="lazy" alt="">
+          <div class="struct-overlay">
+            <p>Simulation</p>
+            <h3>Sim班</h3>
+          </div>
+        </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<style>
+.struct {
+  background-color: #ffffff;
+  color: #303030;
+}
+.struct-item {
+  margin-bottom: 20px;
+}
+
+.struct-overlay h3 {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.struct-photo {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.struct-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.struct-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.4)
+  );
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.struct-photo:hover .struct-overlay {
+  background: rgba(0,0,0,0.65);
+}
+
+.struct-overlay q {
+  color: #da4d4d;
+  font-size: 10pt;
+}
+
+.struct-overlay h2 {
+  font-size: 24pt;
+  margin-top: 10px;
+}
+
+.struct-overlay h2 span {
+  font-size: 14pt;
+}
+.struct-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition-delay: 0.3s;
+}
+.struct.is-show .struct-photo img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.struct.is-show .struct-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.struct.is-show .struct-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.le-text h2 {
+    font-size: 25pt;
+  }
+@media (max-width: 991px) {
+  .struct {
+    padding: 40px 0;
+  }
+
+  .struct-photo {
+    max-width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+  }
+
+  .le-text {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .struct-overlay h3 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .le-text h2 {
+    font-size: 20pt;
+  }
+  .struct-photo {
+    max-width: 85%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const targets = document.querySelectorAll(".js-fadein");
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-show");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: "0px 0px -150px 0px"
+  });
+
+  targets.forEach(el => observer.observe(el));
+});
+</script>
