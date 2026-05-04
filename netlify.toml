@@ -11,3 +11,9 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify -d docs"
+
+[[redirects]]
+  from = "/*"
+  to = "https://corerocket.net/:splat"
+  status = 301
+  force = true
