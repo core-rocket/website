@@ -11,10 +11,3 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify -d docs"
-
-[[redirects]]
-  from = "/*"
-  to = "https://corerocket.net/:splat"
-  status = 301
-  force = true
-  conditions = {Host = ["core-rocket-official.netlify.app", "www.core-rocket-official.netlify.app"]}
