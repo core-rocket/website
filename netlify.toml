@@ -13,7 +13,7 @@
   command = "hugo --gc --minify -d docs"
 
 [[redirects]]
-  from = "/*"
+  from = "https://core-rocket-official.netlify.app/*"
   to = "https://corerocket.net/:splat"
   status = 301
   force = true
