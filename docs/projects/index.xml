@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rocket History on CORE</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Rocket History on CORE</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第28回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise28th-harukaze/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise28th-harukaze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第27回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise27th-crex/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise27th-crex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第21回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse21th-fugaku/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse21th-fugaku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第26回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise26th-yukimi/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise26th-yukimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第25回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise25th-orange/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise25th-orange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第20回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse20th-tsurugi/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse20th-tsurugi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第24回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise24th-kuroffuru/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise24th-kuroffuru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第23回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise23rd-dvinci/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise23rd-dvinci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第19回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse19th-chisya/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse19th-chisya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第22回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise22nd-kyabetsu/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise22nd-kyabetsu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第22回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise22nd-retasu/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise22nd-retasu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第21回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise21st-violet/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise21st-violet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第18回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse18th-proe/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse18th-proe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第20回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise20th-canvas/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise20th-canvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第17回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse17th-duo/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse17th-duo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>御宿共同打上実験</title>
+      <link>http://localhost:1313/projects/ose-hibari1/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ose-hibari1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>御宿共同打上実験</title>
+      <link>http://localhost:1313/projects/ose-hibari2/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ose-hibari2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第16回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse16th-misora/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse16th-misora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第18回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise18th-donburako/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise18th-donburako/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第18回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise18th-piglet/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise18th-piglet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第17回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise17th-amatsukaze/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise17th-amatsukaze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第15回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse15th-asahi/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse15th-asahi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第15回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse15th-gemini/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse15th-gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第16回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise16th-gunguniru/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise16th-gunguniru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第16回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise16th-pf/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise16th-pf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse14th-kritanpo/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse14th-kritanpo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse14th-shirasagi/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse14th-shirasagi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise14th-fc/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise14th-fc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第14回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise14th-vase/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise14th-vase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise13rd-lchiki/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise13rd-lchiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse13rd-kaemreon/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse13rd-kaemreon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第13回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse13rd-seachiki/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse13rd-seachiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise12nd-musasabi/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise12nd-musasabi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise12nd-phase/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise12nd-phase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第11回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise11st-nporo/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise11st-nporo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse12nd-dennshin/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse12nd-dennshin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第12回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse12nd-eyens/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse12nd-eyens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise10th-suzuna/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise10th-suzuna/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise10th-swiftx/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise10th-swiftx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第9回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise9th-swift/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise9th-swift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第11回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse11st-cyclops/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse11st-cyclops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-crazythunder/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-crazythunder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-helix/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-helix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise8th-vertex/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise8th-vertex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第7回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise7th-valture/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise7th-valture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse10th-freshg/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse10th-freshg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第10回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse10th-volvox/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse10th-volvox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第9回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse9th-milanda/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse9th-milanda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第4回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise4th-ssp/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise4th-ssp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第6回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise6th-jorujona/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise6th-jorujona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第3回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise3rd-gxp/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise3rd-gxp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第8回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse8th-kyolo/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse8th-kyolo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第2回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise2nd-tomatoku/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise2nd-tomatoku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第2回伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/projects/ise2nd-trocket/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ise2nd-trocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第7回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse7th-/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse7th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第6回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse6th-/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse6th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第5回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse5th-ultraman/</link>
+      <pubDate>Sat, 01 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse5th-ultraman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第4回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse4th-/</link>
+      <pubDate>Fri, 01 Aug 2008 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse4th-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第3回能代宇宙イベント</title>
+      <link>http://localhost:1313/projects/nse3rd-sazanka/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nse3rd-sazanka/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
