@@ -17,3 +17,9 @@
   to = "https://corerocket.net/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://www.core-rocket-official.netlify.app/*"
+  to = "https://corerocket.net/:splat"
+  status = 301
+  force = true
