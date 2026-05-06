@@ -1,0 +1,41 @@
+<!-- layouts/partials/seo.html -->
+
+<!-- 基本的なメタタグ -->
+{{- $description := "" -}}
+{{- if .IsHome -}}
+  {{- $description = .Site.Params.description -}}
+{{- else if .Params.description -}}
+  {{- $description = .Params.description -}}
+{{- end -}}
+
+{{- if $description -}}
+<meta name="description" content="{{ $description }}">
+{{- end -}}
+
+<!-- OGP (Facebook, Line, etc) -->
+<meta property="og:title" content="{{ .Title }}">
+{{- $og_description := $description -}}
+{{- if not $og_description -}}
+  {{- $og_description = .Summary | plainify | htmlUnescape | truncate 120 -}}
+{{- end -}}
+<meta property="og:description" content="{{ $og_description }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- 画像設定 (優先度: 記事の画像 > デフォルト画像) -->
+{{ if .Params.image }}
+<meta property="og:image" content="{{ .Params.image | absURL }}">
+{{ else }}
+<meta property="og:image" content="{{ .Site.Params.ogp_image | default "images/ogp.png" | absURL }}">
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ $og_description }}">
+{{ if .Params.image }}
+<meta name="twitter:image" content="{{ .Params.image | absURL }}">
+{{ else }}
+<meta name="twitter:image" content="{{ .Site.Params.ogp_image | default "images/ogp.png" | absURL }}">
+{{ end }}
