@@ -2,16 +2,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Description | default .Site.Params.defaultDescription }}">
-
+  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
-  <!-- 以前のように、static フォルダのパスをそのまま書く方式に戻す -->
+  <!-- 1. ローカルに落とした静的CSS (static/css/ に配置) -->
+  {{/* Hugoの処理を通さず、そのまま読み込むのが一番安全です */}}
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/all.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/style.default.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+  <!-- 2. Hugo Pipesで処理するCSS (assets/css/ に配置) -->
+  {{/* 修正済みの style.default.css と custom.css を結合・圧縮 */}}
+  {{ $css1 := resources.Get "css/style.default.css" }}
+  {{ $css2 := resources.Get "css/custom.css" }}
+
+  {{ if and $css1 $css2 }}
+    {{/* 2つのファイルを bundle.css として1つにまとめ、圧縮(Minify)し、キャッシュ対策(Fingerprint)を施す */}}
+    {{ $bundle := slice $css1 $css2 | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous">
+  {{ else }}
+    {{/* 万が一 assets 内で見つからない場合のフォールバック（staticから直接読む） */}}
+    <link rel="stylesheet" href="{{ "css/style.default.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+    <!-- DEBUG: Hugo Assets (Pipes) could not find style.default.css or custom.css -->
+  {{ end }}
 
   <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
