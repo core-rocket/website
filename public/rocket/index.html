@@ -2,76 +2,46 @@
 <html lang="ja-jp">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<meta charset="utf-8">
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rocket | CORE</title>
 
-<title>Rocket</title>
-<meta name="author" content="" />
+  <style>
+  body{margin:0;font-family:'Roboto',sans-serif}
+  img{max-width:100%;height:auto;display:block}
+  .container{width:90%;margin:auto}
+  header{display:flex;justify-content:space-between;align-items:center}
+  .hero{min-height:100vh;display:flex;align-items:center}
+  </style>
 
+  
+  <style>h1,h2,h3,h4,h5,h6{margin:0;font-weight:700}p{margin:0 0 1em;line-height:1.6}a{text-decoration:none;color:inherit}ul{margin:0;padding:0;list-style:none}button{border:none;background:0 0;cursor:pointer}.owl-carousel{display:block;width:100%}</style>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
+  
+  <link rel="preload" href="/css/style.red.min.31841e3c0f361b1c7b1a6acd94a5327a446d2ffecd0a3e30ea089adf2e5eeb72.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.red.min.31841e3c0f361b1c7b1a6acd94a5327a446d2ffecd0a3e30ea089adf2e5eeb72.css"></noscript>
 
+  
+  
+  
+  
+  
 
-<meta name="description" content="">
+  
 
-<meta name="generator" content="Hugo 0.159.2">
+  <link rel="preload" href="/css/noncritical.min.7a217f4f5c56f84f1608208cd53c0ec18ed20e5edbd796199ae2d9cbf555dec4.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/noncritical.min.7a217f4f5c56f84f1608208cd53c0ec18ed20e5edbd796199ae2d9cbf555dec4.css"></noscript>
 
+  
+  <style>body{overflow-x:hidden;width:100%}.navbar{position:fixed;width:100%;top:0;left:0;z-index:10000;background-color:initial;border:none;transition:all .3s ease-in-out}.navbar-brand img{height:100px;width:auto;transition:height .3s ease-in-out}.navbar.scrolled{position:fixed!important;background-color:#fff!important}.navbar.scrolled .navbar-brand img{height:50px}img{max-width:100%;height:auto;display:block;content-visibility:auto}@media(max-width:767px){html,body{overflow-x:hidden}.navbar{position:fixed;background-color:initial!important}.navbar-brand img{height:50px}.navbar-collapse{background-color:#1e1e1ed4}.navbar-collapse .navbar-nav>li>a{color:#fff!important}.container .row{margin-left:0;margin-right:0}.container{padding-left:10px!important;padding-right:10px!important;width:100%!important;margin-left:0!important;margin-right:0!important}}#footer{background-color:#1d1c3b}header,.navbar,.navbar-default,.navbar-header,.navbar-collapse{border:none!important;box-shadow:none!important;outline:none!important}:root{color-scheme:light;/}</style>
 
-<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
-
-
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.2/css/all.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-
-<link href="/css/animate.css" rel="stylesheet">
-
-
-
-  <link href="/css/style.red.css" rel="stylesheet" id="theme-stylesheet">
-
-
-
-<link href="/css/custom.css?1777213776" rel="stylesheet">
-
-
-
-  <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-
-
-<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
-
-
-<link href="/css/owl.carousel.css" rel="stylesheet">
-<link href="/css/owl.theme.css" rel="stylesheet">
-
-
-<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="CORE">
-
-
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary">
-
-<meta name="twitter:title" content="Rocket">
-
-<meta name="twitter:description" content="">
-
-
+  <link rel="icon" href="/img/favicon.ico">
+</head>
 
 
 <style>
@@ -183,7 +153,7 @@ transform:translateY(0);
 
 @media (max-width: 991px){
   .rocket-space {
-    height: 180px;
+    height: 150px;
   }
   .coreroke_img {
     display: flex;
@@ -194,8 +164,12 @@ transform:translateY(0);
   .coreroke_img img {
     width: 80%;
   }
+  
 }
 @media (max-width: 767px) {
+  .rocket-space {
+    height: 80px;
+  }
   .coreroke_img img {
     width: 0px;
   }
@@ -203,9 +177,31 @@ transform:translateY(0);
     display: none;
   }
 
-  .tab-btn.active {
-    border-bottom: 2px solid #da4d4d;
+  .rocket h2 {
+    font-size: 20pt;
   }
+  .rocket b {
+    font-size: 11pt;
+  }
+  
+}
+@media (max-width: 580px) {
+  .rocket-tab-buttons{
+    gap:10px 25px;
+  }
+  .tab-btn{
+    background:none;
+    border:none;
+    font-size:10pt;
+    font-weight:600;
+    letter-spacing:0.05em;
+    color:#8a8a8a;
+    cursor:pointer;
+    padding:8px 0;
+    position:relative;
+    transition:0.25s;
+  }
+
 }
 
 </style>
@@ -507,7 +503,7 @@ transform:translateY(0);
             aspect-ratio: 16/9;
         }
         .slideshow {
-            width: 70%;
+            width: 90%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -522,11 +518,11 @@ transform:translateY(0);
     <div class="row">
         <h2>プロジェクト発足</h2> 
         <div class="col-md-6" style="margin-top: -20px;">
-            <b>
-                COREでは，8月能代宇宙イベント，11月伊豆大島共同打上実験，3月伊豆大島共同打上実験と1年で3回のプロジェクトに向けて機体の制作を行っています．<br><br>
-                各プロジェクトの発足の際に，プロジェクトの目標となる，ミッションを決定しています．
-                近年では，8月能代で剣岳や富士山を超える「到達高度」の更新．あるいは，11月伊豆大島で機体内で絵を書く，みかんジュースなど「独自ミッション」に挑戦しています．
-                <br><br>これらを軸に，性能や計画を詰め，プロジェクトの方向性を決定します．
+            <b style="margin-top: 20px;">
+                COREでは，8月能代宇宙イベント，3月伊豆大島共同打上実験と1年で2回のプロジェクトに向けて機体の製作を行っています．<br><br>
+                各プロジェクトの発足の際に，プロジェクトの目標となるミッションを決定しています．
+                近年では，8月能代で剣岳や富士山を超える「到達高度」の更新．あるいは，11月伊豆大島で機体内で絵を描く，みかんジュースなど"独自ミッション"に挑戦しています．
+                <br><br>これらを軸に性能や計画を詰め，プロジェクトの方向性を決定します．
             </b>
         </div>
         <div class="overview-space"></div>
@@ -538,13 +534,13 @@ transform:translateY(0);
                         <img src="/img/overview/overview_10.webp">
                     </div>
                     <div class="slide">
-                        <img src="/img/overview/overview_11.webp">
+                        <img src="/img/overview/overview_11.webp" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="/img/overview/overview_12.webp">
+                        <img src="/img/overview/overview_12.webp" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="/img/overview/overview_13.webp">
+                        <img src="/img/overview/overview_13.webp" loading="lazy">
                     </div>
                     
                     
@@ -563,13 +559,16 @@ transform:translateY(0);
              <div class="slideshow">
 
                 <div class="slides">
-
                     <div class="slide">
-                        <img src="/img/overview/overview_6.webp">
+                        <img src="/img/overview/overview_14.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/overview/overview_9.webp">
+                        <img src="/img/overview/overview_6.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/overview/overview_9.webp" loading="lazy">
                     </div>
                 </div>
 
@@ -580,19 +579,19 @@ transform:translateY(0);
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-top: 60px; margin-bottom: 170px;">
-                ミッションの決定に基づいて，各班設計・制作を行います．<br><br>
+            <b style="margin-top: -15px; margin-bottom: 190px;">
+                ミッションの決定に基づいて，各班設計・製作を行います．<br><br>
                 能代宇宙イベント，伊豆大島共同打ち上げ実験ともに，打上げにおける安全を審査する，書類審査があります．
                 打上げに使用するランチャを破壊しないよう安全に飛翔できるか，適切な範囲を飛行するかが，機体の重心や空力設計値をもとに審査されます．<br>
             </b>
         </div>
-        <div class="col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12" style="height: 80px;"></div>
         <h2>打上げ</h2> 
         <div class="col-md-6">
             <b>
                 打上げ当日には，書類審査に沿った機体であるか，現地での実測審査が行われます．これに合格して始めて，ランチャに機体を挿入する事ができます．<br><br>
-                当日は，周辺の空域・海域や周辺地域を利用・管理する方に，ご協力をいただき，事前に決められた打上げ時間がウィンドウとして設定されています．
-                共同打上実験の安全監督や，責任者の許可のもと，PMが点火シークエンスを行い，実際にロケットを打ち上げます．
+                当日は，周辺の空域・海域や周辺地域を利用・管理する方にご協力をいただき，事前に決められた打上げ時間がウィンドウとして設定されています．
+                共同打上実験の安全監督や，責任者の許可のもとPMが点火シークエンスを行い，実際にロケットを打ち上げます．
             </b>
         </div>
         <div class="overview-space"></div>
@@ -601,18 +600,18 @@ transform:translateY(0);
 
                 <div class="slides">
                     <div class="slide">
-                        <img src="/img/overview/overview_8.webp">
+                        <img src="/img/overview/overview_8.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/overview/overview_7.webp">
+                        <img src="/img/overview/overview_7.webp" loading="lazy">
                     </div>
                     <div class="slide active">
-                        <img src="/img/overview/overview_5.webp">
+                        <img src="/img/overview/overview_5.webp" loading="lazy">
                     </div>
 
                     <div class="slide" >
-                        <img src="/img/overview/overview_3.webp">
+                        <img src="/img/overview/overview_3.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -698,11 +697,11 @@ show();
 <div class="bar no-mb no-padding avionics">
     <div class="container">
     <div class="row">
-        <h2>電装班</h2> 
+        <h2 style="font-size:30pt;">電装班</h2> 
         <div class="col-md-6">
-            <b style="margin-top: 60px;">
-                電装班では，ロケットの減速落下のための開放機構を適切に操作するため，
-                また飛行軌道・高度を解析するデータログ収集のために，
+            <b style="margin-top: 0px;">
+                電装班では，ロケットの減速落下のための開放機構を適切に操作こと，
+                また飛行軌道・高度を解析するデータログを収集ことを目的として，
                 気圧・加速度センサや無線機器を搭載し，それらを管理するシステムを構築します．<br><br>
             </b>
         </div>
@@ -712,15 +711,15 @@ show();
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/avio/avio_7.webp">
+                        <img src="/img/avio/avio_7.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_6.webp">
+                        <img src="/img/avio/avio_6.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_8.webp">
+                        <img src="/img/avio/avio_8.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -740,15 +739,15 @@ show();
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/avio/avio_1.webp">
+                        <img src="/img/avio/avio_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_13.webp">
+                        <img src="/img/avio/avio_13.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_10.webp">
+                        <img src="/img/avio/avio_10.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -760,24 +759,24 @@ show();
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-bottom: 80px;">
-                電装のシステム，機能を決定した後，実際に基板の設計を行います．
+            <b style="margin-top: -10px; margin-bottom: 80px;">
+                電装システムの機能を決定した後，実際に基板の設計を行います．
                 主に，GPSで位置情報を取得するGNSSモジュール，
                 ロケットの飛翔・頂点を検知する気圧・加速度センサモジュール，
-                ロケットからログを受け取り，コマンドを送信するために，地上との通信を行う通信モジュール，
+                ロケットからログを受け取り，コマンドを送信するために地上との通信を行う通信モジュール，
                 これらを動かす電源モジュールの4つを設計します．<br><br>
                 互いのモジュールが連携し，洗練された電装システムの設計を目指します．
             </b>
         </div>
         <div class="col-md-12" style="height: 150px;"></div>
-        <div class="col-md-6"><h2>制作</h2></div>
+        <div class="col-md-6"><h2>製作</h2></div>
         <div class="col-md-6" style="height: 130px;"></div>
         <div class="col-md-6">
             <b>
-                回路設計ソフトを用いて設計したPCB，使用する部品を発注する．<br>
-                到着した基板に部品を組み込み，はんだ付けを行う．<br><br>
-                各マイコンに対してArduino言語を用いて，プログラミングを行う．
-                それぞれのセンサやモジュールが正常に作動し，速度やGPSを取得できるか試験を行う．
+                回路設計ソフトを用いて設計したPCB，使用する部品を発注します．<br>
+                到着した基板に部品を組み込みはんだ付けを行います．<br><br>
+                各マイコンに対してArduino言語を用いてプログラミングを行います．
+                それぞれのセンサやモジュールが正常に作動し，速度やGPSを取得できるか試験を行います．
             </b>
         </div>
         <div class="col-md-6">
@@ -786,15 +785,15 @@ show();
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/avio/avio_9.webp">
+                        <img src="/img/avio/avio_9.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_12.webp">
+                        <img src="/img/avio/avio_12.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/avio/avio_11.webp">
+                        <img src="/img/avio/avio_11.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -903,13 +902,13 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 <div class="bar no-mb no-padding structure">
     <div class="container">
     <div class="row">
-        <h2>構造班</h2> 
+        <h2 style="font-size: 30pt;">構造班</h2> 
         <div class="col-md-6">
-            <b style="margin-top: 60px;">
+            <b style="margin-top: 0px;">
                 構造班では，ミッション決定に基づき，3DCADを用いてロケットの構造を設計します．<br><br>
                 ノーズ，開放，電装，推進，フィンの5つの部に分かれ，推力による圧縮・引張応力・空力荷重などを考慮し，
                 破壊されないよう，安全な構造を設計します．<br>
-                また，CFRPやアルミなどの材料について，シミュレーションによる強度評価や，実機実験を行い軽量化を行います．
+                また，CFRPやアルミなどの材料について，シミュレーションによる強度評価や実機実験を行い軽量化を行います．
             </b>
         </div>
         <div class="overview-space"></div>
@@ -919,15 +918,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/struct/struct_1.webp">
+                        <img src="/img/struct/struct_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/struct/struct_2.webp">
+                        <img src="/img/struct/struct_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/struct/struct_3.webp">
+                        <img src="/img/struct/struct_3.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -942,14 +941,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         <div class="col-md-5"></div>
         <div class="col-xs-12 col-sm-6 col-md-3"><h2>ノーズ部</h2></div>
         <div class="col-sm-6 col-md-3 structure-xs"><h2>開放部</h2></div>
-        <div class="col-md-1"></div>
+       
         <div class="col-sm-6 structure-md">
-            <b style="margin-bottom: 80px;">
-                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
-                制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
+            <b>
+                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を製作します．<br>
+                製作後，実機を用いて荷重試験を行い，適した強度があるか確認します．
                 開放の構成によって，ノーズが開放する場合もあります．
             </b>
         </div>
+        <div class="col-xs-12 structure-sm structure-md" style="height: 130px;"></div>
         <div class="col-xs-12 structure-sm structure-md"><h2>開放部</h2></div>
         <div class="col-sm-6 structure-md"> 
             <b style="margin-bottom: 10px;">
@@ -965,19 +965,19 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/struct/nose_1.webp">
+                        <img src="/img/struct/nose_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/struct/nose_2.webp">
+                        <img src="/img/struct/nose_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/struct/kaihou_3.webp">
+                        <img src="/img/struct/kaihou_3.webp" loading="lazy">
                     </div>
 
                     <div class="slide active">
-                        <img src="/img/struct/kaihou_5.webp">
+                        <img src="/img/struct/kaihou_5.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -990,14 +990,14 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         </div>
         <div class="col-md-1 structure-xs structure-sm"></div>
         <div class="col-md-3 structure-xs structure-sm"  style="margin-left: -80px;">
-            <b style="margin-bottom: 80px;">
-                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を制作します．<br>
-                制作後，実機を用いて，荷重試験を行い，適した強度があるか確認します．
+            <b style="margin-bottom: 30px; margin-top: -30px;">
+                ノーズ形状の選定，強度評価を行い，3Dプリンタを用いて，ノーズ部を製作します．<br>
+                製作後，実機を用いて荷重試験を行い，適した強度があるか確認します．
                 開放の構成によって，ノーズが開放する場合もあります．
             </b>
         </div>
         <div class="col-md-3 structure-xs structure-sm" > 
-            <b style="margin-bottom: 10px;">
+            <b style="margin-bottom: 10px; margin-top: -30px;">
                 ロケットには，機体を安全に落下させるために，パラシュートを内蔵しています．
                 機体の一部を開放させることで，そのパラシュートを放出しています．
                 開放部では，それらの機構を設計・開発します．
@@ -1009,27 +1009,27 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         <div class="col-xs-12 col-sm-6 structure-md">
             <b>
                 データログを収集また，開放を操作する電装を格納する構造部です．<br>
-                海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
-                <div class="overview-space"></div>
+                海に向かって打上げをする海打ちでは，電装部品に影響を与えない回収のために，水が侵入しないよう密閉をしています．
             </b>
         </div>
+        <div class="col-xs-12 structure-sm structure-md" style="height: 130px;"></div>
         <div class="col-xs-12 structure-sm structure-md"><h2>推進部</h2></div>
         <div class="col-xs-12 col-sm-6 structure-md">
-            <b>
+            <b style="margin-bottom: 85px;">
                 推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
 
             </b>
         </div>
-        <div class="col-md-6" style="height: 130px;"></div>
+        <div class="col-md-6 structure-sm" style="height: 130px;"></div>
         <div class="col-md-1 structure-sm structure-xs"></div> 
         <div class="col-md-3 structure-sm structure-xs" style="margin-left: -80px;">
-            <b>
+            <b style="margin-top: -30px;">
                 データログを収集また，開放を操作する電装を格納する構造部です．<br>
-                海に向かって打上げをする，海打ちでは，電装部品に影響を与えず回収できるように，水が侵入しないよう密閉をしています．
+                海に向かって打上げをする海打ちでは，電装部品に影響を与えない回収のために，水が侵入しないよう密閉をしています．
             </b>
         </div>
         <div class="col-md-3 structure-sm structure-xs">
-            <b>
+            <b style="margin-top: -30px;">
                 推進に用いる，エンジン，バルブ(配管)などを格納する構造部です．<br>
 
             </b>
@@ -1041,11 +1041,45 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/struct/struct_5.webp">
+                        <img src="/img/struct/struct_5.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/struct/struct_4.webp">
+                        <img src="/img/struct/struct_4.webp" loading="lazy">
+                    </div>
+
+                </div>
+
+                <div class="dots"></div>
+
+                <p class="caption"></p>
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-12" style="height: 150px;"></div>
+        <div class="col-md-12"><h2>フィン部</h2></div>
+        <div class="col-md-6">
+            <b style="margin-top: 0px;">
+                フィン部は，ロケットの全長や重心が決まった後，空力重心を機体の適切な位置に配置するために，素材・形状の決定を行います．<br><br>
+                フィンの固定に用いるフィン固定具や，フィンの固定に対して，適切な荷重に耐えうるか，試験を行います．
+            </b>
+        </div>
+        <div class="overview-space"></div>
+        <div class="col-md-6">
+             <div class="slideshow">
+
+                <div class="slides">
+
+                    <div class="slide active" data-caption="">
+                        <img src="/img/struct/struct_7.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/struct/struct_8.webp" loading="lazy">
+                    </div>
+
+                    <div class="slide" data-caption="">
+                        <img src="/img/struct/struct_10.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1137,11 +1171,11 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 <div class="bar no-mb no-padding engine">
     <div class="container">
     <div class="row">
-        <h2>エンジン</h2>
+        <h2 style="font-size: 30pt;">エンジン班</h2>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                ハイブリットロケットのエンジンは火薬や扱いの難しい液体酸素を用いずに，液体の亜酸化窒素と固体のプラスチックの2つの物質を扱う比較的安全なエンジンを用いたロケットです．<br><br>
-                COREでは，市販であるHyperTEK社のエンジンを用いた打上げから始まり，現在では，エンジンを自ら設計し制作しています．
+             <b>
+                学生ロケット団体が用いるハイブリットロケットのエンジンは，火薬や扱いの難しい液体酸素を用いずに，液体の亜酸化窒素と固体のプラスチックの2つの物質を扱う比較的安全なエンジンを用いたロケットです．<br><br>
+                COREでは，市販であるCesaroni Technology社のHyperTEKエンジンを用いた打上げから始まり，現在では，エンジンを自ら設計し製作しています．
             </b>
         </div>
         <div class="col-md-6">
@@ -1150,15 +1184,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/engine/engine_3.webp">
+                        <img src="/img/engine/engine_3.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/engine/engine_2.webp">
+                        <img src="/img/engine/engine_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/engine/engine_9.webp">
+                        <img src="/img/engine/engine_9.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1178,15 +1212,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" >
-                        <img src="/img/engine/engine_4.webp">
+                        <img src="/img/engine/engine_4.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/engine/engine_5.webp">
+                        <img src="/img/engine/engine_5.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/engine/engine_6.webp">
+                        <img src="/img/engine/engine_6.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1198,7 +1232,7 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-top: 20px;">
+            <b>
                 目標とする飛翔高度や想定される機体の重量などから必要な推力及びトータルインパルス(力積の合計)を見積もり，それらを満たすサイズのエンジンを設計しタンク容量を決定します．<br>
                 液体の亜酸化窒素を放出するインジェクタ部や，ノズル部においても，独自の設計を反映し，燃焼の高効率化を目指しています．<br>
                 また，固体のプラスチック燃料部に関しても，燃焼の高効率化のために，3Dプリンタを用いた燃料の開発を行っています．
@@ -1208,10 +1242,10 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         <div class="col-md-12" style="height: 150px;"></div>
         <div class="col-md-12"><h2>製作・試験</h2></div>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                設計を基に，旋盤やロボドリルを用いて，加工を行います．<br><br>
+             <b>
+                設計を基に，旋盤やロボドリルを用いて加工を行います．<br><br>
                 燃焼試験を通して，実際に設計した推力・トータルインパルスを得ることができるか検証を行います．
-                2回の試験結果が，設計値に対して適切な範囲に収まっていることで，そのエンジンを，実際に打上げで使用することができます．
+                2回の試験結果が，設計値に対して適切な範囲に収まっていることで，そのエンジンを実際に打上げで使用することができます．
             </b>
         </div>
         <div class="col-md-6">
@@ -1220,15 +1254,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/engine/engine_8.webp">
+                        <img src="/img/engine/engine_8.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/engine/engine_10.webp">
+                        <img src="/img/engine/engine_10.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/engine/engine_11.webp">
+                        <img src="/img/engine/engine_11.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1324,12 +1358,12 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 <div class="bar no-mb no-padding fire">
     <div class="container">
     <div class="row">
-        <h2>燃焼</h2>
+        <h2 style="font-size: 30pt;">燃焼班</h2>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                燃焼班では，エンジンの点火に用いるGSEの作成・管理を行う．<br><br>
-                GSE(Ground Support Equipment)とは，ロケットの燃料である亜酸化窒素・酸素及び，駆動部に使う窒素のラインを管理するシステムである．
-                打ち上げ当日はもちろん，エンジンの検証を行う燃焼試験でも必要不可欠なシステムである．
+             <b>
+                燃焼班では，エンジンの点火に用いるGSEの作成・管理を行います．<br><br>
+                GSE(Ground Support Equipment)とは，ロケットの酸化剤である亜酸化窒素・酸素及び，駆動部に使う窒素のラインを管理するシステムです．
+                打ち上げ当日はもちろん，エンジンの検証を行う燃焼試験でも必要不可欠なシステムです．
             </b>
         </div>
         <div class="col-md-6">
@@ -1338,15 +1372,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/fire/fire_1.webp">
+                        <img src="/img/fire/fire_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/fire/fire_5.webp">
+                        <img src="/img/fire/fire_5.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/fire/fire_3.webp">
+                        <img src="/img/fire/fire_3.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1366,15 +1400,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/fire/fire_4.webp">
+                        <img src="/img/fire/fire_4.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/fire/fire_2.webp">
+                        <img src="/img/fire/fire_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/fire/fire_6.webp">
+                        <img src="/img/fire/fire_6.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1386,19 +1420,19 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-top: 20px;">
-                COREでは，エンジンの推力や安全性を確認するための燃焼試験を行っている．<br><br>
-                実際の飛翔を想定し，大学グラウンドや県外の燃焼試験場にて実際にエンジンを点火する．<br>
-                また燃焼試験によって得られた，エンジン内の圧力や温度，推力などを元にシミュレーションを行っている． 
+            <b style="margin-top: -10px;">
+                COREでは，エンジンの推力や安全性を確認するための燃焼試験を行っています．<br><br>
+                実際の飛翔を想定し，大学グラウンドや県外の燃焼試験場にて実際にエンジンの点火を行います．<br>
+                また燃焼試験によって得られた，エンジン内の圧力や温度，推力などを元にシミュレーションを行っています． 
             </b>
         </div>
         <div class="col-md-12" style="height: 150px;"></div>
         <div class="col-md-12"><h2>バルブ</h2></div>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                燃料をタンクに充填し，エンジンに供給するバルブの設計・製作を行っている．<br><br>
-                従来の"ステム式"に比べ，エンジンの開発の自由度が上がり，燃焼効率の向上・推力の増加が見込まれる．<br>
-                さらに，バルブ式を用いることによって燃料の流量調節が可能になり，安定した燃焼を実現できる．
+             <b style="margin-top: -5px;">
+                酸化剤をタンクに充填し，エンジンに供給するバルブの設計・製作を行っています．<br><br>
+                従来の"ステム式"に比べ，エンジンの開発の自由度が上がり，燃焼効率の向上・推力の増加が見込まれます．<br>
+                さらに，バルブ式を用いることによって酸化剤の流量調節が実現可能になります．より安定した燃焼に向け開発を行っています．
             </b>
         </div>
         <div class="col-md-6">
@@ -1407,11 +1441,11 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/fire/fire_7.webp">
+                        <img src="/img/fire/fire_7.webp" loading="lazy">
                     </div>
 
                     <div class="slide" data-caption="">
-                        <img src="/img/fire/fire_8.webp">
+                        <img src="/img/fire/fire_8.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1503,12 +1537,12 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 <div class="bar no-mb no-padding sim">
     <div class="container">
     <div class="row">
-        <h2>Simulation</h2>
+        <h2 style="font-size: 30pt;">Sim班</h2>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算する．<br><br>
-                PythonやC言語のプログラムを用いて，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，
-                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証する．
+             <b>
+                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算します．<br><br>
+                PythonやC言語のプログラムをもとに，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，
+                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証します．
 
             </b>
         </div>
@@ -1518,15 +1552,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_1.webp">
+                        <img src="/img/sim/sim_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_2.webp">
+                        <img src="/img/sim/sim_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_3.webp">
+                        <img src="/img/sim/sim_3.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1546,11 +1580,11 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/sim/sim_4.webp">
+                        <img src="/img/sim/sim_4.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/sim/sim_5.webp">
+                        <img src="/img/sim/sim_5.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -1562,9 +1596,9 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-top: 20px;">
-                現在COREでは，新たな自作シミュレータの開発を行っている．<br><br>
-                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指している．
+            <b>
+                現在COREでは，新たな自作シミュレータの開発を行っています．<br><br>
+                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指し改良を行っています．
             </b>
         
         </div>
@@ -1642,6 +1676,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         border-right:1px solid rgba(255,255,255,0.2);
     }
 
+    @media  (max-width: 992px) {
+        .logo_l img{
+            display:block;
+            margin:0 auto;
+            height:200px;
+        }
+
+    }
+
     @media (max-width:768px){
 
     .logo_l{
@@ -1678,8 +1721,8 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         <div class="col-md-3 fot_col">
         <a href="/about"><h4>団体について</h4></a>
         <ul>
-        <li><a href="/activity/2025">2025</a></li>
-        <li><a href="/activity/2026">2026</a></li>
+        <li><a href="/activity/1">2025</a></li>
+        <li><a href="/activity/1">2026</a></li>
         </ul>
         <div style="margin-top: 40px;"></div>
         <a href="/rocket"><h4>ロケット</h4></a>
@@ -1744,6 +1787,20 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
 </body>
 
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX4CJMTV2W"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZX4CJMTV2W');
+        }
+      </script>
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 

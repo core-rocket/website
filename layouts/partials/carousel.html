@@ -12,12 +12,18 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 {{ range sort .Site.Data.carousel "weight" }}
 <div class="item">
      {{ if .video }}
-        <video autoplay muted loop playsinline style="width: 100%; height: auto;">
-            <source src="{{ .video | absURL }}" type="video/mp4">
-            お使いのブラウザは動画タグをサポートしていません。
+        <video class="hero-video"
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="/img/carousel/poster_fire.webp"
+            style="width: 100%; height: auto;">
+        <source src="{{ .video | absURL }}" type="video/mp4">
+        Your browser does not support the video tag.
         </video>
     {{ else }}
-        <img src="{{ .image | absURL }}" class="carousel-img">
+        <img src="{{ .image | absURL }}" class="carousel-img" alt="ヒーロー画像">
     {{ end }}
 </div>
 {{ end }}
@@ -27,7 +33,13 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 </section>
 
 <div class="mobile-hero">
-<img src="/img/ss/hp2.webp">
+<img src="/img/ss/hp2.webp"
+    alt="ヒーロー画像"
+     width="900"
+     height="1500"
+     loading="eager"
+     decoding="async"
+     fetchpriority="high">
 </div>
 
 <style>
@@ -66,6 +78,18 @@ overflow:hidden;
 .owl-stage{
 max-width:100% !important;
 transform:translate3d(0,0,0);
+}
+
+.owl-carousel {
+  display:block !important;
+  opacity:1 !important;
+}
+
+.mobile-hero img{
+  width:100%;
+  height:auto;
+  aspect-ratio: 900 / 1500;
+  display:block;
 }
 
 #intro .container,

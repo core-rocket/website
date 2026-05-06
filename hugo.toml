@@ -4,7 +4,7 @@ languageCode = 'ja-jp'
 title = 'CORE'
 hasCJKLanguage = true
 theme = "hugo-universal-theme"
-publishDir = "docs"
+publishDir = "public"
 googleAnalytics = "G-ZX4CJMTV2W"
 
 [markup]

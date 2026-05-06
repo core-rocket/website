@@ -241,9 +241,9 @@
   </url><url>
     <loc>http://localhost:1313/activity/2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/notice/</loc>
+    <loc>http://localhost:1313/activity/2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>http://localhost:1313/notice/</loc>
   </url><url>
     <loc>http://localhost:1313/rocket-tabs/engine/</loc>
   </url><url>
@@ -252,8 +252,6 @@
     <loc>http://localhost:1313/rocket-tabs/sim/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/welcome_2026/</loc>
   </url><url>
     <loc>http://localhost:1313/activity/</loc>
   </url><url>
@@ -267,6 +265,8 @@
   </url><url>
     <loc>http://localhost:1313/rocket-tabs/overview/</loc>
   </url><url>
+    <loc>http://localhost:1313/privacy/</loc>
+  </url><url>
     <loc>http://localhost:1313/rocket/</loc>
   </url><url>
     <loc>http://localhost:1313/rocket-tabs/</loc>
@@ -276,5 +276,9 @@
     <loc>http://localhost:1313/rocket-tabs/structure/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/welcome_2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/activity/1/</loc>
   </url>
 </urlset>
