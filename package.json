@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "purge": "node ./node_modules/purgecss/bin/purgecss.js --css assets/css/bootstrap.css --content \"./layouts/**/*.html\" \"./content/**/*.md\" --safelist \"modal,collapse,dropdown,active,show,fade,in,navbar,nav,btn\" --output assets/css/"
-  }
-}
