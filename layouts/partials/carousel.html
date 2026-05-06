@@ -23,7 +23,7 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
         Your browser does not support the video tag.
         </video>
     {{ else }}
-        <img src="{{ .image | absURL }}" class="carousel-img">
+        <img src="{{ .image | absURL }}" class="carousel-img" alt="ヒーロー画像">
     {{ end }}
 </div>
 {{ end }}
