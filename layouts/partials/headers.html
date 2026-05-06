@@ -18,6 +18,8 @@
 {{ $description_plain := default .Site.Params.defaultDescription .Description | markdownify | plainify }}
 <meta name="description" content="{{ $description_plain }}">
 
+{{ partial "seo.html" . }}
+
 {{ hugo.Generator }}
 
 <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}" type="image/x-icon">
