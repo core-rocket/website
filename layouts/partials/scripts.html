@@ -29,18 +29,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
   var $carousel = $('.owl-carousel');
 
-  function playVisibleVideo(){
-    document.querySelectorAll('.hero-video').forEach(v => v.pause());
-
-    const active = document.querySelector('.owl-item.active video');
-    if(active){
-      active.muted = true;
-      active.play().catch(()=>{});
-    }
-  }
-
-  $carousel.on('initialized.owl.carousel changed.owl.carousel', function(){
-    playVisibleVideo();
+  $carousel.on('initialized.owl.carousel', function(){
+    document.querySelectorAll('.hero-video').forEach(v => {
+      v.muted = true;
+      v.play().catch(()=>{});
+    });
   });
 
   $carousel.owlCarousel({
