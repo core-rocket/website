@@ -94,9 +94,25 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/IWGs-qw2FMk?si=BaxfHmqXicsZ6uYs" ...></iframe>
+                    <div class="youtube" data-id="IWGs-qw2FMk">
+                    <img src="https://img.youtube.com/vi/IWGs-qw2FMk/hqdefault.jpg" style="width:100%;cursor:pointer;">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const yt = document.querySelectorAll(".youtube");
+
+  yt.forEach(el => {
+    const id = el.dataset.id;
+
+    el.addEventListener("click", function(){
+      el.innerHTML = `<iframe src="https://www.youtube.com/embed/${id}?autoplay=1" frameborder="0" allowfullscreen style="width:100%;height:100%"></iframe>`;
+    });
+  });
+});
+</script>
