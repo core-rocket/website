@@ -1,10 +1,10 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify --buildFuture"
+  command = "npm install && npm run purge && hugo --gc --minify --buildFuture"
 
 [build.environment]
   HUGO_VERSION = "0.140.0"
   HUGO_EXTENDED = "true"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture"
+  command = "npm install && npm run purge && hugo --gc --minify --buildFuture"
