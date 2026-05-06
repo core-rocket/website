@@ -12,9 +12,15 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 {{ range sort .Site.Data.carousel "weight" }}
 <div class="item">
      {{ if .video }}
-        <video muted loop playsinline preload="none" poster="/img/carousel/poster_fire.webp" style="width: 100%; height: auto;">
-            <source src="{{ .video | absURL }}" type="video/mp4">
-            お使いのブラウザは動画タグをサポートしていません。
+        <video class="hero-video"
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="/img/carousel/poster_fire.webp"
+            style="width: 100%; height: auto;">
+        <source src="{{ .video | absURL }}" type="video/mp4">
+        Your browser does not support the video tag.
         </video>
     {{ else }}
         <img src="{{ .image | absURL }}" class="carousel-img">
