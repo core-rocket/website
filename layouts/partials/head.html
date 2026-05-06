@@ -1,31 +1,34 @@
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Description | default .Site.Params.defaultDescription }}">
 
-<title>{{ .Title }} | {{ .Site.Title }}</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<meta name="description" content="{{ .Description | default .Site.Params.defaultDescription }}">
+  <!-- Font (display=swap追加済み) -->
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 1. Bootstrap & FontAwesome (手順1で保存したファイルを読み込む) -->
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/all.css" | absURL }}">
 
-<!-- Font -->
-<link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
+  <!-- 2. CSSの結合・圧縮・非同期化 -->
+  {{/* 存在するファイルだけを指定してください。もしファイル名が style.default.css ならそこを書き換えます */}}
+  {{ $css1 := resources.Get "css/style.default.css" }}
+  {{ $css2 := resources.Get "css/custom.css" }}
+  
+  {{ if and $css1 $css2 }}
+    {{ $finalStyle := slice $css1 $css2 | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="preload" href="{{ $finalStyle.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $finalStyle.Permalink }}"></noscript>
+  {{ else if $css2 }}
+    {{/* custom.css だけ見つかった場合のバックアップ */}}
+    {{ $finalStyle := $css2 | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $finalStyle.Permalink }}">
+  {{ end }}
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- Font Awesome -->
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
-
-{{- $styles := slice (resources.Get "css/style.red.css") (resources.Get "css/custom.css") -}}
-{{- $finalStyle := $styles | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint -}}
-
-<!-- 非同期読み込み設定 -->
-<link rel="preload" href="{{ $finalStyle.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ $finalStyle.Permalink }}"></noscript>
-
-<!-- Favicon -->
-<link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
-
+  <!-- Favicon -->
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
