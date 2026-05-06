@@ -7,8 +7,10 @@
 
 <meta name="description" content="{{ .Description | default .Site.Params.defaultDescription }}">
 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <!-- Font -->
-<link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,11 +18,12 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
 
-<!-- Theme CSS -->
-<link href="{{ "css/style.default.css" | relURL }}" rel="stylesheet">
+{{- $styles := slice (resources.Get "css/style.red.css") (resources.Get "css/custom.css") -}}
+{{- $finalStyle := $styles | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint -}}
 
-<!-- Custom CSS -->
-<link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
+<!-- 非同期読み込み設定 -->
+<link rel="preload" href="{{ $finalStyle.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $finalStyle.Permalink }}"></noscript>
 
 <!-- Favicon -->
 <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
