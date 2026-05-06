@@ -33,7 +33,11 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 </section>
 
 <div class="mobile-hero">
-<img src="/img/ss/hp2.webp" width="100%">
+<img src="/img/ss/hp2.webp"
+     width="900"
+     height="1500"
+     loading="eager"
+     decoding="async">
 </div>
 
 <style>
@@ -77,6 +81,13 @@ transform:translate3d(0,0,0);
 .owl-carousel {
   display:block !important;
   opacity:1 !important;
+}
+
+.mobile-hero img{
+  width:100%;
+  height:auto;
+  aspect-ratio: 900 / 1500;
+  display:block;
 }
 
 #intro .container,
