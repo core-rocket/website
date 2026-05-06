@@ -7,11 +7,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
-  <!-- 直接 static/css/ から読み込む設定に一旦戻して確実に表示させる -->
+  <!-- 1. 静的ファイル (static/css/ に配置したもの) -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/all.css" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/style.default.css" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+  <!-- 2. 動的処理 (assets/css/ に配置したもの) -->
+  {{ $css1 := resources.Get "css/style.default.css" }}
+  {{ $css2 := resources.Get "css/custom.css" }}
+
+  {{ if and $css1 $css2 }}
+    {{/* style.default.css と custom.css を結合・圧縮 */}}
+    {{ $finalStyle := slice $css1 $css2 | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="preload" href="{{ $finalStyle.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $finalStyle.RelPermalink }}"></noscript>
+  {{ else }}
+    {{/* 万が一 assets 内で見つからない場合のフォールバック(staticから直接読む) */}}
+    <link rel="stylesheet" href="{{ "css/style.default.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+    <!-- HUGO_DEBUG: assets フォルダ内のファイル読み込みに失敗しました -->
+  {{ end }}
 
   <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
