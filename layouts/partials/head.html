@@ -7,11 +7,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
-  <!-- / から始める絶対パスで直接指定（Hugoの処理を通さない） -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/all.css">
-  <link rel="stylesheet" href="/css/style.default.css">
-  <link rel="stylesheet" href="/css/custom.css">
+  <!-- 以前のように、static フォルダのパスをそのまま書く方式に戻す -->
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/all.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.default.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
-  <link rel="icon" href="/img/favicon.ico">
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
