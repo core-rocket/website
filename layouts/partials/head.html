@@ -1,21 +1,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ .Title }} | {{ .Site.Title }}</title>
   <meta name="description" content="{{ .Description | default .Site.Params.defaultDescription }}">
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <!-- Font (display=swap追加済み) -->
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
-  <!-- 1. Bootstrap & FontAwesome (手順1で保存したファイルを読み込む) -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/all.css" | absURL }}">
 
-  <!-- 2. CSSの結合・圧縮・非同期化 -->
-  {{/* 存在するファイルだけを指定してください。もしファイル名が style.default.css ならそこを書き換えます */}}
   {{ $css1 := resources.Get "css/style.default.css" }}
   {{ $css2 := resources.Get "css/custom.css" }}
   
@@ -24,11 +18,12 @@
     <link rel="preload" href="{{ $finalStyle.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ $finalStyle.Permalink }}"></noscript>
   {{ else if $css2 }}
-    {{/* custom.css だけ見つかった場合のバックアップ */}}
     {{ $finalStyle := $css2 | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $finalStyle.Permalink }}">
+  {{ else if $css1 }}
+    {{ $finalStyle := $css1 | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $finalStyle.Permalink }}">
   {{ end }}
 
-  <!-- Favicon -->
   <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
