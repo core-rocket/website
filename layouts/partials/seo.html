@@ -27,7 +27,7 @@
 {{ if .Params.image }}
 <meta property="og:image" content="{{ .Params.image | absURL }}">
 {{ else }}
-<meta property="og:image" content="{{ .Site.Params.ogp_image | default "images/ogp.png" | absURL }}">
+<meta property="og:image" content="{{ .Site.Params.ogp_image | default "/img/ss/hp6.webp" | absURL }}">
 {{ end }}
 
 <!-- Twitter Card -->
@@ -37,5 +37,5 @@
 {{ if .Params.image }}
 <meta name="twitter:image" content="{{ .Params.image | absURL }}">
 {{ else }}
-<meta name="twitter:image" content="{{ .Site.Params.ogp_image | default "images/ogp.png" | absURL }}">
+<meta name="twitter:image" content="{{ .Site.Params.ogp_image | default "/img/ss/hp6.webp" | absURL }}">
 {{ end }}
