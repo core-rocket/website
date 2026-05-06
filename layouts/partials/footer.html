@@ -10,6 +10,10 @@
         border-right:1px solid rgba(255,255,255,0.2);
     }
 
+    .logo_l img{
+        max-height: 200px;
+    }
+
     @media  (max-width: 992px) {
         .logo_l img{
             display:block;
@@ -49,7 +53,7 @@
 <footer id="footer">
     <div class="container">
         <div class="col-md-3 logo_l">
-            <a href=""><img src="/img/CORE_logo_wh.png" alt="COREロゴ" style="height: 200px;" ></a>
+            <a href=""><img src="/img/CORE_logo_wh.png" alt="COREロゴ" style="max-width: 100%; height: auto;" ></a>
             <br><h2><span style="font-size: 10pt;">Challengers of Rocket Engineering</span></h2>
         </div>
         <div class="col-md-3 fot_col">
@@ -89,7 +93,13 @@
         </div>
 
         <div class="col-md-2 fot_col">
-            © {{ now.Year }} {{ .Site.Title }}
+            <h4>外部リンク</h4>
+            <ul>
+            <li><a href="https://noshiro-space-event.org/">能代宇宙イベント</a></li>
+            <li><a href="https://izuoshimarocket.wixsite.com/izuoshimarocket">伊豆大島共同打上実験</a></li>
+            </ul>
+            <div style="margin-top: 40px;"></div>
+            © {{ now.Year }} CORE. <br>All rights reserved.
         </div>
     </div>
 </footer>
