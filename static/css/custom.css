@@ -1,6 +1,8 @@
 body {
     overflow-x: hidden;
     width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
 }
 
 .navbar {

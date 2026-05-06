@@ -12,7 +12,7 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
 {{ range sort .Site.Data.carousel "weight" }}
 <div class="item">
      {{ if .video }}
-        <video autoplay muted loop playsinline style="width: 100%; height: auto;">
+        <video muted loop playsinline preload="none" poster="/img/carousel/poster_fire.webp" style="width: 100%; height: auto;">
             <source src="{{ .video | absURL }}" type="video/mp4">
             お使いのブラウザは動画タグをサポートしていません。
         </video>
@@ -66,6 +66,11 @@ overflow:hidden;
 .owl-stage{
 max-width:100% !important;
 transform:translate3d(0,0,0);
+}
+
+.owl-carousel {
+  display:block !important;
+  opacity:1 !important;
 }
 
 #intro .container,
