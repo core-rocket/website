@@ -1,8 +1,5 @@
 {
-  "devDependencies": {
-    "purgecss": "latest"
-  },
   "scripts": {
-    "purge": "node ./node_modules/purgecss/bin/purgecss.js --css assets/css/bootstrap.css assets/css/all.css --content \"./layouts/**/*.html\" \"./content/**/*.md\" --safelist \"modal,collapse,dropdown,active,show,fade,in,navbar,nav,btn\" --output assets/css/"
+    "purge": "node ./node_modules/purgecss/bin/purgecss.js --css assets/css/bootstrap.css --content \"./layouts/**/*.html\" \"./content/**/*.md\" --safelist \"modal,collapse,dropdown,active,show,fade,in,navbar,nav,btn\" --output assets/css/"
   }
 }
