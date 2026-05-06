@@ -1,5 +1,5 @@
 ---
-title: "privacy policy"
+title: "プライバシーポリシー"
 ---
 <div style="height:150px;"></div>
 

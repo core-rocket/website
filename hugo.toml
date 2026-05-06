@@ -1,7 +1,7 @@
 baseURL = 'https://corerocket.net/'
 enableRobotsTXT = true
 languageCode = 'ja-jp'
-title = 'CORE'
+title = 'CORE | 学生ロケット開発団体'
 hasCJKLanguage = true
 theme = "hugo-universal-theme"
 publishDir = "public"
@@ -110,6 +110,7 @@ googleAnalytics = "G-ZX4CJMTV2W"
 
     defaultDescription = "COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．"
     ogp_image = "/img/ss/hp6.webp"
+    keywords = ["ロケット", "学生ロケット", "CORE", "ハイブリッドロケット", "宇宙開発", "ロケットサークル"]
 
 [params.features]
     enable = false
