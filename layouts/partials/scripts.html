@@ -27,13 +27,17 @@ window.addEventListener('load', function(){
 <script>
 document.addEventListener("DOMContentLoaded", function(){
 
-  var $carousel = $('.owl-carousel');
-
-  $carousel.on('initialized.owl.carousel', function(){
+  function playVideos(){
     document.querySelectorAll('.hero-video').forEach(v => {
       v.muted = true;
       v.play().catch(()=>{});
     });
+  }
+
+  setTimeout(playVideos, 3000);
+
+  $('.owl-carousel').on('changed.owl.carousel', function(){
+    playVideos();
   });
 
 });
