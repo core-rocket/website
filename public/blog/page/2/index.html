@@ -14,7 +14,7 @@
 
 
 
-<meta name="description" content="">
+<meta name="description" content="COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．">
 
 <meta name="generator" content="Hugo 0.159.2">
 
@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1777213775" rel="stylesheet">
+<link href="/css/custom.css?1778047814" rel="stylesheet">
 
 
 
@@ -69,7 +69,7 @@
 
 <meta name="twitter:title" content="Blogs">
 
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．">
 
 
     
@@ -179,11 +179,34 @@
         .list-space {
             height: 100px;
         }
-        @media (max-width:991px) and (min-width:767px){
+        .list-page {
+            width: 92%;
+            max-width:1192px;
+        }
+        .list-page h2 {
+            font-size: 25pt;
+        }
+        @media (max-width:991px) and (min-width:768px){
             .list-space {
                 height: 180px;
             }
+            .list-page {
+                width: 600px;
+            }
         }
+        @media (max-width:767px){
+            .list-space {
+                height: 70px;
+            }
+            .list-page {
+                max-width: 600px;
+            }
+            .list-page h2 {
+                font-size: 20pt;
+                padding-left: 10px;
+            }
+        }
+        
 </style>
 
     <div id="all">
@@ -346,13 +369,13 @@
 
 
         <div id="content">
-            <div class="container">
+            <div class="container list-page">
                 <div class="row">
                     <div class="list-space"></div>
                     
                     <p>&nbsp;</p> 
                     <q style="color: #da4d4d; font-size: 10pt;">Blog</q>
-			        <h2 style="font-size: 25pt;">ブログ</h2><br>
+			        <h2>ブログ</h2><br>
 
                     <div class="col-md-9" id="blog-listing-medium">
 
@@ -878,6 +901,15 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
         border-right:1px solid rgba(255,255,255,0.2);
     }
 
+    @media  (max-width: 992px) {
+        .logo_l img{
+            display:block;
+            margin:0 auto;
+            height:200px;
+        }
+
+    }
+
     @media (max-width:768px){
 
     .logo_l{
@@ -914,8 +946,8 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
         <div class="col-md-3 fot_col">
         <a href="/about"><h4>団体について</h4></a>
         <ul>
-        <li><a href="/activity/2025">2025</a></li>
-        <li><a href="/activity/2026">2026</a></li>
+        <li><a href="/activity/1">2025</a></li>
+        <li><a href="/activity/1">2026</a></li>
         </ul>
         <div style="margin-top: 40px;"></div>
         <a href="/rocket"><h4>ロケット</h4></a>
@@ -980,6 +1012,20 @@ COREに入ってみないとわからない，COREの裏側を紹介するため
     
 
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX4CJMTV2W"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZX4CJMTV2W');
+        }
+      </script>
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 

@@ -13,7 +13,7 @@
 
 
 
-<meta name="description" content="">
+<meta name="description" content="COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．">
 
 <meta name="generator" content="Hugo 0.159.2">
 
@@ -33,7 +33,7 @@
 
 
 
-<link href="/css/custom.css?1777213776" rel="stylesheet">
+<link href="/css/custom.css?1778047814" rel="stylesheet">
 
 
 
@@ -68,7 +68,7 @@
 
 <meta name="twitter:title" content="">
 
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．">
 
  
        
@@ -265,12 +265,12 @@
 <div class="bar no-mb no-padding sim">
     <div class="container">
     <div class="row">
-        <h2>Simulation</h2>
+        <h2 style="font-size: 30pt;">Sim班</h2>
         <div class="col-md-6"> 
-             <b style="margin-top: 30px;">
-                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算する．<br><br>
-                PythonやC言語のプログラムを用いて，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，
-                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証する．
+             <b>
+                Sim班では，燃焼試験で得られた推力の履歴やロケットの全長や重心位置などの諸元を用いて，ロケットの軌道を計算します．<br><br>
+                PythonやC言語のプログラムをもとに，ロケットの速度や高度，流体力学に基づいた空力の数値を計算し，
+                打上げに使用するランチャが適切に使用されるか，安全な範囲にロケットが落下するかを検証します．
 
             </b>
         </div>
@@ -280,15 +280,15 @@
                 <div class="slides">
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_1.webp">
+                        <img src="/img/sim/sim_1.webp" loading="lazy">
                     </div>
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_2.webp">
+                        <img src="/img/sim/sim_2.webp" loading="lazy">
                     </div>
 
                     <div class="slide active" data-caption="">
-                        <img src="/img/sim/sim_3.webp">
+                        <img src="/img/sim/sim_3.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -308,11 +308,11 @@
                 <div class="slides">
 
                     <div class="slide active">
-                        <img src="/img/sim/sim_4.webp">
+                        <img src="/img/sim/sim_4.webp" loading="lazy">
                     </div>
 
                     <div class="slide">
-                        <img src="/img/sim/sim_5.webp">
+                        <img src="/img/sim/sim_5.webp" loading="lazy">
                     </div>
 
                 </div>
@@ -324,9 +324,9 @@
             </div>
         </div>
         <div class="col-md-6">
-            <b style="margin-top: 20px;">
-                現在COREでは，新たな自作シミュレータの開発を行っている．<br><br>
-                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指している．
+            <b>
+                現在COREでは，新たな自作シミュレータの開発を行っています．<br><br>
+                従来の飛行軌道を近似計し，算出するものではなく．軌道を完全に表す関数を導入することで，より高精度のシミュレータを目指し改良を行っています．
             </b>
         
         </div>
@@ -442,6 +442,15 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         border-right:1px solid rgba(255,255,255,0.2);
     }
 
+    @media  (max-width: 992px) {
+        .logo_l img{
+            display:block;
+            margin:0 auto;
+            height:200px;
+        }
+
+    }
+
     @media (max-width:768px){
 
     .logo_l{
@@ -478,8 +487,8 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         <div class="col-md-3 fot_col">
         <a href="/about"><h4>団体について</h4></a>
         <ul>
-        <li><a href="/activity/2025">2025</a></li>
-        <li><a href="/activity/2026">2026</a></li>
+        <li><a href="/activity/1">2025</a></li>
+        <li><a href="/activity/1">2026</a></li>
         </ul>
         <div style="margin-top: 40px;"></div>
         <a href="/rocket"><h4>ロケット</h4></a>
@@ -545,6 +554,20 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
       
        
       
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX4CJMTV2W"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZX4CJMTV2W');
+        }
+      </script>
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
