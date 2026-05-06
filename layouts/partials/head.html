@@ -1,25 +1,40 @@
 <head>
-  <!-- 中略 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
 
-  {{ $cssFiles := slice 
-    (resources.Get "css/bootstrap.min.css")
-    (resources.Get "css/all.css")
-    (resources.Get "css/animate.css")
-    (resources.Get "css/owl.carousel.css")
-    (resources.Get "css/owl.theme.css")
-    (resources.Get "css/style.red.css")
-    (resources.Get "css/custom.css")
-  }}
-
-  {{/* 1つに結合して圧縮 */}}
-  {{ $bundle := $cssFiles | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
-
-  {{/* 非同期読み込みを適用してレンダリングブロックを回避 */}}
-  <link rel="preload" href="{{ $bundle.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ $bundle.RelPermalink }}"></noscript>
-
-  <!-- Google Fonts も非同期化 -->
+  <!-- 1. Google Fonts の最適化（preconnectを追加し、非同期で読み込む） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,800&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,800&display=swap" media="print" onload="this.media='all'">
+
+  <!-- 2. 全てのCSS（外部CDN分も含む）を1つに統合して圧縮 -->
+  {{ $css1 := resources.Get "css/bootstrap.min.css" }}
+  {{ $css2 := resources.Get "css/all.css" }}
+  {{ $css3 := resources.Get "css/animate.css" }}
+  {{ $css4 := resources.Get "css/owl.carousel.css" }}
+  {{ $css5 := resources.Get "css/owl.theme.css" }}
+  {{ $css6 := resources.Get "css/style.red.css" }}
+  {{ $css7 := resources.Get "css/custom.css" }}
+
+  {{/* 全てが存在する場合のみ結合処理を行う */}}
+  {{ $styleList := slice $css1 $css2 $css3 $css4 $css5 $css6 $css7 }}
+  
+  {{/* nilチェック（ファイル欠損対策） */}}
+  {{ $validStyles := slice }}
+  {{ range $styleList }}
+    {{ if . }}{{ $validStyles = $validStyles | append . }}{{ end }}
+  {{ end }}
+
+  {{ if gt (len $validStyles) 0 }}
+    {{/* 1つにまとめて圧縮。これでリクエストが「1回」になる */}}
+    {{ $bundle := $validStyles | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+    
+    {{/* クリティカルCSS以外は非同期で読み込み、レンダリングブロックを回避 */}}
+    <link rel="preload" href="{{ $bundle.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $bundle.RelPermalink }}"></noscript>
+  {{ end }}
+
+  <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
