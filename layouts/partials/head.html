@@ -7,23 +7,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap' rel='stylesheet'>
 
+  <!-- 直接 static/css/ から読み込む設定に一旦戻して確実に表示させる -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/all.css" | absURL }}">
-
-  {{ $css1 := resources.Get "css/style.default.css" }}
-  {{ $css2 := resources.Get "css/custom.css" }}
-  
-  {{ if and $css1 $css2 }}
-    {{ $finalStyle := slice $css1 $css2 | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="preload" href="{{ $finalStyle.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ $finalStyle.Permalink }}"></noscript>
-  {{ else if $css2 }}
-    {{ $finalStyle := $css2 | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $finalStyle.Permalink }}">
-  {{ else if $css1 }}
-    {{ $finalStyle := $css1 | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $finalStyle.Permalink }}">
-  {{ end }}
+  <link rel="stylesheet" href="{{ "css/style.default.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
 
   <link rel="icon" href="{{ "img/favicon.ico" | relURL }}">
 </head>
