@@ -1,11 +1,16 @@
 baseURL = 'https://corerocket.net/'
 enableRobotsTXT = true
-languageCode = 'ja-jp'
+languageCode = 'ja'
 title = 'CORE | 学生ロケット開発団体'
 hasCJKLanguage = true
 theme = "hugo-universal-theme"
 publishDir = "public"
 googleAnalytics = "G-ZX4CJMTV2W"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [markup]
 	[markup.goldmark]
@@ -55,40 +60,6 @@ googleAnalytics = "G-ZX4CJMTV2W"
 
 
 
-
-# Top bar social links menu
-
-[[menu.topbar]]
-    weight = 1
-    name = "Phone"
-    url = "tel:+12 34 567 89 01"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "https://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "X"
-    url = "https://x.com"
-    pre = "<i class='fab fa-2x fa-x-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:hello@universal.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
-
-
 [params]
     style = "red"
 
@@ -103,12 +74,11 @@ googleAnalytics = "G-ZX4CJMTV2W"
     custom_css = ["css/custom.css"]
 
     date_format = "2006-01-02"
-    description = "Site description"
     address = "Hino, Tokyo"
 
     favicon = "/img/CORE_logo_wh.ico"
 
-    defaultDescription = "COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．"
+    description = "COREは関東圏の大学生が集まり，ハイブリッドロケットの製作・打上げを行っているサークルです．航空宇宙に興味があり，ロケットを自分の手で打ち上げたい学生が多く集まっています．実践的なプロジェクトを通して技術・知識・マネジメントを学べます．"
     ogp_image = "/img/ss/hp6.webp"
     keywords = ["ロケット", "学生ロケット", "CORE", "ハイブリッドロケット", "宇宙開発", "ロケットサークル"]
 

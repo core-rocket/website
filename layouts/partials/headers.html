@@ -4,7 +4,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {{ $title_plain := .Title | markdownify | plainify }}
-<title>{{ $title_plain }}</title>
+<title>
+  {{ if .IsHome }}
+    {{ .Site.Title }}
+  {{ else }}
+    {{ $title_plain }} | {{ .Site.Title }}
+  {{ end }}
+</title>
 
 <meta name="author" content="{{ .Param "author" }}" />
 
@@ -19,6 +25,8 @@
 <meta name="description" content="{{ $description_plain }}">
 
 {{ partial "seo.html" . }}
+
+<link rel="canonical" href="{{ .Permalink }}">
 
 {{ hugo.Generator }}
 
