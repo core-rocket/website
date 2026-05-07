@@ -5,7 +5,77 @@
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on CORE | 学生ロケット開発団体</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3Dプリンタ</title>
+      <link>http://localhost:1313/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CORE</title>
+      <link>http://localhost:1313/tags/core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/core/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ハイブリッドロケット</title>
+      <link>http://localhost:1313/tags/%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>伊豆大島共同打上実験</title>
+      <link>http://localhost:1313/tags/%E4%BC%8A%E8%B1%86%E5%A4%A7%E5%B3%B6%E5%85%B1%E5%90%8C%E6%89%93%E4%B8%8A%E5%AE%9F%E9%A8%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E4%BC%8A%E8%B1%86%E5%A4%A7%E5%B3%B6%E5%85%B1%E5%90%8C%E6%89%93%E4%B8%8A%E5%AE%9F%E9%A8%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学生ロケット団体</title>
+      <link>http://localhost:1313/tags/%E5%AD%A6%E7%94%9F%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88%E5%9B%A3%E4%BD%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%AD%A6%E7%94%9F%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88%E5%9B%A3%E4%BD%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>宇宙開発</title>
+      <link>http://localhost:1313/tags/%E5%AE%87%E5%AE%99%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%AE%87%E5%AE%99%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>推進</title>
+      <link>http://localhost:1313/tags/%E6%8E%A8%E9%80%B2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E6%8E%A8%E9%80%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>構造</title>
+      <link>http://localhost:1313/tags/%E6%A7%8B%E9%80%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E6%A7%8B%E9%80%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>能代宇宙イベント</title>
+      <link>http://localhost:1313/tags/%E8%83%BD%E4%BB%A3%E5%AE%87%E5%AE%99%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%83%BD%E4%BB%A3%E5%AE%87%E5%AE%99%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>電装</title>
+      <link>http://localhost:1313/tags/%E9%9B%BB%E8%A3%85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E9%9B%BB%E8%A3%85/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

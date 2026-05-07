@@ -5,7 +5,7 @@
     <link>http://localhost:1313/activity/</link>
     <description>Recent content in Activities on CORE | 学生ロケット開発団体</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <atom:link href="http://localhost:1313/activity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -22,7 +22,7 @@
       <description></description>
     </item>
     <item>
-      <title>CORE | 編集中</title>
+      <title>編集中</title>
       <link>http://localhost:1313/activity/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/activity/1/</guid>
