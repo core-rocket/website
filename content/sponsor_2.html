@@ -26,7 +26,7 @@ title: "協賛のお願い"
         color: #111827;
     }
 
-    .sponsor-card {
+    .sponsor-card-1 {
         background: linear-gradient(180deg, #ffffff 0%, #fcfcfd 100%);
         border: 1px solid #e5e7eb;
 
@@ -41,7 +41,7 @@ title: "協賛のお願い"
         overflow: hidden;
     }
 
-    .sponsor-card::before {
+    .sponsor-card-1::before {
         content: "";
         position: absolute;
         top: 0;
@@ -126,6 +126,23 @@ title: "協賛のお願い"
     .btn-sponsor:active {
         transform: translateY(0px) scale(0.98);
     }
+
+    @media (max-width: 500px) {
+        .sponsor-card-1 {
+            width: 100%;
+            padding: 5px 5px;
+        }
+
+        .sponsor-text-1 {
+            font-size: 12px;
+            line-height: 2.0;
+        }
+
+        .btn-sponsor {
+            padding: 12px 28px;
+            font-size: 13px;
+        }
+    }
 </style>
 
 <section class="bar no-mb no-padding sponsor-2_2026">
@@ -136,11 +153,11 @@ title: "協賛のお願い"
             <q>Profile</q>
             <h2>スポンサーのお願い</h2>
         <div class="col-md-12">
-        <div class="sponsor-card">
+        <div class="sponsor-card-1">
 
             <div class="sponsor-text-1">
                 <b>
-                    COREでは，私たちの活動にご協賛をしてくださるスポンサー様を募集しています．<br>
+                    <br>COREでは，私たちの活動にご協賛をしてくださるスポンサー様を募集しています．<br>
                     近年の物価高などの影響もあり，ロケット制作・打上実験の参加に多額の費用が必要です．<br>
                     また，国公立大学の学生が多い・インカレサークルであることも有り，他大学との金銭面の差が大きくなっています．<br>
                     メンバーの負担を減らし，より多くの学生がロケット制作・打上実験に参加できるようにするためにも，スポンサー様のご協力が必要不可欠です．<br><br>
