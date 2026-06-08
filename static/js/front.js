@@ -144,25 +144,38 @@ function sliders () {
 
     function playActiveVideo() {
 
-        $('.hero-video').each(function () {
-            this.pause();
-            this.currentTime = 0;
+    $('.hero-video').each(function () {
+        this.pause();
+        this.currentTime = 0;
+    });
 
-            $(this).off('ended.carousel');
-        });
+    clearTimeout(window.carouselTimer);
 
-        const activeVideo = $('.owl-item.active .hero-video')[0];
+    const activeVideo = $('.owl-item.active .hero-video')[0];
 
-        if (activeVideo) {
+    if (!activeVideo) return;
 
-            activeVideo.play().catch(() => {});
+    activeVideo.play().catch(console.error);
 
-            $(activeVideo).on('ended.carousel', function () {
+    const duration = activeVideo.duration;
+
+    if (!isNaN(duration) && duration > 0) {
+
+        window.carouselTimer = setTimeout(function () {
+            $('.homepage').trigger('owl.next');
+        }, duration * 1000);
+
+    } else {
+
+        activeVideo.onloadedmetadata = function () {
+
+            window.carouselTimer = setTimeout(function () {
                 $('.homepage').trigger('owl.next');
-            });
+            }, activeVideo.duration * 1000);
 
-        }
+        };
     }
+}
   }
 }
 
