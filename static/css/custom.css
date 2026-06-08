@@ -87,6 +87,10 @@ header,
     box-shadow: none !important;
     outline: none !important;
 }
+:root {
+    color-scheme: light;/
+}
+
 
 .menu-toggle {
     border: none !important;
@@ -104,8 +108,4 @@ header,
 .menu-toggle:focus {
     color: #da4d4d !important;
     background: transparent !important;
-}
-
-:root {
-    color-scheme: light;
 }
