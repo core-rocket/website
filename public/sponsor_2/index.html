@@ -129,10 +129,16 @@ body{overflow-x:hidden;width:100%}.navbar{position:fixed;width:100%;top:0;left:0
                     <span class="sr-only">協賛のお願い - ホームへ戻る</span>
                 </a>
                 <div class="navbar-buttons">
-                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">ナビゲーションの切り替え</span>
-                        <i class="fas fa-align-justify"></i>
-                    </button>
+                    <div class="navbar-buttons">
+                        <button
+                            type="button"
+                            class="navbar-toggle menu-toggle"
+                            data-toggle="collapse"
+                            data-target="#navigation"
+                        >
+                            ☰
+                        </button>
+                    </div>
                 </div>
             </div>
             
@@ -350,8 +356,9 @@ body{overflow-x:hidden;width:100%}.navbar{position:fixed;width:100%;top:0;left:0
         text-align:center;
         text-decoration:none;
 
-        width:170px;
+        width:220px;
         margin:34px auto 0;
+        margin-bottom: 50px;
 
         padding:1rem 4rem;
 
@@ -362,7 +369,7 @@ body{overflow-x:hidden;width:100%}.navbar{position:fixed;width:100%;top:0;left:0
         color:#fff;
 
         transition:0.5s;
-        border-radius:999px;
+        border-radius:9px;
     }
 
     .btn-sponsor:hover{

@@ -87,17 +87,25 @@ header,
     box-shadow: none !important;
     outline: none !important;
 }
-@media (max-width: 767px) {
 
-    .navbar-toggle {
-        border-color: #1d1c3b !important;
-    }
+.menu-toggle {
+    border: none !important;
+    background: transparent !important;
 
-    .navbar-toggle .icon-bar {
-        background-color: #1d1c3b !important;
-    }
+    color: #1d1c3b !important;
+    font-size: 36px;
+    font-weight: bold;
 
+    padding: 5px 10px;
+    transition: color 0.2s ease;
 }
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    color: #da4d4d !important;
+    background: transparent !important;
+}
+
 :root {
-    color-scheme: light;/
+    color-scheme: light;
 }
