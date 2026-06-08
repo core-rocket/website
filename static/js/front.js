@@ -119,23 +119,50 @@ function sliders () {
       itemsMobile: [480, 1]
     })
 
-    $('.homepage').owlCarousel({
-      navigation: false, // Show next and prev buttons
-      navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
-      slideSpeed: ($('.homepage').attr('data-slide-speed') || 2000),
-      paginationSpeed: ($('.homepage').attr('data-pagination-speed') || 1000),
-      autoPlay: ($('.homepage').attr('data-autoplay') || 'true') === 'true',
-      stopOnHover: true,
-      singleItem: true,
-      lazyLoad: false,
-      addClassActive: true,
-      afterInit: function () {
-        // animationsSlider()
-      },
-      afterMove: function () {
-        // animationsSlider()
-      }
-    })
+   $('.homepage').owlCarousel({
+        navigation: false,
+        navigationText: [
+            '<i class="fas fa-angle-left"></i>',
+            '<i class="fas fa-angle-right"></i>'
+        ],
+        slideSpeed: 800,
+        paginationSpeed: 800,
+        autoPlay: false,
+        stopOnHover: true,
+        singleItem: true,
+        lazyLoad: false,
+        addClassActive: true,
+
+        afterInit: function () {
+            playActiveVideo();
+        },
+
+        afterMove: function () {
+            playActiveVideo();
+        }
+    });
+
+    function playActiveVideo() {
+
+        $('.hero-video').each(function () {
+            this.pause();
+            this.currentTime = 0;
+
+            $(this).off('ended.carousel');
+        });
+
+        const activeVideo = $('.owl-item.active .hero-video')[0];
+
+        if (activeVideo) {
+
+            activeVideo.play().catch(() => {});
+
+            $(activeVideo).on('ended.carousel', function () {
+                $('.homepage').trigger('owl.next');
+            });
+
+        }
+    }
   }
 }
 

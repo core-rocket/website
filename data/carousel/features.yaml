@@ -1,5 +1,6 @@
 weight: 2
 title: ""
 description: ""
-image: "img/ss/hp1.webp"
-video: "/img/carousel/fire_1.mp4"
+image: "/img/carousel/poster_liftoff.webp"
+video: "/img/carousel/liftoff_1.mp4"
+poster: "/img/carousel/poster_liftoff.webp"
