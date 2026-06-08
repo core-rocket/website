@@ -87,6 +87,17 @@ header,
     box-shadow: none !important;
     outline: none !important;
 }
+@media (max-width: 767px) {
+
+    .navbar-toggle {
+        border-color: #1d1c3b !important;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #1d1c3b !important;
+    }
+
+}
 :root {
     color-scheme: light;/
 }
