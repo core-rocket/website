@@ -289,7 +289,16 @@ data-pagination-speed="1000">
 
 <div class="item">
      
-        <img src="http://localhost:1313/img/carousel/poster_fire.webp" class="carousel-img" alt="ヒーロー画像">
+        <video
+            class="hero-video"
+            muted
+            playsinline
+            preload="auto"
+            poster="http://localhost:1313/img/carousel/poster_fire.webp"
+            style="width:100%;height:auto;"
+        >
+            <source src="http://localhost:1313/img/carousel/fire_1.mp4" type="video/mp4">
+        </video>
     
 </div>
 
@@ -303,7 +312,7 @@ data-pagination-speed="1000">
             poster="http://localhost:1313/img/carousel/poster_liftoff.webp"
             style="width:100%;height:auto;"
         >
-            <source src="http://localhost:1313/img/carousel/liftoff_3.mp4" type="video/mp4">
+            <source src="http://localhost:1313/img/carousel/liftoff_4.mp4" type="video/mp4">
         </video>
     
 </div>
@@ -355,6 +364,8 @@ max-width:100%;
 .owl-item video {
     margin-top: -150px;
 }
+
+
 
 .home-carousel,
 .home-carousel .owl-carousel,
@@ -519,21 +530,7 @@ padding-top:0 !important;
 margin-top:0 !important;
 }
 
-.owl-item .item {
-    position: relative;
-    overflow: hidden;
-}
 
-.hero-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-}
 
 </style>
 
