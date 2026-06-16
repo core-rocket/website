@@ -18,7 +18,6 @@ data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_
             playsinline
             preload="auto"
             poster="{{ .poster | absURL }}"
-            style="width:100%;height:auto;"
         >
             <source src="{{ .video | absURL }}" type="video/mp4">
         </video>
@@ -62,11 +61,17 @@ max-width:100%;
 /* .owl-item video {
     margin-top: -150px;
 } */
- .hero-video{
+.home-carousel .item{
+    position:relative;
+    height:100vh;
+}
+
+.hero-video{
+    position:absolute;
+    inset:0;
     width:100%;
     height:100%;
     object-fit:cover;
-    display:block;
 }
 
 .home-carousel,
