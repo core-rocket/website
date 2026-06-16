@@ -27,7 +27,7 @@
 {{- else if .Params.banner -}}
   {{- $og_image = .Params.banner | absURL -}}
 {{- else -}}
-  {{- $og_image = .Site.Params.ogp_image | default "/img/ss/hp6.webp" | absURL -}}
+  {{- $og_image = .Site.Params.ogp_image | default "/img/ss/hp7.webp" | absURL -}}
 {{- end -}}
 
 <meta property="og:image" content="{{ $og_image }}">
